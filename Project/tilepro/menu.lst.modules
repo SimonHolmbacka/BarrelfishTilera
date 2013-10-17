@@ -1,0 +1,10 @@
+./tilepro/menu.lst.modules
+./tilepro/sbin/cpu loglevel=4
+./tilepro/sbin/init
+./tilepro/sbin/mem_serv
+./tilepro/sbin/monitor
+./tilepro/sbin/ramfsd boot
+./tilepro/sbin/skb boot
+./tilepro/sbin/spawnd boot boottilepro=1-5
+./tilepro/sbin/startd boot
+./tilepro/sbin/hellotest core=2

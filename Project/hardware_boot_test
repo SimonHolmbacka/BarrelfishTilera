@@ -1,0 +1,327 @@
+Hardware test
+
+binary file built with:
+andreas@mishandled:~/barrelfish/new_test2$ tile-mkboot -o tilepro/sbin/bf.bin --compress --hvc ./kernel/arch/tilepro/tilepro-conf.hvc kernel=tilepro/sbin/bootloader ./tilepro/menu.lst.modules ./tilepro/sbin/cpu ./tilepro/sbin/init ./tilepro/sbin/mem_serv ./tilepro/sbin/monitor ./tilepro/sbin/ramfsd ./tilepro/sbin/skb 
+
+missing: spawnd
+	 startd
+
+-> bf.bin size about 7MB
+
+will not start but test how far the boot process with a binary file goes
+
+command to boot:
+andreas@mishandled:~/barrelfish/new_test2/tilepro/sbin$ tile-monitor --net 192.168.11.4 --hvx TLR_ROOT=/dev/sda1 --bootrom-file bf.bin -- mount
+
+
+
+result:
+
+Type t in 3 seconds to run thorough POST tests, q to run quick tests,
+or 'a' to boot alternate image...
+Quick POST tests will be run.
+(0,3) Tilera Hypervisor, version 3.0.1.125620 2011-04-09 21:57:10
+Bootloader starting.
+Called hv_init.
+Got a valid ASID range.
+Successfully installed boot-up context.
+cpu_id: 0
+Installed page table!
+base: 0xFD000000; size: 0x30F0; flags: 0x5; ret: 0xFD000000
+base: 0xFD030000; size: 0x18E38; flags: 0x7; ret: 0xFD030000
+base: 0xF00000; size: 0x8300; flags: 0x6; ret: 0xF00000
+entry_point: 0xFD034F28
+[Tile 0 coordinate; BSP: 1] : (0,0)
+[Tile 0 initial SP] : 0xFCFFCF20
+[Tile 0 initial LR] : 0xFD035068
+[Physical memory range 1] : 0x0_00000000 to 0x0_7B000000
+Physical Memory for core 0 - start: 0x0_13000000; end: 0x0_23000000; free: 0x0_10000000
+Physical Memory for core 1 - start: 0x0_23000000; end: 0x0_27000000; free: 0x0_04000000
+Physical Memory for core 2 - start: 0x0_27000000; end: 0x0_2B000000; free: 0x0_04000000
+Physical Memory for core 3 - start: 0x0_2B000000; end: 0x0_2F000000; free: 0x0_04000000
+Physical Memory for core 4 - start: 0x0_2F000000; end: 0x0_33000000; free: 0x0_04000000
+Physical Memory for core 5 - start: 0x0_33000000; end: 0x0_37000000; free: 0x0_04000000
+Physical Memory for core 6 - start: 0x0_37000000; end: 0x0_3B000000; free: 0x0_04000000
+Physical Memory for core 7 - start: 0x0_3B000000; end: 0x0_3F000000; free: 0x0_04000000
+Physical Memory for core 8 - start: 0x0_3F000000; end: 0x0_43000000; free: 0x0_04000000
+Physical Memory for core 9 - start: 0x0_43000000; end: 0x0_47000000; free: 0x0_04000000
+Physical Memory for core 10 - start: 0x0_47000000; end: 0x0_4B000000; free: 0x0_04000000
+Physical Memory for core 11 - start: 0x0_4B000000; end: 0x0_4F000000; free: 0x0_04000000
+Physical Memory for core 12 - start: 0x0_4F000000; end: 0x0_53000000; free: 0x0_04000000
+Physical Memory for core 13 - start: 0x0_53000000; end: 0x0_57000000; free: 0x0_04000000
+Physical Memory for core 14 - start: 0x0_57000000; end: 0x0_5B000000; free: 0x0_04000000
+Physical Memory for core 15 - start: 0x0_5B000000; end: 0x0_5F000000; free: 0x0_04000000
+Physical Memory for core 16 - start: 0x0_5F000000; end: 0x0_63000000; free: 0x0_04000000
+Physical Memory for core 17 - start: 0x0_63000000; end: 0x0_67000000; free: 0x0_04000000
+Physical Memory for core 18 - start: 0x0_67000000; end: 0x0_6B000000; free: 0x0_04000000
+Physical Memory for core 19 - start: 0x0_6B000000; end: 0x0_6F000000; free: 0x0_04000000
+Physical Memory for core 20 - start: 0x0_6F000000; end: 0x0_73000000; free: 0x0_04000000
+Physical Memory for core 21 - start: 0x0_73000000; end: 0x0_77000000; free: 0x0_04000000
+Physical Memory for core 22 - start: 0x0_77000000; end: 0x0_7B000000; free: 0x0_04000000
+[Physical memory range 2] : 0x4_00000000 to 0x4_80000000
+Physical Memory for core 23 - start: 0x4_00000000; end: 0x4_04000000; free: 0x0_04000000
+Physical Memory for core 24 - start: 0x4_04000000; end: 0x4_08000000; free: 0x0_04000000
+Physical Memory for core 25 - start: 0x4_08000000; end: 0x4_0C000000; free: 0x0_04000000
+Physical Memory for core 26 - start: 0x4_0C000000; end: 0x4_10000000; free: 0x0_04000000
+Physical Memory for core 27 - start: 0x4_10000000; end: 0x4_14000000; free: 0x0_04000000
+Physical Memory for core 28 - start: 0x4_14000000; end: 0x4_18000000; free: 0x0_04000000
+Physical Memory for core 29 - start: 0x4_18000000; end: 0x4_1C000000; free: 0x0_04000000
+Physical Memory for core 30 - start: 0x4_1C000000; end: 0x4_20000000; free: 0x0_04000000
+Physical Memory for core 31 - start: 0x4_20000000; end: 0x4_24000000; free: 0x0_04000000
+Physical Memory for core 32 - start: 0x4_24000000; end: 0x4_28000000; free: 0x0_04000000
+Physical Memory for core 33 - start: 0x4_28000000; end: 0x4_2C000000; free: 0x0_04000000
+Physical Memory for core 34 - start: 0x4_2C000000; end: 0x4_30000000; free: 0x0_04000000
+Physical Memory for core 35 - start: 0x4_30000000; end: 0x4_34000000; free: 0x0_04000000
+Physical Memory for core 36 - start: 0x4_34000000; end: 0x4_38000000; free: 0x0_04000000
+Physical Memory for core 37 - start: 0x4_38000000; end: 0x4_3C000000; free: 0x0_04000000
+Physical Memory for core 38 - start: 0x4_3C000000; end: 0x4_40000000; free: 0x0_04000000
+Physical Memory for core 39 - start: 0x4_40000000; end: 0x4_44000000; free: 0x0_04000000
+Physical Memory for core 40 - start: 0x4_44000000; end: 0x4_48000000; free: 0x0_04000000
+Physical Memory for core 41 - start: 0x4_48000000; end: 0x4_4C000000; free: 0x0_04000000
+Physical Memory for core 42 - start: 0x4_4C000000; end: 0x4_50000000; free: 0x0_04000000
+Physical Memory for core 43 - start: 0x4_50000000; end: 0x4_54000000; free: 0x0_04000000
+Physical Memory for core 44 - start: 0x4_54000000; end: 0x4_58000000; free: 0x0_04000000
+Physical Memory for core 45 - start: 0x4_58000000; end: 0x4_5C000000; free: 0x0_04000000
+Physical Memory for core 46 - start: 0x4_5C000000; end: 0x4_60000000; free: 0x0_04000000
+Physical Memory for core 47 - start: 0x4_60000000; end: 0x4_64000000; free: 0x0_04000000
+Physical Memory for core 48 - start: 0x4_64000000; end: 0x4_68000000; free: 0x0_04000000
+Physical Memory for core 49 - start: 0x4_68000000; end: 0x4_6C000000; free: 0x0_04000000
+Physical Memory for core 50 - start: 0x4_6C000000; end: 0x4_70000000; free: 0x0_04000000
+Physical Memory for core 51 - start: 0x4_70000000; end: 0x4_74000000; free: 0x0_04000000
+Physical Memory for core 52 - start: 0x4_74000000; end: 0x4_78000000; free: 0x0_04000000
+Physical Memory for core 53 - start: 0x4_78000000; end: 0x4_7C000000; free: 0x0_04000000
+Physical Memory for core 54 - start: 0x4_7C000000; end: 0x4_80000000; free: 0x0_04000000
+[Physical memory range 3] : 0x8_00000000 to 0x8_80000000
+Physical Memory for core 55 - start: 0x8_00000000; end: 0x8_04000000; free: 0x0_04000000
+Physical Memory for core 56 - start: 0x8_04000000; end: 0x8_08000000; free: 0x0_04000000
+Physical Memory for core 57 - start: 0x8_08000000; end: 0x8_0C000000; free: 0x0_04000000
+Physical Memory for core 58 - start: 0x8_0C000000; end: 0x8_10000000; free: 0x0_04000000
+Physical Memory for core 59 - start: 0x8_10000000; end: 0x8_14000000; free: 0x0_04000000
+Physical Memory for core 60 - start: 0x8_14000000; end: 0x8_18000000; free: 0x0_04000000
+Physical Memory for core 61 - start: 0x8_18000000; end: 0x8_1C000000; free: 0x0_04000000
+Physical Memory for core 62 - start: 0x8_1C000000; end: 0x8_20000000; free: 0x0_04000000
+Physical Memory for core 63 - start: 0x8_20000000; end: 0x8_24000000; free: 0x0_04000000
+Physical Memory for core 64 - start: 0x8_24000000; end: 0x8_28000000; free: 0x0_04000000
+Physical Memory for core 65 - start: 0x8_28000000; end: 0x8_2C000000; free: 0x0_04000000
+Physical Memory for core 66 - start: 0x8_2C000000; end: 0x8_30000000; free: 0x0_04000000
+Physical Memory for core 67 - start: 0x8_30000000; end: 0x8_34000000; free: 0x0_04000000
+Physical Memory for core 68 - start: 0x8_34000000; end: 0x8_38000000; free: 0x0_04000000
+Physical Memory for core 69 - start: 0x8_38000000; end: 0x8_3C000000; free: 0x0_04000000
+Physical Memory for core 70 - start: 0x8_3C000000; end: 0x8_40000000; free: 0x0_04000000
+Physical Memory for core 71 - start: 0x8_40000000; end: 0x8_44000000; free: 0x0_04000000
+Physical Memory for core 72 - start: 0x8_44000000; end: 0x8_48000000; free: 0x0_04000000
+Physical Memory for core 73 - start: 0x8_48000000; end: 0x8_4C000000; free: 0x0_04000000
+Physical Memory for core 74 - start: 0x8_4C000000; end: 0x8_50000000; free: 0x0_04000000
+Physical Memory for core 75 - start: 0x8_50000000; end: 0x8_54000000; free: 0x0_04000000
+Physical Memory for core 76 - start: 0x8_54000000; end: 0x8_58000000; free: 0x0_04000000
+Physical Memory for core 77 - start: 0x8_58000000; end: 0x8_5C000000; free: 0x0_04000000
+Physical Memory for core 78 - start: 0x8_5C000000; end: 0x8_60000000; free: 0x0_04000000
+Physical Memory for core 79 - start: 0x8_60000000; end: 0x8_64000000; free: 0x0_04000000
+Physical Memory for core 80 - start: 0x8_64000000; end: 0x8_68000000; free: 0x0_04000000
+Physical Memory for core 81 - start: 0x8_68000000; end: 0x8_6C000000; free: 0x0_04000000
+Physical Memory for core 82 - start: 0x8_6C000000; end: 0x8_70000000; free: 0x0_04000000
+Physical Memory for core 83 - start: 0x8_70000000; end: 0x8_74000000; free: 0x0_04000000
+Physical Memory for core 84 - start: 0x8_74000000; end: 0x8_78000000; free: 0x0_04000000
+Physical Memory for core 85 - start: 0x8_78000000; end: 0x8_7C000000; free: 0x0_04000000
+Physical Memory for core 86 - start: 0x8_7C000000; end: 0x8_80000000; free: 0x0_04000000
+[Physical memory range 4] : 0xC_00000000 to 0xC_80000000
+Physical Memory for core 87 - start: 0xC_00000000; end: 0xC_04000000; free: 0x0_04000000
+Physical Memory for core 88 - start: 0xC_04000000; end: 0xC_08000000; free: 0x0_04000000
+Physical Memory for core 89 - start: 0xC_08000000; end: 0xC_0C000000; free: 0x0_04000000
+Physical Memory for core 90 - start: 0xC_0C000000; end: 0xC_10000000; free: 0x0_04000000
+Physical Memory for core 91 - start: 0xC_10000000; end: 0xC_14000000; free: 0x0_04000000
+Physical Memory for core 92 - start: 0xC_14000000; end: 0xC_18000000; free: 0x0_04000000
+Physical Memory for core 93 - start: 0xC_18000000; end: 0xC_1C000000; free: 0x0_04000000
+Physical Memory for core 94 - start: 0xC_1C000000; end: 0xC_20000000; free: 0x0_04000000
+Physical Memory for core 95 - start: 0xC_20000000; end: 0xC_24000000; free: 0x0_04000000
+Physical Memory for core 96 - start: 0xC_24000000; end: 0xC_28000000; free: 0x0_04000000
+Physical Memory for core 97 - start: 0xC_28000000; end: 0xC_2C000000; free: 0x0_04000000
+Physical Memory for core 98 - start: 0xC_2C000000; end: 0xC_30000000; free: 0x0_04000000
+Physical Memory for core 99 - start: 0xC_30000000; end: 0xC_34000000; free: 0x0_04000000
+Physical Memory for core 100 - start: 0xC_34000000; end: 0xC_38000000; free: 0x0_04000000
+Physical Memory for core 101 - start: 0xC_38000000; end: 0xC_3C000000; free: 0x0_04000000
+Physical Memory for core 102 - start: 0xC_3C000000; end: 0xC_40000000; free: 0x0_04000000
+Physical Memory for core 103 - start: 0xC_40000000; end: 0xC_44000000; free: 0x0_04000000
+Physical Memory for core 104 - start: 0xC_44000000; end: 0xC_48000000; free: 0x0_04000000
+Physical Memory for core 105 - start: 0xC_48000000; end: 0xC_4C000000; free: 0x0_04000000
+Physical Memory for core 106 - start: 0xC_4C000000; end: 0xC_50000000; free: 0x0_04000000
+Physical Memory for core 107 - start: 0xC_50000000; end: 0xC_54000000; free: 0x0_04000000
+Physical Memory for core 108 - start: 0xC_54000000; end: 0xC_58000000; free: 0x0_04000000
+Physical Memory for core 109 - start: 0xC_58000000; end: 0xC_5C000000; free: 0x0_04000000
+Physical Memory for core 110 - start: 0xC_5C000000; end: 0xC_60000000; free: 0x0_04000000
+Physical Memory for core 111 - start: 0xC_60000000; end: 0xC_64000000; free: 0x0_04000000
+Physical Memory for core 112 - start: 0xC_64000000; end: 0xC_68000000; free: 0x0_04000000
+Physical Memory for core 113 - start: 0xC_68000000; end: 0xC_6C000000; free: 0x0_04000000
+Physical Memory for core 114 - start: 0xC_6C000000; end: 0xC_70000000; free: 0x0_04000000
+Physical Memory for core 115 - start: 0xC_70000000; end: 0xC_74000000; free: 0x0_04000000
+Physical Memory for core 116 - start: 0xC_74000000; end: 0xC_78000000; free: 0x0_04000000
+Physical Memory for core 117 - start: 0xC_78000000; end: 0xC_7C000000; free: 0x0_04000000
+Physical Memory for core 118 - start: 0xC_7C000000; end: 0xC_80000000; free: 0x0_04000000
+No more memory to serve core 119
+Tile 0 is starting...
+[Tile width]  : 8
+[Tile height] : 8
+Tile 0 is starting init...
+Allocated physical - start: 0x0_13000000; size: 0x00800000; requested: 0x00800000; end: 0x0_13800000
+Virtual address of page tables for init : 0x80000000
+Allocated physical - start: 0x0_13800000; size: 0x00040000; requested: 0x00040000; end: 0x0_13840000
+Calling spawn_module(...)...
+spawn module: ./tilepro/sbin/init
+Allocated physical - start: 0x0_13840000; size: 0x00010000; requested: 0x00010000; end: 0x0_13850000
+Allocated physical - start: 0x0_13850000; size: 0x00010000; requested: 0x00010000; end: 0x0_13860000
+Allocated physical - start: 0x0_13860000; size: 0x00010000; requested: 0x00010000; end: 0x0_13870000
+Allocated physical - start: 0x0_13870000; size: 0x00010000; requested: 0x00010000; end: 0x0_13880000
+Allocated physical - start: 0x0_13880000; size: 0x00010000; requested: 0x00010000; end: 0x0_13890000
+Allocated physical - start: 0x0_13890000; size: 0x00010000; requested: 0x00010000; end: 0x0_138A0000
+Allocated physical - start: 0x0_138A0000; size: 0x00010000; requested: 0x00010000; end: 0x0_138B0000
+Allocated physical - start: 0x0_138B0000; size: 0x00010000; requested: 0x00010000; end: 0x0_138C0000
+Allocated physical - start: 0x0_138C0000; size: 0x00010000; requested: 0x00010000; end: 0x0_138D0000
+Allocated physical - start: 0x0_138D0000; size: 0x00040000; requested: 0x00040000; end: 0x0_13910000
+Allocated physical - start: 0x0_13910000; size: 0x00400000; requested: 0x00400000; end: 0x0_13D10000
+Allocated physical - start: 0x0_13D10000; size: 0x00010000; requested: 0x00000800; end: 0x0_13D20000
+Allocated physical - start: 0x0_13D20000; size: 0x00200000; requested: 0x00200000; end: 0x0_13F20000
+Allocated physical - start: 0x0_13F20000; size: 0x00020000; requested: 0x00020000; end: 0x0_13F40000
+Allocated physical - start: 0x0_13F40000; size: 0x00010000; requested: 0x00010000; end: 0x0_13F50000
+Allocated physical - start: 0x0_13F50000; size: 0x00010000; requested: 0x00010000; end: 0x0_13F60000
+Allocated physical - start: 0x0_13F60000; size: 0x00010000; requested: 0x00010000; end: 0x0_13F70000
+Allocated physical - start: 0x0_13F70000; size: 0x00010000; requested: 0x00010000; end: 0x0_13F80000
+Allocated physical - start: 0x0_13F80000; size: 0x00010000; requested: 0x00010000; end: 0x0_13F90000
+Allocated physical - start: 0x0_13F90000; size: 0x00010000; requested: 0x00010000; end: 0x0_13FA0000
+Allocated physical - start: 0x0_13FA0000; size: 0x00010000; requested: 0x00010000; end: 0x0_13FB0000
+Allocated physical - start: 0x0_13FB0000; size: 0x00010000; requested: 0x00010000; end: 0x0_13FC0000
+Allocated physical - start: 0x0_13FC0000; size: 0x00010000; requested: 0x00010000; end: 0x0_13FD0000
+Allocated physical - start: 0x0_13FD0000; size: 0x00010000; requested: 0x00010000; end: 0x0_13FE0000
+Allocated physical - start: 0x0_13FE0000; size: 0x00010000; requested: 0x00010000; end: 0x0_13FF0000
+Allocated physical - start: 0x0_13FF0000; size: 0x00010000; requested: 0x00010000; end: 0x0_14000000
+Allocated physical - start: 0x0_14000000; size: 0x00010000; requested: 0x00010000; end: 0x0_14010000
+Allocated physical - start: 0x0_14010000; size: 0x00010000; requested: 0x00010000; end: 0x0_14020000
+Allocated physical - start: 0x0_14020000; size: 0x00010000; requested: 0x00010000; end: 0x0_14030000
+Allocated physical - start: 0x0_14030000; size: 0x00010000; requested: 0x00010000; end: 0x0_14040000
+Allocated physical - start: 0x0_14040000; size: 0x00010000; requested: 0x00010000; end: 0x0_14050000
+Allocated physical - start: 0x0_14050000; size: 0x00010000; requested: 0x00010000; end: 0x0_14060000
+Allocated physical - start: 0x0_14060000; size: 0x00010000; requested: 0x00010000; end: 0x0_14070000
+Allocated physical - start: 0x0_14070000; size: 0x00010000; requested: 0x00010000; end: 0x0_14080000
+Allocated physical - start: 0x0_14080000; size: 0x00010000; requested: 0x00010000; end: 0x0_14090000
+Allocated physical - start: 0x0_14090000; size: 0x00010000; requested: 0x00010000; end: 0x0_140A0000
+Allocated physical - start: 0x0_140A0000; size: 0x00010000; requested: 0x00010000; end: 0x0_140B0000
+Allocated physical - start: 0x0_140B0000; size: 0x00010000; requested: 0x00010000; end: 0x0_140C0000
+Allocated physical - start: 0x0_140C0000; size: 0x00010000; requested: 0x00010000; end: 0x0_140D0000
+Allocated physical - start: 0x0_140D0000; size: 0x00010000; requested: 0x00010000; end: 0x0_140E0000
+Allocated physical - start: 0x0_140E0000; size: 0x00010000; requested: 0x00010000; end: 0x0_140F0000
+Allocated physical - start: 0x0_140F0000; size: 0x00010000; requested: 0x00010000; end: 0x0_14100000
+Allocated physical - start: 0x0_14100000; size: 0x00010000; requested: 0x00010000; end: 0x0_14110000
+Allocated physical - start: 0x0_14110000; size: 0x00010000; requested: 0x00010000; end: 0x0_14120000
+Allocated physical - start: 0x0_14120000; size: 0x00010000; requested: 0x00010000; end: 0x0_14130000
+Allocated physical - start: 0x0_14130000; size: 0x00010000; requested: 0x00010000; end: 0x0_14140000
+Allocated physical - start: 0x0_14140000; size: 0x00010000; requested: 0x00010000; end: 0x0_14150000
+Allocated physical - start: 0x0_14150000; size: 0x00010000; requested: 0x00010000; end: 0x0_14160000
+Allocated physical - start: 0x0_14160000; size: 0x00010000; requested: 0x00010000; end: 0x0_14170000
+Allocated physical - start: 0x0_14170000; size: 0x00010000; requested: 0x00010000; end: 0x0_14180000
+Allocated physical - start: 0x0_14180000; size: 0x00010000; requested: 0x00010000; end: 0x0_14190000
+Allocated physical - start: 0x0_14190000; size: 0x00010000; requested: 0x00010000; end: 0x0_141A0000
+Allocated physical - start: 0x0_141A0000; size: 0x00010000; requested: 0x00010000; end: 0x0_141B0000
+Allocated physical - start: 0x0_141B0000; size: 0x00010000; requested: 0x00010000; end: 0x0_141C0000
+Allocated physical - start: 0x0_141C0000; size: 0x00010000; requested: 0x00010000; end: 0x0_141D0000
+Allocated physical - start: 0x0_141D0000; size: 0x00010000; requested: 0x00010000; end: 0x0_141E0000
+Allocated physical - start: 0x0_141E0000; size: 0x00010000; requested: 0x00010000; end: 0x0_141F0000
+Allocated physical - start: 0x0_141F0000; size: 0x00010000; requested: 0x00010000; end: 0x0_14200000
+Allocated physical - start: 0x0_14200000; size: 0x00010000; requested: 0x00010000; end: 0x0_14210000
+Allocated physical - start: 0x0_14210000; size: 0x00010000; requested: 0x00010000; end: 0x0_14220000
+Allocated physical - start: 0x0_14220000; size: 0x00010000; requested: 0x00010000; end: 0x0_14230000
+Allocated physical - start: 0x0_14230000; size: 0x00010000; requested: 0x00010000; end: 0x0_14240000
+Allocated physical - start: 0x0_14240000; size: 0x00010000; requested: 0x00010000; end: 0x0_14250000
+Allocated physical - start: 0x0_14250000; size: 0x00010000; requested: 0x00010000; end: 0x0_14260000
+Allocated physical - start: 0x0_14260000; size: 0x00010000; requested: 0x00010000; end: 0x0_14270000
+Allocated physical - start: 0x0_14270000; size: 0x00010000; requested: 0x00010000; end: 0x0_14280000
+Allocated physical - start: 0x0_14280000; size: 0x00010000; requested: 0x00010000; end: 0x0_14290000
+Allocated physical - start: 0x0_14290000; size: 0x00010000; requested: 0x00010000; end: 0x0_142A0000
+Allocated physical - start: 0x0_142A0000; size: 0x00010000; requested: 0x00010000; end: 0x0_142B0000
+Allocated physical - start: 0x0_142B0000; size: 0x00010000; requested: 0x00010000; end: 0x0_142C0000
+Allocated physical - start: 0x0_142C0000; size: 0x00010000; requested: 0x00010000; end: 0x0_142D0000
+Allocated physical - start: 0x0_142D0000; size: 0x00010000; requested: 0x00010000; end: 0x0_142E0000
+Allocated physical - start: 0x0_142E0000; size: 0x00010000; requested: 0x00010000; end: 0x0_142F0000
+Allocated physical - start: 0x0_142F0000; size: 0x00010000; requested: 0x00010000; end: 0x0_14300000
+Allocated physical - start: 0x0_14300000; size: 0x00010000; requested: 0x00010000; end: 0x0_14310000
+Allocated physical - start: 0x0_14310000; size: 0x00010000; requested: 0x00010000; end: 0x0_14320000
+Allocated physical - start: 0x0_14320000; size: 0x00010000; requested: 0x00010000; end: 0x0_14330000
+Allocated physical - start: 0x0_14330000; size: 0x00010000; requested: 0x00010000; end: 0x0_14340000
+spawn_module(...) completed.
+Creating page table caps...
+Page table caps are done.
+Creating module caps...
+Allocated physical - start: 0x0_14340000; size: 0x00010000; requested: 0x00010000; end: 0x0_14350000
+menulist_va : 0x81340000
+Reading menu list...
+Menu list content : 
+./tilepro/menu.lst.modules
+./tilepro/sbin/cpu loglevel=4
+./tilepro/sbin/init
+./tilepro/sbin/mem_serv
+./tilepro/sbin/monitor
+./tilepro/sbin/ramfsd boot
+./tilepro/sbin/skb boot
+./tilepro/sbin/spawnd boot boottilepro=1-54
+./tilepro/sbin/startd boot
+
+Loading module: ./tilepro/sbin/cpu loglevel=4
+Allocated physical - start: 0x0_14350000; size: 0x00030000; requested: 0x00021424; end: 0x0_14380000
+Loading module: ./tilepro/sbin/init 
+Allocated physical - start: 0x0_14380000; size: 0x00120000; requested: 0x0011B540; end: 0x0_144A0000
+Loading module: ./tilepro/sbin/mem_serv 
+Allocated physical - start: 0x0_144A0000; size: 0x00110000; requested: 0x0010B430; end: 0x0_145B0000
+Loading module: ./tilepro/sbin/monitor 
+Allocated physical - start: 0x0_145B0000; size: 0x00170000; requested: 0x0016B840; end: 0x0_14720000
+Loading module: ./tilepro/sbin/ramfsd boot
+Allocated physical - start: 0x0_14720000; size: 0x00130000; requested: 0x0012B4C0; end: 0x0_14850000
+Loading module: ./tilepro/sbin/skb boot
+Allocated physical - start: 0x0_14850000; size: 0x00130000; requested: 0x0012B56C; end: 0x0_14980000
+Loading module: ./tilepro/sbin/spawnd boot boottilepro=1-54
+kernel PANIC! ERROR! There is no such file: ./tilepro/sbin/spawnd
+
+kernel PANIC! Unimplemented interrupt(2) (last_pc at: FD030F38) ILL
+
+(0,0) got double fault interrupt: PC 0xfd03_0f38, ICS/PL 0x5
+(0,0)        last interrupt ILL, next-to-last interrupt SWINT_2
+(0,0)        original PL 1 fault PC 0xfd03_0f38, ICS/PL 0x1
+(0,0)        PL 1 system save regs: 0: 0  1: 0x43  2: 0xfcffcd60  3: 0
+(0,0) Full saved register dump:
+(0,0) r0  0x00000045  r1  0xfe10eedc  r2  0xfe11eb48  r3  0x00000100
+(0,0) r4  0x0000000a  r5  0x00000040  r6  0xfcffcc8c  r7  0x7b6c00b3
+(0,0) r8  0x00000001  r9  0xfd030f70  r10 0x00000010  r11 0xfcffccc4
+(0,0) r12 0xfd030f38  r13 0x00000230  r14 0xfcffcae0  r15 0x14960000
+(0,0) r16 0xfcffcadc  r17 0x0000001f  r18 0xfcffcbb0  r19 0x14970000
+(0,0) r20 0x00000001  r21 0x00000005  r22 0x00000008  r23 0xfe10eea4
+(0,0) r24 0xfcffcbf4  r25 0x00000001  r26 0x00000010  r27 0xfcffcc60
+(0,0) r28 0xfcffcc64  r29 0xfcffcc8c  r30 0xfffffcdd  r31 0xfcffcdf8
+(0,0) r32 0xfcffce58  r33 0x00f07d1c  r34 0x00f07cf8  r35 0xfcffcdf8
+(0,0) r36 0x00000013  r37 0xfcffce58  r38 0x00010000  r39 0xfcffcdc0
+(0,0) r40 0x81850000  r41 0xfcffce28  r42 0x00000007  r43 0x81340000
+(0,0) r44 0xfcffce5c  r45 0x00000004  r46 0x81380000  r47 0x0011b540
+(0,0) r48 0x00f07da7  r49 0xfcffce28  r50 0x00000000  r51 0x00000000
+(0,0) r52 0xfcffceb8  tp  0x00000000  lr  0xfd030f38  sp  0xfcffcc8c
+(0,0) im0 0x5b600700  im1 0x00010037  ex0 0xfd030f38  ex1 0x00000005
+kernel PANIC! Unimplemented interrupt(46) (last_pc at: FD030F38) DOUBLE_FAULT
+
+(0,0) got double fault interrupt: PC 0xfd03_0f38, ICS/PL 0x5
+(0,0)        last interrupt ILL, next-to-last interrupt SWINT_2
+(0,0)        original PL 1 fault PC 0xfd03_0f38, ICS/PL 0x5
+(0,0)        PL 1 system save regs: 0: 0  1: 0x45  2: 0xfcffcc8c  3: 0x1
+(0,0) Full saved register dump:
+(0,0) r0  0x0000004f  r1  0xfe10eedc  r2  0xfe11eb48  r3  0x00000100
+(0,0) r4  0x0000000a  r5  0x00000040  r6  0xfcffcbb8  r7  0x20000000
+(0,0) r8  0x00000001  r9  0xfd030f70  r10 0x00000010  r11 0xfcffcbf0
+(0,0) r12 0xfd030f38  r13 0x00000230  r14 0xfcffcae0  r15 0x14960000
+(0,0) r16 0xfcffcadc  r17 0x0000001f  r18 0xfcffcbb0  r19 0x14970000
+(0,0) r20 0x00000001  r21 0x00000005  r22 0x00000008  r23 0xfe10eea4
+(0,0) r24 0xfcffcb20  r25 0x00000001  r26 0x00000010  r27 0xfcffcb8c
+(0,0) r28 0xfcffcb90  r29 0xfcffcbb8  r30 0xfffffcdd  r31 0xfcffcdf8
+(0,0) r32 0xfcffce58  r33 0x00f07d1c  r34 0x00f07cf8  r35 0xfcffcdf8
+(0,0) r36 0x00000013  r37 0xfcffce58  r38 0x00010000  r39 0xfcffcdc0
+(0,0) r40 0x81850000  r41 0xfcffce28  r42 0x00000007  r43 0x81340000
+(0,0) r44 0xfcffce5c  r45 0x00000004  r46 0x81380000  r47 0x0011b540
+(0,0) r48 0x00f07da7  r49 0xfcffce28  r50 0x00000000  r51 0x00000000
+(0,0) r52 0xfcffceb8  tp  0x00000000  lr  0xfd030f38  sp  0xfcffcbb8
+(0,0) im0 0x5b600700  im1 0x00010037  ex0 0xfd030f38  ex1 0x00000005
+(0,0) hv_panic: recursive supervisor double fault
+System halted.
+

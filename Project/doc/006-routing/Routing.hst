@@ -1,0 +1,3 @@
+\def \vhCurrentVersion {2.0}
+\def \vhCurrentDate {31.05.2011}
+\newsetsimple \vhAllAuthorsSet {AS|Alexander Grest}

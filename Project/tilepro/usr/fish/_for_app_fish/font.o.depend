@@ -1,0 +1,4 @@
+tilepro/usr/fish/_for_app_fish/font.o \
+ tilepro/usr/fish/_for_app_fish/font.o.depend: \
+ /home/andreas/barrelfish/new_test2/usr/fish/font.c \
+ /home/andreas/barrelfish/new_test2/include/deputy/nodeputy.h

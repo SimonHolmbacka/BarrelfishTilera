@@ -1,0 +1,3 @@
+
+alias errval uint32;
+alias cycles uint32;

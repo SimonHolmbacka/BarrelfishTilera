@@ -1,0 +1,22 @@
+\begin {longtable}{@{}ll>{\hsize =.5\hsize }X>{\hsize =1.5\hsize }X@{}}
+\textbf {\vhversionname }
+ & \textbf {\vhdatename }
+ & \textbf {\vhauthorname }
+ & \textbf {\vhchangename }\\[1ex]
+1.0
+ & 09.06.2010
+ & \listset {AS}
+ & Initial version\\
+1.01
+ & 14.06.2010
+ & \listset {AS}
+ & Added discussion of design and unresolved issues\\
+1.02
+ & 23.07.2010
+ & \listset {AS}
+ & More work on design and API\\
+2.0
+ & 31.05.2011
+ & \listset {Alexander Grest}
+ & Multi-hop messaging\\
+\end {longtable}

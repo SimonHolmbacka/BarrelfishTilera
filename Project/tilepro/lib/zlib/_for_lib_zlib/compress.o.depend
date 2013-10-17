@@ -1,0 +1,6 @@
+tilepro/lib/zlib/_for_lib_zlib/compress.o \
+ tilepro/lib/zlib/_for_lib_zlib/compress.o.depend: \
+ /home/andreas/barrelfish/new_test2/lib/zlib/compress.c \
+ /home/andreas/barrelfish/new_test2/include/deputy/nodeputy.h \
+ /home/andreas/barrelfish/new_test2/include/zlib.h \
+ /home/andreas/barrelfish/new_test2/include/zconf.h

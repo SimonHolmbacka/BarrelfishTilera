@@ -1,0 +1,6 @@
+tilepro/lib/zlib/_for_lib_zlib/uncompr.o \
+ tilepro/lib/zlib/_for_lib_zlib/uncompr.o.depend: \
+ /home/andreas/barrelfish/new_test2/lib/zlib/uncompr.c \
+ /home/andreas/barrelfish/new_test2/include/deputy/nodeputy.h \
+ /home/andreas/barrelfish/new_test2/include/zlib.h \
+ /home/andreas/barrelfish/new_test2/include/zconf.h

@@ -1,0 +1,32 @@
+timeout 0
+
+#
+# This script is used to describe the commands to start at
+# boot-time and the arguments they should receive.
+#
+# Kernel arguments are not read from this script.
+# It is not defined yet, how to pass them, but using 
+# a mechanism using tile-monitor and have something inside
+# kernel/arch/tilepro/tilepro-conf.hvc could be possible.
+
+title	Barrelfish
+#root	(nd)
+module	/tilepro/sbin/cpu loglevel=4
+module	/tilepro/sbin/init
+
+# Domains spawned by init
+module	/tilepro/sbin/mem_serv
+module	/tilepro/sbin/monitor
+
+# Special boot time domains spawned by monitor
+module /tilepro/sbin/ramfsd boot
+module /tilepro/sbin/skb boot
+module /tilepro/sbin/spawnd boot boottilepro=1
+module /tilepro/sbin/startd boot 
+
+# General user domains
+#module /tilepro/sbin/serial
+#module /tilepro/sbin/fish nobootscript
+
+#module /tilepro/sbin/memtest
+module /tilepro/sbin/hellotest core=1

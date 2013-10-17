@@ -1,0 +1,38 @@
+# Configuration file for TILEmpower.  This is meant to be used in conjunction
+# with another HVC file that specifies devices, etc., such as fast-xaui.hvc.
+
+define CHIP_WIDTH 8
+define CHIP_HEIGHT 8
+
+ifndef XGBE_0
+define XGBE_0 1
+endif
+
+ifndef XGBE_1
+define XGBE_1 1
+endif
+
+ifndef GBE_0
+define GBE_0 1
+endif
+
+ifndef GBE_1
+define GBE_1 1
+endif
+
+ifndef GPIO
+define GPIO 1
+endif
+
+ifndef MEMPROF
+define MEMPROF 1
+endif
+
+ifndef PCIE_0_RC
+define PCIE_0_RC 1
+endif
+
+ifndef I2C_EEPROM
+define I2C_EEPROM 1
+endif
+

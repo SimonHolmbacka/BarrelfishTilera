@@ -1,0 +1,128 @@
+
+WARNING: detected 54 cpus configured with mboot.
+mboot can only boot another Linux from single-cpu mode.
+Please ensure that 'nosmp' is included in the hvc file 'args' line.
+
+changed net-vmlinux.hvc file
+
+solution:
+# Run vmlinux on all non-dedicated tiles.
+# Default to bringing up networking on the first network that
+# provides DHCP (eth0, eth1, gbe0, gbe1, xgbe0, xgbe1 in that order).
+
+# backup
+#ifndef ARGS
+#define ARGS TLR_NETWORK=auto
+#endif
+#
+#client vmlinux
+#  args $ARGS $XARGS
+#
+#endif
+#
+#
+
+ifndef ARGS
+define ARGS TLR_NETWORK=auto
+endif
+
+client vmlinux 1x1 0,0
+
+
+endif
+
+
+test1:
+
+
+mboot: ls
+
+The image files in HD:
+
+boot        futbin      lost+found  vmlinux
+
+The image files in SD:
+
+bin                           mnt
+boot                          monitor
+bootloader                    opt
+channel_cost_bench            proc
+chips                         ramfsd
+cpu                           root
+cpu.bin                       sbin
+dev                           schedtest
+etc                           selinux
+fish                          skb
+flounder_stubs_buffer_bench   spawnd
+flounder_stubs_empty_bench    srv
+flounder_stubs_payload_bench  startd
+fread_test                    sys
+fscanf_test                   testerror
+hellotest                     tftpboot
+home                          tilepro
+idctest                       tmp
+init                          usr
+init_null                     var
+lib                           xcorecap
+lost+found                    xcorecapbench
+media                         xcorecapserv
+mem_serv                      yield_test
+memtest
+
+The image files in MEM:
+
+mboot: boot -sd -i bootlia^H
+Cannot open `/tmp/sd_boot/bootli': No such file or directory
+mboot: boot -sd -i bootloader
+sd 0:0:0:0: [sda] Synchronizing SCSI cache
+Starting new kernel
+setting new command line to ""
+Bootloader starting.
+Called hv_init.
+Got a valid ASID range.
+Successfully installed boot-up context.
+cpu_id: 0
+"ERROR! File not found!" - get_file_inode at /home/andreas/barrelfish/new_test2/kernel/arch/tilepro/bootloader.c:128
+(0,0) got double fault interrupt: PC 0xfd00_0200, ICS/PL 0x5
+(0,0)        last interrupt ILL, next-to-last interrupt ILL
+(0,0)        original PL 1 fault PC 0xfd02_5c98, ICS/PL 0x1
+(0,0)        PL 1 system save regs: 0: 0  1: 0  2: 0x1  3: 0x100
+(0,0) Full saved register dump:
+(0,0) r0  0x00000001  r1  0xfe10eedc  r2  0xfe11eaac  r3  0x00000100
+(0,0) r4  0x00000000  r5  0x000000ff  r6  0x00000000  r7  0xfe10eebc
+(0,0) r8  0x00000001  r9  0x00000001  r10 0x00000001  r11 0x000c0400
+(0,0) r12 0x00011700  r13 0xfe122c96  r14 0xfe122c98  r15 0xfe1223e0
+(0,0) r16 0xfe10eeb4  r17 0x00000000  r18 0x00a0007e  r19 0x00000000
+(0,0) r20 0x00000001  r21 0x00000001  r22 0xfe10ee4c  r23 0xfe10ee5c
+(0,0) r24 0xfe10ee40  r25 0xfe10ee98  r26 0xfe10ee8c  r27 0xfe10ee90
+(0,0) r28 0xfcffff54  r29 0xfcffff80  r30 0x00000000  r31 0x00000000
+(0,0) r32 0x00000000  r33 0x00000000  r34 0x00000000  r35 0x00000000
+(0,0) r36 0x00000000  r37 0x00000000  r38 0x00000000  r39 0x00000000
+(0,0) r40 0x00000000  r41 0x00000000  r42 0x00000000  r43 0x00000000
+(0,0) r44 0x00000000  r45 0x00000000  r46 0x00000000  r47 0x00000000
+(0,0) r48 0x00000000  r49 0x00000000  r50 0x00000000  r51 0x00000000
+(0,0) r52 0xfcffff80  tp  0x00000000  lr  0xfd025c98  sp  0xfcffff58
+(0,0) im0 0x5b600700  im1 0x00010037  ex0 0xfd000200  ex1 0x00000005
+(0,0) got double fault interrupt: PC 0xfd00_2e00, ICS/PL 0x5
+(0,0)        last interrupt ILL, next-to-last interrupt IDN_CA
+(0,0)        original PL 1 fault PC 0xfd00_0200, ICS/PL 0x5
+(0,0)        PL 1 system save regs: 0: 0  1: 0  2: 0xfd025c98  3: 0x1
+(0,0) Full saved register dump:
+(0,0) r0  0x00000001  r1  0xfe10eedc  r2  0xfe11eaac  r3  0x00000100
+(0,0) r4  0x00000000  r5  0x000000ff  r6  0x00000000  r7  0xfe10eebc
+(0,0) r8  0x00000001  r9  0x00000001  r10 0x00000001  r11 0x000c0400
+(0,0) r12 0x00011700  r13 0xfe122c96  r14 0xfe122c98  r15 0xfe1223e0
+(0,0) r16 0xfe10eeb4  r17 0x00000000  r18 0x00a0007e  r19 0x00000000
+(0,0) r20 0x00000001  r21 0x00000001  r22 0xfe10ee4c  r23 0xfe10ee5c
+(0,0) r24 0xfe10ee40  r25 0xfe10ee98  r26 0xfe10ee8c  r27 0xfe10ee90
+(0,0) r28 0xfcffff54  r29 0xfcffff80  r30 0x00000000  r31 0x00000000
+(0,0) r32 0x00000000  r33 0x00000000  r34 0x00000000  r35 0x00000000
+(0,0) r36 0x00000000  r37 0x00000000  r38 0x00000000  r39 0x00000000
+(0,0) r40 0x00000000  r41 0x00000000  r42 0x00000000  r43 0x00000000
+(0,0) r44 0x00000000  r45 0x00000000  r46 0x00000000  r47 0x00000000
+(0,0) r48 0x00000000  r49 0x00000000  r50 0x00000000  r51 0x00000000
+(0,0) r52 0xfcffff80  tp  0x00000000  lr  0xfd025c98  sp  0xfcffff58
+(0,0) im0 0x5b600700  im1 0x00010037  ex0 0xfd002e00  ex1 0x00000005
+(0,0) hv_panic: recursive supervisor double fault
+System halted.
+

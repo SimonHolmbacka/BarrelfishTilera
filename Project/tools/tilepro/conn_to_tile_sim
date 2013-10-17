@@ -1,0 +1,2 @@
+#!/bin/bash
+tile-gdb -q --command=tile_gdb_options

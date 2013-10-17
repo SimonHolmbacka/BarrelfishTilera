@@ -1,0 +1,234 @@
+--------------------------------------------------------------------------
+-- Copyright (c) 2007-2010, ETH Zurich.
+-- All rights reserved.
+--
+-- This file is distributed under the terms in the attached LICENSE file.
+-- If you do not find this file, copies can be found by writing to:
+-- ETH Zurich D-INFK, Haldeneggsteig 4, CH-8092 Zurich. Attn: Systems Group.
+--
+-- Architectural definitions for Barrelfish on TilePro.
+-- 
+--------------------------------------------------------------------------
+
+module TilePro where
+
+import HakeTypes
+import Path
+import qualified Config
+import qualified ArchDefaults
+
+-------------------------------------------------------------------------
+--
+-- Architecture specific definitions for TilePro
+--
+-------------------------------------------------------------------------
+
+arch = "tilepro"
+archFamily = "tilepro"
+compiler = "tile-cc"
+cxxcompiler = "tile-g++"
+mkboot = "tile-mkboot"
+
+
+hypervisorFolder = "${TILERA_ROOT}/src/sys/hv"
+
+tileraImports = "-I${TILERA_ROOT}/src/sys/hv/include -I${TILERA_ROOT}/include -I${TILE_IMPORTS}"
+
+ourCommonFlags = [ Str "-D__tilepro__",
+                   Str "-D__tile__",
+                   Str tileraImports,
+                   Str "-ffixed-tp",
+                   Str "-DFLOUNDER_DEBUG",  -- flounder debug output
+                   Str "-DDIST_SERVICE_DEBUG",  -- octopus debug output
+                   Str "-D__IEEE_LITTLE_ENDIAN"  ]
+
+cFlags = ArchDefaults.commonCFlags
+               ++ ArchDefaults.commonFlags
+               ++ ourCommonFlags
+
+cxxFlags = ArchDefaults.commonCxxFlags
+                 ++ ArchDefaults.commonFlags
+                 ++ ourCommonFlags
+
+cDefines = ArchDefaults.cDefines options
+
+ourLdFlags = [ Str "-Wl,-section-start,.text=0x01000000",
+	       Str "-Wl,-section-start,.data=0x02000000" ]
+--ourLdFlags = [ Str "-Wl,-section-start,.text=0x3000000",
+--               Str "-Wl,-section-start,.data=0x4000000"]
+
+ldFlags = ArchDefaults.ldFlags arch ++ ourLdFlags
+ldCxxFlags = ArchDefaults.ldCxxFlags arch ++ ourLdFlags
+
+stdLibs = ArchDefaults.stdLibs arch ++ [ Str "-lgcc" ]
+
+options = (ArchDefaults.options arch archFamily) { 
+            optFlags = cFlags,
+            optCxxFlags = cxxFlags,
+            optDefines = cDefines,
+            optLdFlags = ldFlags,
+            optLdCxxFlags = ldCxxFlags,
+            optLibs = stdLibs,
+--            optInterconnectDrivers = ["lmp", "ump", "multihop"],
+--            optFlounderBackends = ["lmp", "ump", "multihop"]
+-- This was in the ARM build...
+            optInterconnectDrivers = ["lmp", "udn"],
+            optFlounderBackends = ["lmp", "udn"]
+          }
+
+--
+-- The kernel is "different"
+--
+
+kernelCFlags = [ Str s | s <- [ "-D__tilepro__",
+                                "-D__tile__",
+                                tileraImports,
+                                "-ffixed-tp",
+                                "-fno-builtin",
+                                "-nostdinc",
+                                "-std=c99",
+                                "-U__linux__",
+                                "-D__IEEE_LITTLE_ENDIAN",
+                                "-Wall",
+                                "-Wshadow",
+                                "-Wstrict-prototypes",
+                                "-Wold-style-definition",
+                                "-Wmissing-prototypes",
+                                "-Wmissing-declarations",
+                                "-Wmissing-field-initializers",
+                                "-Wredundant-decls",
+                                "-Werror",
+                                "-imacros deputy/nodeputy.h" ]]
+
+kernelLdFlags = [ Str "-Wl,-N",
+                  Str "-fno-builtin",
+                  Str "-nostdlib",
+                  Str "-Wl,--fatal-warnings"
+                ]
+
+
+------------------------------------------------------------------------
+--
+-- Now, commands to actually do something
+--
+------------------------------------------------------------------------
+
+--
+-- Compilers
+--
+cCompiler = ArchDefaults.cCompiler arch compiler
+cxxCompiler = ArchDefaults.cxxCompiler arch cxxcompiler
+makeDepend = ArchDefaults.makeDepend arch compiler
+makeCxxDepend  = ArchDefaults.makeCxxDepend arch cxxcompiler
+cToAssembler = ArchDefaults.cToAssembler arch compiler
+assembler = ArchDefaults.assembler arch compiler
+archive = ArchDefaults.archive arch
+linker = ArchDefaults.linker arch compiler
+cxxlinker = ArchDefaults.cxxlinker arch cxxcompiler
+
+--
+-- Link the kernel (CPU Driver)
+-- 
+linkKernel :: Options -> [String] -> [String] -> String -> HRule
+linkKernel opts objs libs kbin = 
+    let linkscript = "/kernel/arch/tilepro/linker.ld"
+        linkscript_in = linkscript ++ ".S"
+        kbootable  = kbin ++ ".bin"
+        loader_linkscript = "/kernel/arch/tilepro/loader_linker.ld"
+        loader_linkscript_in = loader_linkscript ++ ".S"
+        loader = "/sbin/bootloader"
+    in
+      -- hv_glue will be included 2 times. It is put to a specific address,
+      -- so both the linker and the kernel will assume it on the same address
+      -- So, only one needs to actually load it???
+      Rules [ Rule ([ Str compiler, Str Config.cOptFlags,
+                      NStr "-T", In BuildTree arch linkscript,
+                      Str "-o", Out arch kbin 
+                    ]
+                    ++ (optLdFlags opts)
+                    ++
+                    [ In BuildTree arch o | o <- objs ]
+                    ++
+                    [ In BuildTree arch l | l <- libs ]
+                    ++ 
+                    [ In BuildTree arch "/kernel/arch/tilepro/hv_glue.o" ]
+                    ++
+                    [ Str "-lgcc" ]
+                   ),
+              Rule ([ Str compiler, Str Config.cOptFlags,
+                      NStr "-T", In BuildTree arch loader_linkscript,
+                      Str "-o", Out arch loader 
+                    ]
+                    ++ (optLdFlags opts)
+                    ++ 
+                    [ In BuildTree arch "/kernel/arch/tilepro/loader.o" ]
+                    ++ 
+                    [ In BuildTree arch "/kernel/arch/tilepro/boot_elf32.o" ]
+                    ++ 
+                    [ In BuildTree arch "/kernel/arch/tilepro/bootloader.o" ]
+                    ++ 
+                    [ In BuildTree arch "/kernel/arch/tilepro/loader_libc.o" ]
+                    ++ 
+                    [ In BuildTree arch "/kernel/arch/tilepro/hv_glue.o" ]
+                   ),
+              -- Generating glue code for the hypervisor
+              -- perl ${TILERA_ROOT}/src/sys/hv/mkgluesyms.pl ${TILERA_ROOT}/src/sys/hv/include/hv/hypervisor.h > hv_glue.S
+              Rule [ Str "perl", NStr hypervisorFolder, Str "/mkgluesyms.pl",
+                     NStr hypervisorFolder, Str "/include/hv/hypervisor.h",
+                     Str ">", Out arch "/kernel/arch/tilepro/hv_glue.S "
+                   ],
+              -- Compiling glue code
+              -- tile-cc -c -I... -o hv_glue.o hv_glue.S
+              Rule [ Str compiler, Str "-c", NStr "-I", NStr hypervisorFolder, Str "/include",
+                     Str "-o", Out arch "/kernel/arch/tilepro/hv_glue.o", In BuildTree arch "/kernel/arch/tilepro/hv_glue.S"
+                   ],
+              -- Generate linker script
+              -- tile-cc -E -P -I... linker.ld.S > linker.ld
+              Rule [ Str compiler, Str "-E", Str "-P", Str tileraImports,
+                     In SrcTree "src" linkscript_in,
+                     Str ">", Out arch linkscript 
+                   ],
+              -- Is there a normal way to describe these things? Like a Hakefile with "build application"?
+              -- Maybe some of the .o-files could be put into /kernel/arch/tilepro/loader" and be created with a Hakefile there
+              -- which uses "build library".
+              -- But the bootloader can't be build like this, because there is no (or I don't know) rule to create something
+              -- like a kernel, which the bootloader is.
+              -- "build application" would need a main-method and load the crt0.S-runtime system before it.
+              -- Trying to create such a Hakefile with a "build library" rule, throwed errors while creating the .depend files.
+
+
+              -- Generate loader linker script
+              -- tile-cc -E -P -I... loader_linker.ld.S > loader_linker.ld
+              Rule [ Str compiler, Str "-E", Str "-P", Str tileraImports,
+                     In SrcTree "src" loader_linkscript_in,
+                     Str ">", Out arch loader_linkscript 
+                   ],
+              -- Compile boot loader
+              -- tile-cc -g -c -std=c99 -I... imacros ../src/include/deputy/nodeputy.h -o bootloader.o bootloader.c
+              Rule [ Str compiler,Str "-Os", Str "-g", Str "-c", Str "-std=c99", NStr "-I", NStr hypervisorFolder, Str "/include",
+                     NStr "-I", In SrcTree "src" "/kernel/include/arch/tilepro",
+                     NStr "-I", In SrcTree arch "/include",
+                     NStr "-I", In BuildTree arch "/include",
+                     Str "-imacros", In SrcTree "src" "/include/deputy/nodeputy.h",
+                     Str "-o", Out arch "/kernel/arch/tilepro/bootloader.o", In SrcTree arch "/kernel/arch/tilepro/bootloader.c"
+                   ],
+              -- Compile boot loader assembler part 
+              -- tile-cc -g -c -std=c99 -I... -o loader.o loader.S
+              Rule [ Str compiler, Str "-Os", Str "-g", Str "-c", Str "-std=c99", NStr "-I", NStr hypervisorFolder, Str "/include",
+                     NStr "-I", In SrcTree "src" "/kernel/include/arch/tilepro",
+                     Str "-o", Out arch "/kernel/arch/tilepro/loader.o", In SrcTree arch "/kernel/arch/tilepro/loader.S"
+                   ],
+              -- Compile boot loader, elf32 handler
+              -- tile-cc -g -c -std=c99 -I... -imacros ../src/include/deputy/nodeputy.h -o boot_elf32.o boot_elf32.c
+              Rule [ Str compiler, Str "-Os", Str "-g", Str "-c", Str "-std=c99", NStr "-I", NStr hypervisorFolder, Str "/include",
+                     NStr "-I", In SrcTree "src" "/include",
+                     NStr "-I", In BuildTree arch "/include",
+                     NStr "-I", Str "tilepro/include/", Str "-imacros", In SrcTree "src" "/include/deputy/nodeputy.h",
+                     Str "-o", Out arch "/kernel/arch/tilepro/boot_elf32.o", In SrcTree arch "/kernel/arch/tilepro/boot_elf32.c"
+                   ],
+              -- The libc for the loader.
+              -- tile-cc -g -c -std=c99 -I... -o loader_libc.o loader_libc.c
+              Rule [ Str compiler,Str "-Os", Str "-g", Str "-c", Str "-std=c99", NStr "-I", NStr hypervisorFolder, Str "/include",
+                     Str "-o", Out arch "/kernel/arch/tilepro/loader_libc.o", In SrcTree arch "/kernel/arch/tilepro/loader_libc.c"
+                   ]
+            ]

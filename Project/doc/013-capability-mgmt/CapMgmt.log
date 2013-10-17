@@ -1,0 +1,612 @@
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.5.3)  4 JUN 2013 15:02
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**CapMgmt.tex
+(./CapMgmt.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, lo
+aded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (./bftn.sty
+Package: bftn 
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/times.sty
+Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+\fancy@headwidth=\skip43
+\f@ncyO@elh=\skip44
+\f@ncyO@erh=\skip45
+\f@ncyO@olh=\skip46
+\f@ncyO@orh=\skip47
+\f@ncyO@elf=\skip48
+\f@ncyO@erf=\skip49
+\f@ncyO@olf=\skip50
+\f@ncyO@orf=\skip51
+)
+(/usr/share/texlive/texmf-dist/tex/latex/vhistory/vhistory.sty
+Package: vhistory 
+
+(/usr/share/texlive/texmf-dist/tex/latex/carlisle/ltxtable.sty
+Package: ltxtable 1995/12/11 v0.2 longtable/tabularx merge (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 1999/01/07 v2.07 `tabularx' package (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen103
+\extrarowheight=\dimen104
+\NC@list=\toks14
+\extratabsurround=\skip52
+\backup@length=\skip53
+)
+\TX@col@width=\dimen105
+\TX@old@table=\dimen106
+\TX@old@col=\dimen107
+\TX@target=\dimen108
+\TX@delta=\dimen109
+\TX@cols=\count88
+\TX@ftn=\toks15
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip54
+\LTright=\skip55
+\LTpre=\skip56
+\LTpost=\skip57
+\LTchunksize=\count89
+\LTcapwidth=\dimen110
+\LT@head=\box26
+\LT@firsthead=\box27
+\LT@foot=\box28
+\LT@lastfoot=\box29
+\LT@cols=\count90
+\LT@rows=\count91
+\c@LT@tables=\count92
+\c@LT@chunks=\count93
+\LT@p@ftn=\toks16
+))
+(/usr/share/texlive/texmf-dist/tex/latex/vhistory/sets.sty
+Package: sets 
+\c@s@tlength=\count94
+)
+File CapMgmt.hst not found.
+\vh@verfile=\write3
+) (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/boxedminipage/boxedminipage.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/fancybox/fancybox.sty
+Package: fancybox 2010/05/15 1.4
+
+Style option: `fancybox' v1.4 <2010/05/15> (tvz)
+\@fancybox=\box30
+\shadowsize=\dimen111
+\@Sbox=\box31
+\do@VerbBox=\toks17
+\the@fancyput=\toks18
+\this@fancyput=\toks19
+\EndVerbatimTokens=\toks20
+\Verbatim@Outfile=\write4
+\Verbatim@Infile=\read1
+) (/usr/share/texlive/texmf-dist/tex/latex/base/alltt.sty
+Package: alltt 1997/06/16 v2.0g defines alltt environment
+)
+(/usr/share/texlive/texmf-dist/tex/latex/parskip/parskip.sty
+Package: parskip 2001/04/09 non-zero parskip adjustments
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks21
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count95
+))
+\Gin@req@height=\dimen112
+\Gin@req@width=\dimen113
+))
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count96
+\lst@gtempboxa=\box32
+\lst@token=\toks22
+\lst@length=\count97
+\lst@currlwidth=\dimen114
+\lst@column=\count98
+\lst@pos=\count99
+\lst@lostspace=\dimen115
+\lst@width=\dimen116
+\lst@newlines=\count100
+\lst@lineno=\count101
+\lst@maxwidth=\dimen117
+
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
+\c@lstnumber=\count102
+\lst@skipnumbers=\count103
+\lst@framebox=\box33
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2007/02/22 1.4 listings configuration
+))
+Package: listings 2007/02/22 1.4 (Carsten Heinz)
+
+(/usr/share/texlive/texmf-dist/tex/latex/ctable/ctable.sty
+Package: ctable 2012/05/28 v1.23 ctable package
+
+(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2008/08/13 v2.6a package option processing (HA)
+
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+\XKV@toks=\toks23
+\XKV@tempa@toks=\toks24
+\XKV@depth=\count104
+File: xkeyval.tex 2008/08/13 v2.6a key=value parser (HA)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+\heavyrulewidth=\dimen118
+\lightrulewidth=\dimen119
+\cmidrulewidth=\dimen120
+\belowrulesep=\dimen121
+\belowbottomsep=\dimen122
+\aboverulesep=\dimen123
+\abovetopsep=\dimen124
+\cmidrulesep=\dimen125
+\cmidrulekern=\dimen126
+\defaultaddspace=\dimen127
+\@cmidla=\count105
+\@cmidlb=\count106
+\@aboverulesep=\dimen128
+\@belowrulesep=\dimen129
+\@thisruleclass=\count107
+\@lastruleclass=\count108
+\@thisrulewidth=\dimen130
+)
+(/usr/share/texlive/texmf-dist/tex/latex/rotating/rotating.sty
+Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@r@tfl@t=\count109
+\rotFPtop=\skip58
+\rotFPbot=\skip59
+\rot@float@box=\box34
+\rot@mess@toks=\toks25
+)
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2011/01/03 v2.1 e-TeX tools for LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/latex/etex-pkg/etex.sty
+Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
+\et@xins=\count110
+)
+\etb@tempcnta=\count111
+)
+\@ctblframesep=\dimen131
+\@defaultctblframesep=\dimen132
+\@ctblframerule=\dimen133
+\@defaultctblframerule=\dimen134
+\@ctblwidth=\dimen135
+\@defaultctblwidth=\dimen136
+\@ctblcaptionskip=\dimen137
+\@defaultctblcaptionskip=\dimen138
+\@ctblmaxwidth=\dimen139
+\@defaultctblmaxwidth=\dimen140
+\@ctblmincapwidth=\dimen141
+\@defaultctblmincapwidth=\dimen142
+\@ctblfooterwidth=\dimen143
+\@defaultctblfooterwidth=\dimen144
+\@ctblw=\dimen145
+\@ctblfloatwidth=\dimen146
+\@ctbloldsep=\dimen147
+\@ctbloldrule=\dimen148
+\ctbl@t=\box35
+)
+\c@invocArgCnt=\count112
+
+No file CapMgmt.aux.
+\openout1 = `CapMgmt.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 52.
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count113
+\scratchdimen=\dimen149
+\scratchbox=\box36
+\nofMPsegments=\count114
+\nofMParguments=\count115
+\everyMPshowfont=\toks26
+\MPscratchCnt=\count116
+\MPscratchDim=\dimen150
+\MPnumerator=\count117
+\makeMPintoPDFobject=\count118
+\everyMPtoPDFconversion=\toks27
+) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\c@lstlisting=\count119
+
+<bfish-logo.pdf, id=1, 590.205pt x 568.1225pt>
+File: bfish-logo.pdf Graphic file (type pdf)
+ <use bfish-logo.pdf>
+Package pdftex.def Info: bfish-logo.pdf used on input line 53.
+(pdftex.def)             Requested size: 218.37242pt x 210.20203pt.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 53.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 53.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 53.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 53.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 53.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 53.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 53.
+ [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./bfish-logo.pdf>]
+\openout3 = `CapMgmt.ver'.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 58.
+\vh@hstfile=\write5
+\openout5 = `CapMgmt.hst'.
+
+ (./CapMgmt.ver)
+(./CapMgmt.ver) (./CapMgmt.ver) [2
+
+]
+Chapter 1.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20.74> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 68.
+
+LaTeX Warning: Reference `chap:known_issues' on page 3 undefined on input line 
+73.
+
+
+LaTeX Warning: Reference `chap:type_system' on page 3 undefined on input line 7
+4.
+
+
+LaTeX Warning: Reference `chap:current_state' on page 3 undefined on input line
+ 77.
+
+
+LaTeX Warning: Reference `chap:db' on page 3 undefined on input line 78.
+
+
+LaTeX Warning: Reference `chap:solutions' on page 3 undefined on input line 80.
+
+
+
+LaTeX Warning: Reference `chap:implementation' on page 3 undefined on input lin
+e 82.
+
+
+LaTeX Warning: Reference `chap:nyd' on page 3 undefined on input line 83.
+
+[3
+
+]
+Chapter 2.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 90.
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsptm.fd
+File: omsptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 90.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 90.
+
+
+LaTeX Warning: Reference `chap:solutions' on page 4 undefined on input line 107
+.
+
+
+Overfull \hbox (36.29529pt too wide) in paragraph at lines 117--124
+[]\OT1/ptm/m/n/10 The map-ping database is main-tained as a dou-bly linked list
+. Im-ple-ment-ing Boolean op-er-a-tions like ``has[]descendants''
+ []
+
+[4
+
+] (./type_system.tex [5]
+Chapter 3.
+
+LaTeX Warning: Citation `hamlet' on page 6 undefined on input line 50.
+
+
+LaTeX Warning: Reference `sec:sys_invoke' on page 6 undefined on input line 54.
+
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 60.
+
+LaTeX Warning: Reference `sec:cspace' on page 6 undefined on input line 64.
+
+
+Underfull \vbox (badness 1173) has occurred while \output is active []
+
+ [6
+
+]
+
+LaTeX Warning: Citation `Liedtke_GPT' on page 7 undefined on input line 69.
+
+[7]
+
+LaTeX Warning: Reference `fig:cap_types' on page 8 undefined on input line 179.
+
+
+
+LaTeX Warning: Reference `tab:retype_types' on page 8 undefined on input line 1
+79.
+
+
+! LaTeX Error: File `cap_types' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.201 ...graphics[width=.7\columnwidth]{cap_types}
+                                                  
+I could not locate the file with any of these extensions:
+.pdf,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[8]
+Overfull \hbox (10.30467pt too wide) in paragraph at lines 254--255
+[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[9]
+
+LaTeX Warning: Reference `sec:dispatch' on page 10 undefined on input line 329.
+
+
+[10]
+
+LaTeX Warning: Reference `sec:IDC' on page 11 undefined on input line 415.
+
+
+LaTeX Warning: Reference `apx:arch_specific' on page 11 undefined on input line
+ 424.
+
+[11] [12] [13]
+
+LaTeX Warning: Reference `sec:interrupts' on page 14 undefined on input line 62
+0.
+
+[14] [15]) [16]
+Chapter 4.
+[17
+
+] [18] [19] [20]
+Chapter 5.
+
+LaTeX Warning: Reference `sec:cache' on page 21 undefined on input line 452.
+
+[21
+
+]
+
+LaTeX Warning: Reference `t:summary' on page 22 undefined on input line 501.
+
+[22] [23] [24] [25]
+Chapter 6.
+
+LaTeX Warning: Reference `sec:challenges' on page 26 undefined on input line 71
+4.
+
+
+LaTeX Warning: Reference `sec:requirements' on page 26 undefined on input line 
+719.
+
+
+LaTeX Warning: Reference `sec:solutions' on page 26 undefined on input line 721
+.
+
+[26
+
+] <acks-problem.pdf, id=98, 329.23pt x 220.825pt>
+File: acks-problem.pdf Graphic file (type pdf)
+ <use acks-problem.pdf>
+Package pdftex.def Info: acks-problem.pdf used on input line 792.
+(pdftex.def)             Requested size: 339.52486pt x 227.7353pt.
+
+
+LaTeX Warning: Reference `fig:acks-problem' on page 27 undefined on input line 
+796.
+
+[27 <./acks-problem.pdf>]
+
+LaTeX Warning: Reference `subsec:conflicts' on page 28 undefined on input line 
+835.
+
+<causal-problem.pdf, id=110, 454.69875pt x 184.69pt>
+File: causal-problem.pdf Graphic file (type pdf)
+ <use causal-problem.pdf>
+Package pdftex.def Info: causal-problem.pdf used on input line 864.
+(pdftex.def)             Requested size: 339.52486pt x 137.91124pt.
+
+
+LaTeX Warning: Reference `fig:causal-problem' on page 28 undefined on input lin
+e 871.
+
+[28 <./causal-problem.pdf>]
+
+LaTeX Warning: Reference `fig:acks-problem' on page 29 undefined on input line 
+884.
+
+[29] [30]
+
+LaTeX Warning: Reference `subsec:where' on page 31 undefined on input line 1043
+.
+
+
+LaTeX Warning: Reference `subsec:cache:summary' on page 31 undefined on input l
+ine 1055.
+
+[31]
+Underfull \vbox (badness 2205) has occurred while \output is active []
+
+ [32]
+
+LaTeX Warning: Reference `subsec:cache:summary' on page 33 undefined on input l
+ine 1173.
+
+[33] [34] [35] [36] [37] [38]
+Chapter 7.
+[39
+
+]
+Chapter 8.
+No file CapMgmt.bbl.
+[40
+
+] (./CapMgmt.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 4600 strings out of 495059
+ 64377 string characters out of 3182031
+ 139904 words of memory out of 3000000
+ 7665 multiletter control sequences out of 15000+200000
+ 29385 words of font info for 57 fonts, out of 3000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 42i,12n,74p,797b,1638s stack positions out of 5000i,500n,10000p,200000b,50000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmtt12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmtt8.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utm
+b8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on CapMgmt.pdf (40 pages, 326432 bytes).
+PDF statistics:
+ 194 PDF objects out of 1000 (max. 8388607)
+ 135 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+

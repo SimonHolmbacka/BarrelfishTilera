@@ -1,0 +1,16 @@
+set height -1
+
+define asf
+add-symbol-file $arg0 $arg1
+end
+# Hopefully this will match for most installations
+file ../../../build/tilepro/sbin/cpu
+# tile-gdb seems not to read environmal variables like ${TILERA_ROOT} ...
+asf /opt/tilepro/tile/boot/hv_lhboot 0x80000200
+asf /opt/tilepro/tile/boot/hv_l1boot 0x80000940
+asf /opt/tilepro/tile/boot/hv 0xfe004240
+set sysroot /opt/tilepro/tile
+dir /opt/tilepro/src
+dir /opt/tilepro/src/tools/glibc
+
+target remote localhost:11111

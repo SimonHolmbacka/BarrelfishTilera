@@ -1,0 +1,51 @@
+\contentsline {chapter}{\numberline {1}Introduction}{4}
+\contentsline {chapter}{\numberline {2}Flounder stub compiler}{5}
+\contentsline {section}{\numberline {2.1}Overview}{5}
+\contentsline {section}{\numberline {2.2}Interface definition language}{5}
+\contentsline {subsection}{\numberline {2.2.1}Lexical conventions}{5}
+\contentsline {subsection}{\numberline {2.2.2}Interface specification}{6}
+\contentsline {subsection}{\numberline {2.2.3}Transparent type alias}{6}
+\contentsline {subsection}{\numberline {2.2.4}Type definition}{6}
+\contentsline {subsubsection}{Structure}{7}
+\contentsline {subsubsection}{Fixed-size array}{7}
+\contentsline {subsubsection}{Enumeration}{7}
+\contentsline {subsubsection}{Alias}{7}
+\contentsline {subsection}{\numberline {2.2.5}Simple message}{7}
+\contentsline {subsection}{\numberline {2.2.6}RPC}{8}
+\contentsline {section}{\numberline {2.3}Invocation}{8}
+\contentsline {chapter}{\numberline {3}Flounder stub API}{10}
+\contentsline {section}{\numberline {3.1}Binding process}{10}
+\contentsline {subsection}{\numberline {3.1.1}Server-side: export}{10}
+\contentsline {subsection}{\numberline {3.1.2}Client-side: bind}{11}
+\contentsline {section}{\numberline {3.2}Binding objects}{11}
+\contentsline {section}{\numberline {3.3}Receiving messages}{12}
+\contentsline {section}{\numberline {3.4}Sending messages}{13}
+\contentsline {section}{\numberline {3.5}Control functions}{13}
+\contentsline {section}{\numberline {3.6}Error handling}{14}
+\contentsline {chapter}{\numberline {4}Runtime support}{15}
+\contentsline {section}{\numberline {4.1}Waitsets and event handling}{15}
+\contentsline {subsection}{\numberline {4.1.1}(Abstract) event channels}{15}
+\contentsline {subsection}{\numberline {4.1.2}Waitset API}{16}
+\contentsline {subsubsection}{Waitset creation/destruction}{16}
+\contentsline {subsubsection}{Event dispatch}{16}
+\contentsline {subsection}{\numberline {4.1.3}Implementation}{16}
+\contentsline {section}{\numberline {4.2}Interconnect drivers}{17}
+\contentsline {section}{\numberline {4.3}Export and binding}{17}
+\contentsline {subsection}{\numberline {4.3.1}Export}{17}
+\contentsline {subsection}{\numberline {4.3.2}Binding}{17}
+\contentsline {section}{\numberline {4.4}Indirect capability transfer}{18}
+\contentsline {chapter}{\numberline {5}Interconnect drivers}{20}
+\contentsline {section}{\numberline {5.1}LMP: local (intra-core) message passing}{20}
+\contentsline {subsection}{\numberline {5.1.1}Messaging with the local Monitor}{20}
+\contentsline {section}{\numberline {5.2}UMP: user-level message passing with coherent shared memory}{20}
+\contentsline {section}{\numberline {5.3}RCK: message passing on the SCC}{20}
+\contentsline {section}{\numberline {5.4}BMP: Beehive message passing}{20}
+\contentsline {chapter}{\numberline {6}Additional Flounder backends}{21}
+\contentsline {section}{\numberline {6.1}Loopback}{21}
+\contentsline {section}{\numberline {6.2}Message buffers}{21}
+\contentsline {section}{\numberline {6.3}RPC Client}{21}
+\contentsline {section}{\numberline {6.4}THC}{21}
+\contentsline {section}{\numberline {6.5}AHCI Command Translator}{21}
+\contentsline {chapter}{\numberline {7}Name service}{22}
+\contentsline {chapter}{\numberline {8}Interaction with Hake build system}{23}
+\contentsline {chapter}{\numberline {9}Unsupported features and future work}{24}

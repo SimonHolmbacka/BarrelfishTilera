@@ -1,0 +1,22 @@
+\begin {longtable}{@{}ll>{\hsize =.5\hsize }X>{\hsize =1.5\hsize }X@{}}
+\textbf {\vhversionname }
+ & \textbf {\vhdatename }
+ & \textbf {\vhauthorname }
+ & \textbf {\vhchangename }\\[1ex]
+0.0
+ & 06.08.2010
+ & \listset {AB}
+ & Initial version\\
+0.1
+ & 01.09.2010
+ & \listset {AB}
+ & Documented Flounder IDL, stub API and waitset\\
+0.2
+ & 21.10.2010
+ & \listset {AB}
+ & Completed runtime support chapter\\
+0.3
+ & 05.12.2011
+ & \listset {MN}
+ & Added meta-parameter note, AHCI references\\
+\end {longtable}

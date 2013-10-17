@@ -1,0 +1,4 @@
+tilepro/trace_definitions/trace_defs.o \
+ tilepro/trace_definitions/trace_defs.o.depend: \
+ tilepro/trace_definitions/trace_defs.c \
+ /home/andreas/barrelfish/new_test2/include/deputy/nodeputy.h

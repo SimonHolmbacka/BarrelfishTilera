@@ -1,0 +1,7 @@
+tilepro/lib/bfdmuxtools/_for_lib_bfdmuxtools/opdefs.o \
+ tilepro/lib/bfdmuxtools/_for_lib_bfdmuxtools/opdefs.o.depend: \
+ /home/andreas/barrelfish/new_test2/lib/bfdmuxtools/opdefs.c \
+ /home/andreas/barrelfish/new_test2/include/deputy/nodeputy.h \
+ /home/andreas/barrelfish/new_test2/lib/bfdmuxtools/opdefs.h \
+ /home/andreas/barrelfish/new_test2/lib/newlib/newlib/libc/include/stdint.h \
+ /home/andreas/barrelfish/new_test2/include/bfdmuxtools/filter.h

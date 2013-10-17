@@ -1,0 +1,4 @@
+tilepro/usr/rcce/bt/_for_app_rcce_bt_A16/solve_subs.o \
+ tilepro/usr/rcce/bt/_for_app_rcce_bt_A16/solve_subs.o.depend: \
+ /home/andreas/barrelfish/new_test2/usr/rcce/bt/solve_subs.c \
+ /home/andreas/barrelfish/new_test2/include/deputy/nodeputy.h

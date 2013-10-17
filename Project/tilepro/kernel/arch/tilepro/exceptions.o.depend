@@ -1,0 +1,12 @@
+tilepro/kernel/arch/tilepro/exceptions.o \
+ tilepro/kernel/arch/tilepro/exceptions.o.depend: \
+ /home/andreas/barrelfish/new_test2/kernel/arch/tilepro/exceptions.S \
+ /home/andreas/barrelfish/new_test2/include/deputy/nodeputy.h \
+ /home/andreas/barrelfish/new_test2/tile_imports/arch/interrupts.h \
+ /home/andreas/barrelfish/new_test2/kernel/include/arch/tilepro/mem_loc.h \
+ /opt/tilera/TileraMDE-3.0.1.125620/tilepro/src/sys/hv/include/hv/hypervisor.h \
+ /opt/tilera/TileraMDE-3.0.1.125620/tilepro/include/arch/chip.h \
+ /home/andreas/barrelfish/new_test2/tile_imports/arch/abi.h \
+ /home/andreas/barrelfish/new_test2/tile_imports/arch/spr_def.h \
+ /home/andreas/barrelfish/new_test2/tile_imports/arch/sim_def.h \
+ tilepro/include/asmoffsets.h

@@ -1,0 +1,11 @@
+tilepro/lib/barrelfish/_for_lib_barrelfish/arch/tilepro/entry.o \
+ tilepro/lib/barrelfish/_for_lib_barrelfish/arch/tilepro/entry.o.depend: \
+ /home/andreas/barrelfish/new_test2/lib/barrelfish/arch/tilepro/entry.S \
+ /home/andreas/barrelfish/new_test2/include/deputy/nodeputy.h \
+ /home/andreas/barrelfish/new_test2/include/barrelfish/dispatch.h \
+ /home/andreas/barrelfish/new_test2/include/arch/tilepro/barrelfish_kpi/registers_arch.h \
+ tilepro/include/asmoffsets.h \
+ /home/andreas/barrelfish/new_test2/tile_imports/arch/abi.h \
+ /opt/tilera/TileraMDE-3.0.1.125620/tilepro/include/arch/chip.h \
+ /home/andreas/barrelfish/new_test2/tile_imports/arch/spr_def.h \
+ /home/andreas/barrelfish/new_test2/tile_imports/arch/sim_def.h

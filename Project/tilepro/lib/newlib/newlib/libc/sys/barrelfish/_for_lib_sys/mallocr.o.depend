@@ -1,0 +1,21 @@
+tilepro/lib/newlib/newlib/libc/sys/barrelfish/_for_lib_sys/mallocr.o \
+ tilepro/lib/newlib/newlib/libc/sys/barrelfish/_for_lib_sys/mallocr.o.depend: \
+ /home/andreas/barrelfish/new_test2/lib/newlib/newlib/libc/sys/barrelfish/mallocr.c \
+ /home/andreas/barrelfish/new_test2/include/deputy/nodeputy.h \
+ /home/andreas/barrelfish/new_test2/lib/newlib/newlib/libc/include/reent.h \
+ /home/andreas/barrelfish/new_test2/lib/newlib/newlib/libc/include/sys/reent.h \
+ /home/andreas/barrelfish/new_test2/lib/newlib/newlib/libc/include/_ansi.h \
+ /home/andreas/barrelfish/new_test2/lib/newlib/newlib/libc/include/newlib.h \
+ /home/andreas/barrelfish/new_test2/lib/newlib/newlib/libc/include/sys/config.h \
+ /home/andreas/barrelfish/new_test2/lib/newlib/newlib/libc/include/machine/ieeefp.h \
+ /home/andreas/barrelfish/new_test2/lib/newlib/newlib/libc/include/sys/features.h \
+ /home/andreas/barrelfish/new_test2/include/sys/_types.h \
+ /home/andreas/barrelfish/new_test2/lib/newlib/newlib/libc/include/stdint.h \
+ /home/andreas/barrelfish/new_test2/include/c/stddef.h \
+ /home/andreas/barrelfish/new_test2/include/c/stdarg.h \
+ /home/andreas/barrelfish/new_test2/lib/newlib/newlib/libc/include/sys/lock.h \
+ /home/andreas/barrelfish/new_test2/lib/newlib/newlib/libc/include/machine/types.h \
+ /home/andreas/barrelfish/new_test2/lib/newlib/newlib/libc/include/stdlib.h \
+ /home/andreas/barrelfish/new_test2/lib/newlib/newlib/libc/include/_ansi.h \
+ /home/andreas/barrelfish/new_test2/lib/newlib/newlib/libc/include/machine/stdlib.h \
+ /home/andreas/barrelfish/new_test2/lib/newlib/newlib/libc/include/alloca.h

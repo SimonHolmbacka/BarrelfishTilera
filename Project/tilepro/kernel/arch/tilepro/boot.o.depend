@@ -1,0 +1,4 @@
+tilepro/kernel/arch/tilepro/boot.o \
+ tilepro/kernel/arch/tilepro/boot.o.depend: \
+ /home/andreas/barrelfish/new_test2/kernel/arch/tilepro/boot.S \
+ /home/andreas/barrelfish/new_test2/include/deputy/nodeputy.h

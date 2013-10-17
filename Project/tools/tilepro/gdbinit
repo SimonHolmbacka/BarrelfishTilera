@@ -1,0 +1,60 @@
+#
+# save as ~/.gdbinit
+#
+#
+#
+define r0
+ info r r0
+end
+define r1
+ info r r1
+end
+define r2
+ info r r2
+end
+define r3
+ info r r3
+end
+define r4
+ info r r4
+end
+define r5
+ info r r5
+end
+define r6
+ info r r6
+end
+define r7
+ info r r7
+end
+define r8
+ info r r8
+end
+define r9
+ info r r9
+end
+define r10
+ info r r10
+end
+define sp
+ info r sp
+end
+define lr
+ info r lr
+end
+define r
+ info r r0 r1 r2 sp lr pc
+end
+define reg
+ printf "   r0:%08X  r1:%08X  r2:%08X  r3:%08X  r4:%08X  r5:%08X  r6:%08X  r7:%08X  r8:%08X  r9:%08X\n", $r0, $r1, $r2, $r3, $r4, $r5, $r6, $r7, $r8, $r9
+ printf "  r10:%08X r11:%08X r12:%08X r13:%08X r14:%08X r15:%08X r16:%08X r17:%08X r18:%08X r19:%08X\n", $r10, $r11, $r12, $r13, $r14, $r15, $r16, $r17, $r18, $r19
+ printf "  r20:%08X r21:%08X r22:%08X r23:%08X r24:%08X r25:%08X r26:%08X r27:%08X r28:%08X r29:%08X\n", $r20, $r21, $r22, $r23, $r24, $r25, $r26, $r27, $r28, $r29
+ printf "  r30:%08X r31:%08X r32:%08X r33:%08X r34:%08X r35:%08X r36:%08X r37:%08X r38:%08X r39:%08X\n", $r30, $r31, $r32, $r33, $r34, $r35, $r36, $r37, $r38, $r39
+ printf "  r40:%08X r41:%08X r42:%08X r43:%08X r44:%08X r45:%08X r46:%08X r47:%08X r48:%08X r49:%08X\n", $r40, $r41, $r42, $r43, $r44, $r45, $r46, $r47, $r48, $r49
+ printf "  r50:%08X r51:%08X r52:%08X\n", $r50, $r51, $r52
+ printf "  sp:%08X   lr:%08X  tp:%08X  pc:%08X\n", $sp, $lr, $tp, $pc
+end
+document reg
+Print registers
+end
+

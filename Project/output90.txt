@@ -1,0 +1,2 @@
+tile-monitor --simulator --functional --console --config tile64 --sim-args -+- --symbols tilepro/sbin/bootloader --symbols tilepro/sbin/cpu -+- --wait --bootrom-file tilepro/sbin/cpu.bin
+(0,3) Tilera Hypervisor, version 3.0.1.125620 2011-04-09 21:57:10

@@ -1,0 +1,6 @@
+tilepro/lib/zlib/_for_lib_zlib/adler32.o \
+ tilepro/lib/zlib/_for_lib_zlib/adler32.o.depend: \
+ /home/andreas/barrelfish/new_test2/lib/zlib/adler32.c \
+ /home/andreas/barrelfish/new_test2/include/deputy/nodeputy.h \
+ /home/andreas/barrelfish/new_test2/include/zlib.h \
+ /home/andreas/barrelfish/new_test2/include/zconf.h

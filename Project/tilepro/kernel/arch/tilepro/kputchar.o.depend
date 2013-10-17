@@ -1,0 +1,11 @@
+tilepro/kernel/arch/tilepro/kputchar.o \
+ tilepro/kernel/arch/tilepro/kputchar.o.depend: \
+ /home/andreas/barrelfish/new_test2/kernel/arch/tilepro/kputchar.c \
+ /home/andreas/barrelfish/new_test2/include/deputy/nodeputy.h \
+ /home/andreas/barrelfish/new_test2/kernel/include/serial.h \
+ tilepro/include/errors/errno.h \
+ /home/andreas/barrelfish/new_test2/lib/newlib/newlib/libc/include/stdint.h \
+ /home/andreas/barrelfish/new_test2/include/c/stdbool.h \
+ /home/andreas/barrelfish/new_test2/kernel/include/arch/tilepro/kputchar.h \
+ /opt/tilera/TileraMDE-3.0.1.125620/tilepro/src/sys/hv/include/hv/hypervisor.h \
+ /opt/tilera/TileraMDE-3.0.1.125620/tilepro/include/arch/chip.h

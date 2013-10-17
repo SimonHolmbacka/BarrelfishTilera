@@ -1,0 +1,31 @@
+tilepro/lib/newlib/newlib/libc/argz/_for_lib_argz/argz_replace.o \
+ tilepro/lib/newlib/newlib/libc/argz/_for_lib_argz/argz_replace.o.depend: \
+ /home/andreas/barrelfish/new_test2/lib/newlib/newlib/libc/argz/argz_replace.c \
+ /home/andreas/barrelfish/new_test2/include/deputy/nodeputy.h \
+ /home/andreas/barrelfish/new_test2/lib/newlib/newlib/libc/include/errno.h \
+ /home/andreas/barrelfish/new_test2/lib/newlib/newlib/libc/include/sys/errno.h \
+ /home/andreas/barrelfish/new_test2/lib/newlib/newlib/libc/include/sys/reent.h \
+ /home/andreas/barrelfish/new_test2/lib/newlib/newlib/libc/include/_ansi.h \
+ /home/andreas/barrelfish/new_test2/lib/newlib/newlib/libc/include/newlib.h \
+ /home/andreas/barrelfish/new_test2/lib/newlib/newlib/libc/include/sys/config.h \
+ /home/andreas/barrelfish/new_test2/lib/newlib/newlib/libc/include/machine/ieeefp.h \
+ /home/andreas/barrelfish/new_test2/lib/newlib/newlib/libc/include/sys/features.h \
+ /home/andreas/barrelfish/new_test2/include/sys/_types.h \
+ /home/andreas/barrelfish/new_test2/lib/newlib/newlib/libc/include/stdint.h \
+ /home/andreas/barrelfish/new_test2/include/c/stddef.h \
+ /home/andreas/barrelfish/new_test2/include/c/stdarg.h \
+ /home/andreas/barrelfish/new_test2/lib/newlib/newlib/libc/include/sys/lock.h \
+ /home/andreas/barrelfish/new_test2/include/sys/types.h \
+ /home/andreas/barrelfish/new_test2/include/sys/cdefs.h \
+ /home/andreas/barrelfish/new_test2/include/barrelfish/types.h \
+ /home/andreas/barrelfish/new_test2/include/barrelfish_kpi/types.h \
+ /home/andreas/barrelfish/new_test2/lib/newlib/newlib/libc/include/inttypes.h \
+ /home/andreas/barrelfish/new_test2/lib/newlib/newlib/libc/include/stdlib.h \
+ /home/andreas/barrelfish/new_test2/lib/newlib/newlib/libc/include/_ansi.h \
+ /home/andreas/barrelfish/new_test2/lib/newlib/newlib/libc/include/machine/stdlib.h \
+ /home/andreas/barrelfish/new_test2/lib/newlib/newlib/libc/include/alloca.h \
+ /home/andreas/barrelfish/new_test2/include/barrelfish/static_assert.h \
+ /home/andreas/barrelfish/new_test2/lib/newlib/newlib/libc/include/string.h \
+ /home/andreas/barrelfish/new_test2/lib/newlib/newlib/libc/include/sys/string.h \
+ /home/andreas/barrelfish/new_test2/lib/newlib/newlib/libc/include/argz.h \
+ /home/andreas/barrelfish/new_test2/lib/newlib/newlib/libc/argz/buf_findstr.h

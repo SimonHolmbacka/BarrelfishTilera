@@ -1,0 +1,6 @@
+tilepro/lib/newlib/newlib/libc/_for_lib_newc/machine/tile/memcpy.o \
+ tilepro/lib/newlib/newlib/libc/_for_lib_newc/machine/tile/memcpy.o.depend: \
+ /home/andreas/barrelfish/new_test2/lib/newlib/newlib/libc/machine/tile/memcpy.S \
+ /home/andreas/barrelfish/new_test2/include/deputy/nodeputy.h \
+ /opt/tilera/TileraMDE-3.0.1.125620/tilepro/include/arch/chip.h \
+ /home/andreas/barrelfish/new_test2/tile_imports/feedback.h

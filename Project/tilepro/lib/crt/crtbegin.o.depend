@@ -1,0 +1,4 @@
+tilepro/lib/crt/crtbegin.o tilepro/lib/crt/crtbegin.o.depend: \
+ /home/andreas/barrelfish/new_test2/lib/crt/crtbegin.c \
+ /home/andreas/barrelfish/new_test2/include/deputy/nodeputy.h \
+ /home/andreas/barrelfish/new_test2/lib/newlib/newlib/libc/include/stdint.h

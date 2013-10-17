@@ -1,0 +1,4005 @@
+dev         lost+found  proc        srv         usr
+etc         media       root        sys         var
+
+The image files in MEM:
+
+mboot: hheellpp
+
+
+============== COMMANDS SUPPORTED ==============
+ls         -- List files on boot devices
+rm         -- Remove files from a boot device
+ping       -- Ping a host
+ifconfig   -- Configure network interface
+boot       -- Boot the final image
+reboot     -- Reboot the whole system including bootloader
+tftp       -- Get a file via TFTP
+ftp        -- Get a file via FTP
+passwd     -- Set the bootloader password
+help       -- Show all commands
+showcfg    -- Show the current configuration
+clearcfg   -- Clear configuration
+bootparam  -- Set/display boot parameters
+dhcp       -- Enable/disable DHCP
+route      -- Set/show routing information
+exit       -- Exit the CLI and continue booting
+shell      -- Shell prompt
+mboot: ppiinngg  119922..116688..1111..22
+
+No response from 192.168.11.2
+mboot: exexiitt
+
+
+
+==============Tilera mboot==============
+Press any key to enter mboot CLI mode
+
+Booting in 1 second 
+
+
+machine_kexec_prepare: detected attempt to kexec with num_online_cpus() > 1
+kexec_load failed: Function not implemented
+entry       = 0x20000 flags = 0
+nr_segments = 4
+segment[0].buf   = 0xb5ff0008
+segment[0].bufsz = 3fd8
+segment[0].mem   = (nil)
+segment[0].memsz = 10000
+segment[1].buf   = 0xb6000008
+segment[1].bufsz = 50f928
+segment[1].mem   = 0x20000
+segment[1].memsz = 510000
+segment[2].buf   = 0xb6510008
+segment[2].bufsz = 9a59ac
+segment[2].mem   = 0x530000
+segment[2].memsz = a10000
+segment[3].buf   = 0x606c0
+segment[3].bufsz = b0
+segment[3].mem   = 0xf40000
+segment[3].memsz = 10000
+ADDRCONF(NETDEV_UP): eth0: link is not ready
+ADDRCONF(NETDEV_UP): eth1: link is not ready
+ADDRCONF(NETDEV_UP): xgbe0: link is not ready
+ADDRCONF(NETDEV_UP): xgbe1: link is not ready
+ADDRCONF(NETDEV_UP): gbe1: link is not ready
+
+
+==============Tilera mboot==============
+Press any key to enter mboot CLI mode
+
+Booting in 1 second 
+
+
+machine_kexec_prepare: detected attempt to kexec with num_online_cpus() > 1
+kexec_load failed: Function not implemented
+entry       = 0x20000 flags = 0
+nr_segments = 4
+segment[0].buf   = 0xb6000008
+segment[0].bufsz = 3fd8
+segment[0].mem   = (nil)
+segment[0].memsz = 10000
+segment[1].buf   = 0xb6010008
+segment[1].bufsz = 50f928
+segment[1].mem   = 0x20000
+segment[1].memsz = 510000
+segment[2].buf   = 0xb6520008
+segment[2].bufsz = 9a59ac
+segment[2].mem   = 0x530000
+segment[2].memsz = a10000
+segment[3].buf   = 0x606c0
+segment[3].bufsz = b0
+segment[3].mem   = 0xf40000
+segment[3].memsz = 10000
+ADDRCONF(NETDEV_UP): eth0: link is not ready
+ADDRCONF(NETDEV_UP): eth1: link is not ready
+ADDRCONF(NETDEV_UP): xgbe0: link is not ready
+ADDRCONF(NETDEV_UP): xgbe1: link is not ready
+ADDRCONF(NETDEV_UP): gbe0: link is not ready
+ADDRCONF(NETDEV_UP): gbe1: link is not ready
+
+
+==============Tilera mboot==============
+Press any key to enter mboot CLI mode
+
+Booting in 1 second 
+
+
+machine_kexec_prepare: detected attempt to kexec with num_online_cpus() > 1
+kexec_load failed: Function not implemented
+entry       = 0x20000 flags = 0
+nr_segments = 4
+segment[0].buf   = 0xb5fb0008
+segment[0].bufsz = 3fd8
+segment[0].mem   = (nil)
+segment[0].memsz = 10000
+segment[1].buf   = 0xb5fc0008
+segment[1].bufsz = 50f928
+segment[1].mem   = 0x20000
+segment[1].memsz = 510000
+segment[2].buf   = 0xb64d0008
+segment[2].bufsz = 9a59ac
+segment[2].mem   = 0x530000
+segment[2].memsz = a10000
+segment[3].buf   = 0x606c0
+segment[3].bufsz = b0
+segment[3].mem   = 0xf40000
+segment[3].memsz = 10000
+ADDRCONF(NETDEV_UP): eth0: link is not ready
+ADDRCONF(NETDEV_UP): eth1: link is not ready
+ADDRCONF(NETDEV_UP): xgbe0: link is not ready
+ADDRCONF(NETDEV_UP): xgbe1: link is not ready
+ADDRCONF(NETDEV_UP): gbe0: link is not ready
+ADDRCONF(NETDEV_UP): gbe1: link is not ready
+^C
+
+==============Tilera mboot==============
+Press any key to enter mboot CLI mode
+
+Booting in 1 second 
+
+
+machine_kexec_prepare: detected attempt to kexec with num_online_cpus() > 1
+kexec_load failed: Function not implemented
+entry       = 0x20000 flags = 0
+nr_segments = 4
+segment[0].buf   = 0xb6040008
+segment[0].bufsz = 3fd8
+segment[0].mem   = (nil)
+segment[0].memsz = 10000
+segment[1].buf   = 0xb6050008
+segment[1].bufsz = 50f928
+segment[1].mem   = 0x20000
+segment[1].memsz = 510000
+segment[2].buf   = 0xb6560008
+segment[2].bufsz = 9a59ac
+segment[2].mem   = 0x530000
+segment[2].memsz = a10000                                              
+segment[3].buf   = 0x606c0                                             
+segment[3].bufsz = b0                                                  
+segment[3].mem   = 0xf40000                                            
+segment[3].memsz = 10000                                             
+ADDRCONF(NETDEV_UP): eth0: link is not ready
+ADDRCONF(NETDEV_UP): eth1: link is not ready
+ADDRCONF(NETDEV_UP): xgbe0: link is not ready
+ADDRCONF(NETDEV_UP): xgbe1: link is not ready
+ADDRCONF(NETDEV_UP): gbe0: link is not ready
+ADDRCONF(NETDEV_UP): gbe1: link is not ready
+
+
+==============Tilera mboot==============
+Press any key to enter mboot CLI mode
+
+Booting in 1 second 
+
+
+machine_kexec_prepare: detected attempt to kexec with num_online_cpus() > 1
+kexec_load failed: Function not implemented
+entry       = 0x20000 flags = 0
+nr_segments = 4
+segment[0].buf   = 0xb6020008
+segment[0].bufsz = 3fd8
+segment[0].mem   = (nil)
+segment[0].memsz = 10000
+segment[1].buf   = 0xb6030008
+segment[1].bufsz = 50f928
+segment[1].mem   = 0x20000
+segment[1].memsz = 510000
+segment[2].buf   = 0xb6540008
+segment[2].bufsz = 9a59ac
+segment[2].mem   = 0x530000
+segment[2].memsz = a10000
+segment[3].buf   = 0x606c0
+segment[3].bufsz = b0
+segment[3].mem   = 0xf40000
+segment[3].memsz = 10000
+ADDRCONF(NETDEV_UP): eth0: link is not ready
+
+ CTRL-A Z for help |115200 8N1 | NOR | Minicom 2.4    | VT102 |      Offline                                        
+loop@loop:~$ minicom
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Welcome to minicom 2.4
+
+OPTIONS: I18n 
+Compiled on Jan 25 2010, 06:49:09.
+Port /dev/ttyS0
+
+Press CTRL-A Z for help on special keys                                
+                                                                       
+                                                                       
+mboot: AT S7=45 S0=0 L1 V1 X4 &c1 E1 Q0                                
+Unknown command: AT                                                    
+
+mboot: ls
+
+The image files in HD:
+
+boot        futbin      lost+found  tftpboot    tilepro     vmlinux
+
+The image files in SD:
+
+bin         home        mnt         sbin        tftpboot
+boot        lib         opt         selinux     tmp
+dev         lost+found  proc        srv         usr
+etc         media       root        sys         var
+
+The image files in MEM:
+
+mboot: 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ CTRL-A Z for help |115200 8N1 | NOR | Minicom 2.4    | VT102 |      Offline                                        
+loop@loop:~$ minicom
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Welcome to minicom 2.4
+
+OPTIONS: I18n 
+Compiled on Jan 25 2010, 06:49:09.
+Port /dev/ttyS0
+
+Press CTRL-A Z for help on special keys                                
+                                                                       
+                                                                       
+mboot: AT S7=45 S0=0 L1 V1 X4 &c1 E1 Q0                                
+Unknown command: AT                                                    
+
+mboot: reboot
+The system is going down NOW!
+Sent SIGTERM to all processes
+Sent SIGKILL to all processes
+Requesting system reboot
+sd 0:0:0:0: [sda] Synchronizing SCSI cache
+Restarting system.
+Client requested restart, cmd = "vmlinux", arg = "".
+Resetting chip and restarting.
+
+Type t in 3 seconds to run thorough POST tests, q to run quick tests,
+or 'a' to boot alternate image...
+Alternate image boot requested.
+�
+Type t in 3 seconds to run thorough POST tests, q to run quick tests...
+Quick POST tests will be run.
+(0,3) Tilera Hypervisor, version 3.0.1.125620 2011-04-09 21:57:10
+(0,3) Built by tilerabot from /home/scratch/tilerabot/denali-pro/src/common/boot/tilempower.hvc, /home/scratch/tiler0
+Linux version 2.6.36.4-MDE-3.0.1.125620 (support@tilera.com) (gcc version 4.4.3 (GCC) ) #1 SMP Sat Apr 9 22:27:06 ED1
+PCI: Searching for controllers...
+PCI: Found PCI controller #0
+7232MB HIGHMEM available.
+880MB LOWMEM available.
+PERCPU: 1 64K pages/cpu @f7010000 s9600 r8192 d47744
+Built 1 zonelists in Node order, mobility grouping on.  Total pages: 129712
+Policy zone: HighMem
+Kernel command line: TLR_NETWORK=eth0
+PID hash table entries: 4096 (order: -2, 16384 bytes)
+Dentry cache hash table entries: 131072 (order: 3, 524288 bytes)
+Inode-cache hash table entries: 65536 (order: 2, 262144 bytes)
+Memory: 8202944k/8306688k available (5092k kernel code, 1408k data, 9086k init, 7405568k highmem)
+SLUB: Genslabs=14, HWalign=16, Order=0-3, MinObjects=0, CPUs=60, Nodes=4
+Hierarchical RCU implementation.
+        RCU-based detection of stalled CPUs is disabled.
+        Verbose stalled-CPUs detection is disabled.
+NR_IRQS:32
+console [hvc0] enabled
+Clock rate yields 1725.00 BogoMIPS (lpj=8625000)
+pid_max: default: 32768 minimum: 384
+Mount-cache hash table entries: 8192
+CPUs not available for Linux: 2,4-7,15,23,31,39,47,55-56,60-63
+Brought up 48 CPUs
+NET: Registered protocol family 16
+PCI: Probing PCI hardware
+PCI: initializing controller #0
+pci 0000:00:00.0: BAR 8: assigned [mem 0xfc000000-0xfc5fffff]
+pci 0000:00:00.0: BAR 9: assigned [mem 0xfc600000-0xfcafffff pref]
+pci 0000:00:00.0: BAR 7: assigned [io  0x0000-0x2fff]
+pci 0000:01:00.0: BAR 8: assigned [mem 0xfc000000-0xfc4fffff]
+pci 0000:01:00.0: BAR 9: assigned [mem 0xfc600000-0xfcafffff pref]
+pci 0000:01:00.0: BAR 0: assigned [mem 0xfc500000-0xfc51ffff]
+pci 0000:01:00.0: BAR 0: set to [mem 0xfc500000-0xfc51ffff] (PCI address [0xfc500000-0xfc51ffff]
+pci 0000:01:00.0: BAR 7: assigned [io  0x0000-0x2fff]
+pci 0000:02:00.0: BAR 8: assigned [mem 0xfc000000-0xfc1fffff]
+pci 0000:02:00.0: BAR 9: assigned [mem 0xfc600000-0xfc7fffff 64bit pref]
+pci 0000:02:08.0: BAR 8: assigned [mem 0xfc200000-0xfc2fffff]
+pci 0000:02:08.0: BAR 9: assigned [mem 0xfc800000-0xfc8fffff pref]
+pci 0000:02:09.0: BAR 8: assigned [mem 0xfc300000-0xfc4fffff]
+pci 0000:02:09.0: BAR 9: assigned [mem 0xfc900000-0xfcafffff 64bit pref]
+pci 0000:02:00.0: BAR 7: assigned [io  0x0000-0x0fff]
+pci 0000:02:08.0: BAR 7: assigned [io  0x1000-0x1fff]
+pci 0000:02:09.0: BAR 7: assigned [io  0x2000-0x2fff]
+pci 0000:02:00.0: PCI bridge to [bus 03-03]
+pci 0000:02:00.0:   bridge window [io  0x0000-0x0fff]
+pci 0000:02:00.0:   bridge window [mem 0xfc000000-0xfc1fffff]
+pci 0000:02:00.0:   bridge window [mem 0xfc600000-0xfc7fffff 64bit pref]
+pci 0000:02:04.0: PCI bridge to [bus 04-04]
+pci 0000:02:04.0:   bridge window [io  disabled]
+pci 0000:02:04.0:   bridge window [mem disabled]
+pci 0000:02:04.0:   bridge window [mem pref disabled]
+pci 0000:02:06.0: PCI bridge to [bus 05-05]
+pci 0000:02:06.0:   bridge window [io  disabled]
+pci 0000:02:06.0:   bridge window [mem disabled]
+pci 0000:02:06.0:   bridge window [mem pref disabled]
+pci 0000:06:00.0: BAR 6: assigned [mem 0xfc800000-0xfc87ffff pref]
+pci 0000:06:00.0: BAR 2: assigned [mem 0xfc200000-0xfc203fff 64bit]
+pci 0000:06:00.0: BAR 2: set to [mem 0xfc200000-0xfc203fff 64bit] (PCI address [0xfc200000-0xfc203fff]
+pci 0000:06:00.0: BAR 0: assigned [mem 0xfc204000-0xfc20407f 64bit]
+pci 0000:06:00.0: BAR 0: set to [mem 0xfc204000-0xfc20407f 64bit] (PCI address [0xfc204000-0xfc20407f]
+pci 0000:06:00.0: BAR 4: assigned [io  0x1000-0x107f]
+pci 0000:06:00.0: BAR 4: set to [io  0x1000-0x107f] (PCI address [0x1000-0x107f]
+pci 0000:02:08.0: PCI bridge to [bus 06-06]
+pci 0000:02:08.0:   bridge window [io  0x1000-0x1fff]
+pci 0000:02:08.0:   bridge window [mem 0xfc200000-0xfc2fffff]
+pci 0000:02:08.0:   bridge window [mem 0xfc800000-0xfc8fffff pref]
+pci 0000:07:00.0: BAR 0: assigned [mem 0xfc300000-0xfc31ffff]
+pci 0000:07:00.0: BAR 0: set to [mem 0xfc300000-0xfc31ffff] (PCI address [0xfc300000-0xfc31ffff]
+pci 0000:07:00.0: BAR 1: assigned [mem 0xfc320000-0xfc33ffff]
+pci 0000:07:00.0: BAR 1: set to [mem 0xfc320000-0xfc33ffff] (PCI address [0xfc320000-0xfc33ffff]
+pci 0000:07:00.1: BAR 0: assigned [mem 0xfc340000-0xfc35ffff]
+pci 0000:07:00.1: BAR 0: set to [mem 0xfc340000-0xfc35ffff] (PCI address [0xfc340000-0xfc35ffff]
+pci 0000:07:00.1: BAR 1: assigned [mem 0xfc360000-0xfc37ffff]
+pci 0000:07:00.1: BAR 1: set to [mem 0xfc360000-0xfc37ffff] (PCI address [0xfc360000-0xfc37ffff]
+pci 0000:07:00.0: BAR 2: assigned [io  0x2000-0x201f]
+pci 0000:07:00.0: BAR 2: set to [io  0x2000-0x201f] (PCI address [0x2000-0x201f]
+pci 0000:07:00.1: BAR 2: assigned [io  0x2020-0x203f]
+pci 0000:07:00.1: BAR 2: set to [io  0x2020-0x203f] (PCI address [0x2020-0x203f]
+pci 0000:02:09.0: PCI bridge to [bus 07-07]
+pci 0000:02:09.0:   bridge window [io  0x2000-0x2fff]
+pci 0000:02:09.0:   bridge window [mem 0xfc300000-0xfc4fffff]
+pci 0000:02:09.0:   bridge window [mem 0xfc900000-0xfcafffff 64bit pref]
+pci 0000:01:00.0: PCI bridge to [bus 02-07]
+pci 0000:01:00.0:   bridge window [io  0x0000-0x2fff]
+pci 0000:01:00.0:   bridge window [mem 0xfc000000-0xfc4fffff]
+pci 0000:01:00.0:   bridge window [mem 0xfc600000-0xfcafffff pref]
+pci 0000:00:00.0: PCI bridge to [bus 01-07]
+pci 0000:00:00.0:   bridge window [io  0x0000-0x2fff]
+pci 0000:00:00.0:   bridge window [mem 0xfc000000-0xfc5fffff]
+pci 0000:00:00.0:   bridge window [mem 0xfc600000-0xfcafffff pref]
+bio: create slab <bio-0> at 0
+SCSI subsystem initialized
+Switching to clocksource cycle counter
+NET: Registered protocol family 2
+IP route cache hash table entries: 16384 (order: 0, 65536 bytes)
+TCP established hash table entries: 32768 (order: 2, 262144 bytes)
+TCP bind hash table entries: 32768 (order: 2, 393216 bytes)
+TCP: Hash tables configured (established 32768 bind 32768)
+TCP reno registered
+UDP hash table entries: 2048 (order: 0, 65536 bytes)
+UDP-Lite hash table entries: 2048 (order: 0, 65536 bytes)
+NET: Registered protocol family 1
+highmem bounce pool size: 64 pages
+HugeTLB registered 16 MB page size, pre-allocated 0 pages
+fuse init (API version 7.15)
+msgmni has been set to 1580
+io scheduler noop registered (default)
+Uniform Multi-Platform E-IDE driver
+ide-gd driver 1.18
+scsi0 : sata_sil24
+scsi1 : sata_sil24
+ata1: SATA max UDMA/100 host m128@0xfc204000 port 0xfc200000 irq 8
+ata2: SATA max UDMA/100 host m128@0xfc204000 port 0xfc202000 irq 8
+tun: Universal TUN/TAP device driver, 1.6
+tun: (C) 1999-2004 Max Krasnyansky <maxk@qualcomm.com>
+Tilera IPP Net Driver
+Fusion MPT base driver 3.04.17
+Copyright (c) 1999-2008 LSI Corporation
+Fusion MPT SAS Host driver 3.04.17
+rtc-tile rtc-tile.0: rtc core: registered tile as rtc0
+i2c /dev entries driver
+EDAC MC: Ver: 2.1.0 Apr  9 2011
+EDAC MC0: Giving out device to 'tile-edac' 'TILEPro_Memory_Controller': DEV tile-edac.0
+EDAC MC1: Giving out device to 'tile-edac' 'TILEPro_Memory_Controller': DEV tile-edac.1
+EDAC MC2: Giving out device to 'tile-edac' 'TILEPro_Memory_Controller': DEV tile-edac.2
+EDAC MC3: Giving out device to 'tile-edac' 'TILEPro_Memory_Controller': DEV tile-edac.3
+ide-tile: Tile IDE interface ide0
+hda: CF Card, CFA DISK drive
+ide0 at 0x100-0x107,0x000 on irq 14
+hda: max request size: 128KiB
+hda: 7847280 sectors (4017 MB) w/1KiB Cache, CHS=7785/16/63
+ hda: hda1
+TCP cubic registered
+NET: Registered protocol family 10
+IPv6 over IPv4 tunneling driver
+NET: Registered protocol family 17
+rtc-tile rtc-tile.0: setting system clock to 2013-07-22 10:02:39 UTC (1374487359)
+ata1: SATA link up 3.0 Gbps (SStatus 123 SControl 0)
+ata1.00: ATA-8: WDC WD5000AAVS-00ZTB0, 01.01B01, max UDMA/133
+ata1.00: 976773168 sectors, multi 0: LBA48 NCQ (depth 31/32)
+ata1.00: configured for UDMA/100
+scsi 0:0:0:0: Direct-Access     ATA      WDC WD5000AAVS-0 01.0 PQ: 0 ANSI: 5
+sd 0:0:0:0: [sda] 976773168 512-byte logical blocks: (500 GB/465 GiB)
+sd 0:0:0:0: [sda] Write Protect is off
+sd 0:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+ sda: sda1
+sd 0:0:0:0: [sda] Attached SCSI disk
+ata2: SATA link down (SStatus 0 SControl 0)
+Freeing unused kernel data: 8896k freed
+Freeing unused kernel text: 192k freed
+Switching root filesystem to tmpfs
+No tilepci_endp devices found.
+Creating softuart device.
+Requested 8 huge pages.
+Starting native network driver, DHCP configuration.
+Starting portmap.
+Starting telnet daemon.
+Starting tempmon daemon.
+tempmond: thresholds: chip 100C/110C, board 100C/110C; poll 5s
+Starting dropbear sshd.
+Starting shepherd.
+e1000e: Intel(R) PRO/1000 Network Driver - 1.2.7-k2
+e1000e: Copyright (c) 1999 - 2010 Intel Corporation.
+e1000e 0000:07:00.0: Disabling ASPM  L1
+e1000e 0000:07:00.0: (unregistered net_device): 
+Failed to initiaPlease press Enter to activate this console.lize MSI interru
+pts.  Falling back to legacy interrupts.
+e1000e 0000:07:00.0: eth0: (PCI Express:2.5GB/s:Width x4) 00:1a:ca:00:71:d6
+e1000e 0000:07:00.0: eth0: Intel(R) PRO/1000 Network Connection
+e1000e 0000:07:00.0: eth0: MAC: 0, PHY: 4, PBA No: c57721-005
+e1000e 0000:07:00.1: Disabling ASPM  L1
+e1000e 0000:07:00.1: (unregistered net_device): Failed to initialize MSI interrupts.  Falling back to legacy interru.
+e1000e 0000:07:00.1: eth1: (PCI Express:2.5GB/s:Width x4) 00:1a:ca:00:71:d7
+e1000e 0000:07:00.1: eth1: Intel(R) PRO/1000 Network Connection
+e1000e 0000:07:00.1: eth1: MAC: 0, PHY: 4, PBA No: c57721-005
+udhcpc (v1.15.3) started
+ADDRCONF(NETDEV_UP): eth0: link is not ready
+e1000e: eth0 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX/TX
+ADDRCONF(NETDEV_CHANGE): eth0: link becomes ready
+Sending select for 192.168.11.4...
+Lease of 192.168.11.4 obtained, lease time 172800
+umount: can't remount tmpfs read-only
+umount: can't remount rootfs read-only
+The system is going down NOW!
+Sent SIGTERM to all processes
+Sent SIGKILL to all processes
+Requesting system reboot
+sd 0:0:0:0: [sda] Synchronizing SCSI cache
+Restarting system.
+Client requested restart, cmd = "vmlinux", arg = "".
+Resetting chip and restarting.
+
+Type t in 3 seconds to run thorough POST tests, q to run quick tests,
+or 'a' to boot alternate image...
+Quick POST tests will be run.
+(0,3) Tilera Hypervisor, version 3.0.1.125620 2011-04-09 21:57:10
+(0,3) Built by andreas from /opt/tilera/TileraMDE-3.0.1.125620/tilepro/tile/etc/hvc/vmlinux-net.hvc, /opt/tilera/Til1
+Linux version 2.6.36.4-MDE-3.0.1.125620 (support@tilera.com) (gcc version 4.4.3 (GCC) ) #1 SMP Sat Apr 9 22:27:06 ED1
+PCI: Searching for controllers...
+PCI: Found PCI controller #0
+7232MB HIGHMEM available.
+880MB LOWMEM available.
+PERCPU: 1 64K pages/cpu @f7010000 s9600 r8192 d47744
+Built 1 zonelists in Node order, mobility grouping on.  Total pages: 129712
+Policy zone: HighMem
+Kernel command line: TLR_NETWORK=auto  TLR_ROOT=/dev/sda1
+PID hash table entries: 4096 (order: -2, 16384 bytes)
+Dentry cache hash table entries: 131072 (order: 3, 524288 bytes)
+Inode-cache hash table entries: 65536 (order: 2, 262144 bytes)
+Memory: 8202944k/8306688k available (5092k kernel code, 1408k data, 9086k init, 7405568k highmem)
+SLUB: Genslabs=14, HWalign=16, Order=0-3, MinObjects=0, CPUs=59, Nodes=4
+Hierarchical RCU implementation.
+        RCU-based detection of stalled CPUs is disabled.
+        Verbose stalled-CPUs detection is disabled.
+NR_IRQS:32
+console [hvc0] enabled
+Clock rate yields 1725.00 BogoMIPS (lpj=8625000)
+pid_max: default: 32768 minimum: 432
+Mount-cache hash table entries: 8192
+CPUs not available for Linux: 31,39,47,55-56,59-63
+Brought up 54 CPUs
+NET: Registered protocol family 16
+PCI: Probing PCI hardware
+PCI: initializing controller #0
+pci 0000:00:00.0: BAR 8: assigned [mem 0xfc000000-0xfc5fffff]
+pci 0000:00:00.0: BAR 9: assigned [mem 0xfc600000-0xfcafffff pref]
+pci 0000:00:00.0: BAR 7: assigned [io  0x0000-0x2fff]
+pci 0000:01:00.0: BAR 8: assigned [mem 0xfc000000-0xfc4fffff]
+pci 0000:01:00.0: BAR 9: assigned [mem 0xfc600000-0xfcafffff pref]
+pci 0000:01:00.0: BAR 0: assigned [mem 0xfc500000-0xfc51ffff]
+pci 0000:01:00.0: BAR 0: set to [mem 0xfc500000-0xfc51ffff] (PCI address [0xfc500000-0xfc51ffff]
+pci 0000:01:00.0: BAR 7: assigned [io  0x0000-0x2fff]
+pci 0000:02:00.0: BAR 8: assigned [mem 0xfc000000-0xfc1fffff]
+pci 0000:02:00.0: BAR 9: assigned [mem 0xfc600000-0xfc7fffff 64bit pref]
+pci 0000:02:08.0: BAR 8: assigned [mem 0xfc200000-0xfc2fffff]
+pci 0000:02:08.0: BAR 9: assigned [mem 0xfc800000-0xfc8fffff pref]
+pci 0000:02:09.0: BAR 8: assigned [mem 0xfc300000-0xfc4fffff]
+pci 0000:02:09.0: BAR 9: assigned [mem 0xfc900000-0xfcafffff 64bit pref]
+pci 0000:02:00.0: BAR 7: assigned [io  0x0000-0x0fff]
+pci 0000:02:08.0: BAR 7: assigned [io  0x1000-0x1fff]
+pci 0000:02:09.0: BAR 7: assigned [io  0x2000-0x2fff]
+pci 0000:02:00.0: PCI bridge to [bus 03-03]
+pci 0000:02:00.0:   bridge window [io  0x0000-0x0fff]
+pci 0000:02:00.0:   bridge window [mem 0xfc000000-0xfc1fffff]
+pci 0000:02:00.0:   bridge window [mem 0xfc600000-0xfc7fffff 64bit pref]
+pci 0000:02:04.0: PCI bridge to [bus 04-04]
+pci 0000:02:04.0:   bridge window [io  disabled]
+pci 0000:02:04.0:   bridge window [mem disabled]
+pci 0000:02:04.0:   bridge window [mem pref disabled]
+pci 0000:02:06.0: PCI bridge to [bus 05-05]
+pci 0000:02:06.0:   bridge window [io  disabled]
+pci 0000:02:06.0:   bridge window [mem disabled]
+pci 0000:02:06.0:   bridge window [mem pref disabled]
+pci 0000:06:00.0: BAR 6: assigned [mem 0xfc800000-0xfc87ffff pref]
+pci 0000:06:00.0: BAR 2: assigned [mem 0xfc200000-0xfc203fff 64bit]
+pci 0000:06:00.0: BAR 2: set to [mem 0xfc200000-0xfc203fff 64bit] (PCI address [0xfc200000-0xfc203fff]
+pci 0000:06:00.0: BAR 0: assigned [mem 0xfc204000-0xfc20407f 64bit]
+pci 0000:06:00.0: BAR 0: set to [mem 0xfc204000-0xfc20407f 64bit] (PCI address [0xfc204000-0xfc20407f]
+pci 0000:06:00.0: BAR 4: assigned [io  0x1000-0x107f]
+pci 0000:06:00.0: BAR 4: set to [io  0x1000-0x107f] (PCI address [0x1000-0x107f]
+pci 0000:02:08.0: PCI bridge to [bus 06-06]
+pci 0000:02:08.0:   bridge window [io  0x1000-0x1fff]
+pci 0000:02:08.0:   bridge window [mem 0xfc200000-0xfc2fffff]
+pci 0000:02:08.0:   bridge window [mem 0xfc800000-0xfc8fffff pref]
+pci 0000:07:00.0: BAR 0: assigned [mem 0xfc300000-0xfc31ffff]
+pci 0000:07:00.0: BAR 0: set to [mem 0xfc300000-0xfc31ffff] (PCI address [0xfc300000-0xfc31ffff]
+pci 0000:07:00.0: BAR 1: assigned [mem 0xfc320000-0xfc33ffff]
+pci 0000:07:00.0: BAR 1: set to [mem 0xfc320000-0xfc33ffff] (PCI address [0xfc320000-0xfc33ffff]
+pci 0000:07:00.1: BAR 0: assigned [mem 0xfc340000-0xfc35ffff]
+pci 0000:07:00.1: BAR 0: set to [mem 0xfc340000-0xfc35ffff] (PCI address [0xfc340000-0xfc35ffff]
+pci 0000:07:00.1: BAR 1: assigned [mem 0xfc360000-0xfc37ffff]
+pci 0000:07:00.1: BAR 1: set to [mem 0xfc360000-0xfc37ffff] (PCI address [0xfc360000-0xfc37ffff]
+pci 0000:07:00.0: BAR 2: assigned [io  0x2000-0x201f]
+pci 0000:07:00.0: BAR 2: set to [io  0x2000-0x201f] (PCI address [0x2000-0x201f]
+pci 0000:07:00.1: BAR 2: assigned [io  0x2020-0x203f]
+pci 0000:07:00.1: BAR 2: set to [io  0x2020-0x203f] (PCI address [0x2020-0x203f]
+pci 0000:02:09.0: PCI bridge to [bus 07-07]
+pci 0000:02:09.0:   bridge window [io  0x2000-0x2fff]
+pci 0000:02:09.0:   bridge window [mem 0xfc300000-0xfc4fffff]
+pci 0000:02:09.0:   bridge window [mem 0xfc900000-0xfcafffff 64bit pref]
+pci 0000:01:00.0: PCI bridge to [bus 02-07]
+pci 0000:01:00.0:   bridge window [io  0x0000-0x2fff]
+pci 0000:01:00.0:   bridge window [mem 0xfc000000-0xfc4fffff]
+pci 0000:01:00.0:   bridge window [mem 0xfc600000-0xfcafffff pref]
+pci 0000:00:00.0: PCI bridge to [bus 01-07]
+pci 0000:00:00.0:   bridge window [io  0x0000-0x2fff]
+pci 0000:00:00.0:   bridge window [mem 0xfc000000-0xfc5fffff]
+pci 0000:00:00.0:   bridge window [mem 0xfc600000-0xfcafffff pref]
+bio: create slab <bio-0> at 0
+SCSI subsystem initialized
+Switching to clocksource cycle counter
+NET: Registered protocol family 2
+IP route cache hash table entries: 16384 (order: 0, 65536 bytes)
+TCP established hash table entries: 32768 (order: 2, 262144 bytes)
+TCP bind hash table entries: 32768 (order: 2, 393216 bytes)
+TCP: Hash tables configured (established 32768 bind 32768)
+TCP reno registered
+UDP hash table entries: 2048 (order: 0, 65536 bytes)
+UDP-Lite hash table entries: 2048 (order: 0, 65536 bytes)
+NET: Registered protocol family 1
+highmem bounce pool size: 64 pages
+HugeTLB registered 16 MB page size, pre-allocated 0 pages
+fuse init (API version 7.15)
+msgmni has been set to 1580
+io scheduler noop registered (default)
+Uniform Multi-Platform E-IDE driver
+ide-gd driver 1.18
+scsi0 : sata_sil24
+scsi1 : sata_sil24
+ata1: SATA max UDMA/100 host m128@0xfc204000 port 0xfc200000 irq 8
+ata2: SATA max UDMA/100 host m128@0xfc204000 port 0xfc202000 irq 8
+tun: Universal TUN/TAP device driver, 1.6
+tun: (C) 1999-2004 Max Krasnyansky <maxk@qualcomm.com>
+Tilera IPP Net Driver
+Fusion MPT base driver 3.04.17
+Copyright (c) 1999-2008 LSI Corporation
+Fusion MPT SAS Host driver 3.04.17
+rtc-tile rtc-tile.0: rtc core: registered tile as rtc0
+i2c /dev entries driver
+EDAC MC: Ver: 2.1.0 Apr  9 2011
+EDAC MC0: Giving out device to 'tile-edac' 'TILEPro_Memory_Controller': DEV tile-edac.0
+EDAC MC1: Giving out device to 'tile-edac' 'TILEPro_Memory_Controller': DEV tile-edac.1
+EDAC MC2: Giving out device to 'tile-edac' 'TILEPro_Memory_Controller': DEV tile-edac.2
+EDAC MC3: Giving out device to 'tile-edac' 'TILEPro_Memory_Controller': DEV tile-edac.3
+ide-tile: Tile IDE interface ide0
+hda: CF Card, CFA DISK drive
+ide0 at 0x100-0x107,0x000 on irq 16
+hda: max request size: 128KiB
+hda: 7847280 sectors (4017 MB) w/1KiB Cache, CHS=7785/16/63
+ hda: hda1
+TCP cubic registered
+NET: Registered protocol family 10
+IPv6 over IPv4 tunneling driver
+NET: Registered protocol family 17
+rtc-tile rtc-tile.0: setting system clock to 2013-07-22 10:06:08 UTC (1374487568)
+ata1: SATA link up 3.0 Gbps (SStatus 123 SControl 0)
+ata1.00: ATA-8: WDC WD5000AAVS-00ZTB0, 01.01B01, max UDMA/133
+ata1.00: 976773168 sectors, multi 0: LBA48 NCQ (depth 31/32)
+ata1.00: configured for UDMA/100
+scsi 0:0:0:0: Direct-Access     ATA      WDC WD5000AAVS-0 01.0 PQ: 0 ANSI: 5
+sd 0:0:0:0: [sda] 976773168 512-byte logical blocks: (500 GB/465 GiB)
+sd 0:0:0:0: [sda] Write Protect is off
+sd 0:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+ sda: sda1
+sd 0:0:0:0: [sda] Attached SCSI disk
+ata2: SATA link down (SStatus 0 SControl 0)
+Freeing unused kernel data: 8896k freed
+Freeing unused kernel text: 192k freed
+EXT3-fs: barriers not enabled
+kjournald starting.  Commit interval 5 seconds
+EXT3-fs (sda1): warning: maximal mount count reached, running e2fsck is recommended
+EXT3-fs (sda1): using internal journal
+EXT3-fs (sda1): mounted filesystem with writeback data mode
+Switching root filesystem to /dev/sda1
+No tilepci_endp devices found.
+Creating softuart device.
+Requested 8 huge pages.
+Trying to bring up interface eth0... e1000e: version magic '2.6.36.4-MDE-3.0.3.141797-wuhu+ SMP mod_unload ' should '
+r8101: version magic '2.6.36.4-MDE-3.0.3.141797-wuhu+ SMP mod_unload ' should be '2.6.36.4-MDE-3.0.1.125620 SMP mod_'
+udhcpc: SIOCGIFINDEX: No such device
+Trying to bring up interface eth1... e1000e: version magic '2.6.36.4-MDE-3.0.3.141797-wuhu+ SMP mod_unload ' should '
+modprobe: FATAL: Error inserting e1000e (/lib/modules/2.6.36.4-MDE-3.0.1.125620/kernel/drivers/net/e1000e/e1000e.ko)t
+
+udhcpc: SIOCGIFINDEX: No such device
+Trying to bring up interface gbe0... gbe/0: link failed to come up
+ADDRCONF(NETDEV_UP): gbe0: link is not ready
+No lease, failing
+Trying to bring up interface gbe1... gbe/1: link failed to come up
+ADDRCONF(NETDEV_UP): gbe1: link is not ready
+No lease, failing
+Trying to bring up interface xgbe0... xgbe/0: link failed to come up
+ADDRCONF(NETDEV_UP): xgbe0: link is not ready
+No lease, failing
+Trying to bring up interface xgbe1... xgbe/1: link failed to come up
+ADDRCONF(NETDEV_UP): xgbe1: link is not ready
+No lease, failing
+Starting portmap.
+Starting telnet daemon.
+Starting tempmon daemon.
+tempmond: thresholds: chip 100C/110C, board 100C/110C; poll 5s
+Starting dropbear sshd.
+Starting shepherd.
+
+Please press Enter to activate this console.
+
+sh-4.1# ls
+3.0.0-OGS-RQ-LB                 linux-libre-2.6.38-gnu.tar.bz2  spurg-bench2
+3.0.0-OGS-RQ-LB-0.2.tar.gz      linux.tar                       sqlite
+top - 10:09:45 up 3 min,  2 users,  load average: 0.02, 0.07, 0.04
+Tasks: 282 total,   1 running, 281 sleeping,   0 stopped,   0 zombie
+Cpu(s):  0.0%us,  0.1%sy,  0.0%ni, 99.9%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:   8224320k total,   298048k used,  7926272k free,     7296k buffers
+Swap:        0k total,        0k used,        0k free,    11840k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+  716 root      20   0  5376 4032 2560 R  4.7  0.0   0:00.65 top                
+  134 root      20   0     0    0    0 S  0.6  0.0   0:00.27 ksoftirqd/33       
+  463 root      20   0     0    0    0 S  0.3  0.0   0:03.11 khvcd              
+  674 root      20   0  3520 2432 1792 S  0.3  0.0   0:00.06 tempmond           
+    1 root      20   0  4160 2560 1920 S  0.0  0.0   0:01.64 init               
+    2 root      20   0     0    0    0 S  0.0  0.0   0:00.05 kthreadd           
+    3 root      20   0     0    0    0 S  0.0  0.0   0:00.00 ksoftirqd/0        
+    4 root      20   0     0    0    0 S  0.0  0.0   0:00.00 kworker/0:0        
+    5 root      20   0     0    0    0 S  0.0  0.0   0:00.08 kworker/u:0        
+    6 root      RT   0     0    0    0 S  0.0  0.0   0:00.01 migration/0        
+    7 root      RT   0     0    0    0 S  0.0  0.0   0:00.00 watchdog/0         
+    8 root      RT   0     0    0    0 S  0.0  0.0   0:00.00 migration/1        
+    9 root      20   0     0    0    0 S  0.0  0.0   0:00.00 kworker/1:0        
+   10 root      20   0     0    0    0 S  0.0  0.0   0:00.00 ksoftirqd/1        
+   11 root      RT   0     0    0    0 S  0.0  0.0   0:00.00 watchdog/1         
+   12 root      RT   0     0    0    0 S  0.0  0.0   0:00.00 migration/2        
+   13 root      20   0     0    0    0 S  0.0  0.0   0:00.00 kworker/2:0        
+
+sh-4.1# top -al
+        top: unknown argument 'a'
+usage:  top -hv | -bcisSHM -d delay -n iterations [-u user | -U user] -p pid [,pid ...]
+
+sh-4.1# top -hv
+        top: procps version 3.2.8
+usage:  top -hv | -bcisSHM -d delay -n iterations [-u user | -U user] -p pid [,pid ...]
+
+sh-4.1# ls
+3.0.0-OGS-RQ-LB                 linux-libre-2.6.38-gnu.tar.bz2  spurg-bench2
+3.0.0-OGS-RQ-LB-0.2.tar.gz      linux.tar                       sqlite
+Python-2.7                      linux_backup                    stress
+Python-2.7.tgz                  linux_backup.bz2                stress-app
+cp.txt                          linux_backup_org                stress.py
+dyn_hotplug2.ko                 offline.sh                      tile_pain.sh
+fft                             opcode.tar.bz2                  tile_spurg.sh
+hotplug_module                  py_stress.sh                    yes_script.sh
+hp2.tar                         python                                 
+linux-libre-2.6.36-gnu.tar.bz2  spurg-bench                            
+sh-4.1# ifconfig                                                       
+gbe0      Link encap:Ethernet  HWaddr 00:1A:CA:00:71:D2                
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1                 
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:0 (0.0 b)  TX bytes:0 (0.0 b)
+
+gbe1      Link encap:Ethernet  HWaddr 00:1A:CA:00:71:D3  
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:0 (0.0 b)  TX bytes:0 (0.0 b)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:16436  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:0 (0.0 b)  TX bytes:0 (0.0 b)
+
+xgbe0     Link encap:Ethernet  HWaddr 00:1A:CA:00:71:D4  
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:0 (0.0 b)  TX bytes:0 (0.0 b)
+
+xgbe1     Link encap:Ethernet  HWaddr 00:1A:CA:00:71:D5  
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:0 (0.0 b)  TX bytes:0 (0.0 b)
+
+sh-4.1#     
+ CTRL-A Z for help |115200 8N1 | NOR | Minicom 2.4    | VT102 |      Offline                                        
+loop@loop:~$ minicom
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+top - 10:14:49 up 8 min,  2 users,  load average: 0.00, 0.03, 0.05
+Tasks: 296 total,   1 running, 295 sleeping,   0 stopped,   0 zombie
+Cpu(s):  0.0%us,  0.2%sy,  0.0%ni, 99.8%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:   8224320k total,   323776k used,  7900544k free,     7360k buffers
+Swap:        0k total,        0k used,        0k free,    15168k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+  156 root      RT   0     0    0    0 S  4.8  0.0   0:00.29 migration/40       
+  750 root      20   0  5376 4032 2560 R  4.2  0.0   0:01.11 top                
+  490 root      20   0     0    0    0 S  0.3  0.0   0:02.76 kworker/u:2        
+  616 root      20   0     0    0    0 S  0.3  0.0   0:00.02 kworker/16:1       
+    1 root      20   0  4160 2560 1920 S  0.0  0.0   0:01.64 init               
+    2 root      20   0     0    0    0 S  0.0  0.0   0:00.05 kthreadd           
+    3 root      20   0     0    0    0 S  0.0  0.0   0:00.00 ksoftirqd/0        
+    4 root      20   0     0    0    0 S  0.0  0.0   0:00.00 kworker/0:0        
+    6 root      RT   0     0    0    0 S  0.0  0.0   0:00.02 migration/0        
+    7 root      RT   0     0    0    0 S  0.0  0.0   0:00.00 watchdog/0         
+    8 root      RT   0     0    0    0 S  0.0  0.0   0:00.00 migration/1        
+    9 root      20   0     0    0    0 S  0.0  0.0   0:00.00 kworker/1:0        
+   10 root      20   0     0    0    0 S  0.0  0.0   0:00.00 ksoftirqd/1        
+   11 root      RT   0     0    0    0 S  0.0  0.0   0:00.00 watchdog/1         
+   12 root      RT   0     0    0    0 S  0.0  0.0   0:00.33 migration/2        
+   13 root      20   0     0    0    0 S  0.0  0.0   0:00.00 kworker/2:0        
+   14 root      20   0     0    0    0 S  0.0  0.0   0:00.00 ksoftirqd/2        
+
+sh-4.1# 
+sh-4.1# 
+sh-4.1# 
+sh-4.1# reboot
+sh-4.1# umount: /: device is busy.
+        (In some cases useful info about processes that use
+         the device is found by lsof(8) or fuser(1))
+The system is going down NOW!
+Sent SIGTERM to all processes
+Sent SIGKILL to all processes
+Requesting system reboot
+sd 0:0:0:0: [sda] Synchronizing SCSI cache
+Restarting system.
+Client requested restart, cmd = "vmlinux", arg = "".
+Resetting chip and restarting.
+
+Type t in 3 seconds to run thorough POST tests, q to run quick tests,
+or 'a' to boot alternate image...
+Alternate image boot requested.
+�
+Type t in 3 seconds to run thorough POST tests, q to run quick tests...
+Quick POST tests will be run.
+(0,3) Tilera Hypervisor, version 3.0.1.125620 2011-04-09 21:57:10
+(0,3) Built by tilerabot from /home/scratch/tilerabot/denali-pro/src/common/boot/tilempower.hvc, /home/scratch/tiler0
+Linux version 2.6.36.4-MDE-3.0.1.125620 (support@tilera.com) (gcc version 4.4.3 (GCC) ) #1 SMP Sat Apr 9 22:27:06 ED1
+PCI: Searching for controllers...
+PCI: Found PCI controller #0
+7232MB HIGHMEM available.
+880MB LOWMEM available.
+PERCPU: 1 64K pages/cpu @f7010000 s9600 r8192 d47744
+Built 1 zonelists in Node order, mobility grouping on.  Total pages: 129712
+Policy zone: HighMem
+Kernel command line: TLR_NETWORK=eth0
+PID hash table entries: 4096 (order: -2, 16384 bytes)
+Dentry cache hash table entries: 131072 (order: 3, 524288 bytes)
+Inode-cache hash table entries: 65536 (order: 2, 262144 bytes)
+Memory: 8202944k/8306688k available (5092k kernel code, 1408k data, 9086k init, 7405568k highmem)
+SLUB: Genslabs=14, HWalign=16, Order=0-3, MinObjects=0, CPUs=60, Nodes=4
+Hierarchical RCU implementation.
+        RCU-based detection of stalled CPUs is disabled.
+        Verbose stalled-CPUs detection is disabled.
+NR_IRQS:32
+console [hvc0] enabled
+Clock rate yields 1725.00 BogoMIPS (lpj=8625000)
+pid_max: default: 32768 minimum: 384
+Mount-cache hash table entries: 8192
+CPUs not available for Linux: 2,4-7,15,23,31,39,47,55-56,60-63
+Brought up 48 CPUs
+NET: Registered protocol family 16
+PCI: Probing PCI hardware
+PCI: initializing controller #0
+pci 0000:00:00.0: BAR 8: assigned [mem 0xfc000000-0xfc5fffff]
+pci 0000:00:00.0: BAR 9: assigned [mem 0xfc600000-0xfcafffff pref]
+pci 0000:00:00.0: BAR 7: assigned [io  0x0000-0x2fff]
+pci 0000:01:00.0: BAR 8: assigned [mem 0xfc000000-0xfc4fffff]
+pci 0000:01:00.0: BAR 9: assigned [mem 0xfc600000-0xfcafffff pref]
+pci 0000:01:00.0: BAR 0: assigned [mem 0xfc500000-0xfc51ffff]
+pci 0000:01:00.0: BAR 0: set to [mem 0xfc500000-0xfc51ffff] (PCI address [0xfc500000-0xfc51ffff]
+pci 0000:01:00.0: BAR 7: assigned [io  0x0000-0x2fff]
+pci 0000:02:00.0: BAR 8: assigned [mem 0xfc000000-0xfc1fffff]
+pci 0000:02:00.0: BAR 9: assigned [mem 0xfc600000-0xfc7fffff 64bit pref]
+pci 0000:02:08.0: BAR 8: assigned [mem 0xfc200000-0xfc2fffff]
+pci 0000:02:08.0: BAR 9: assigned [mem 0xfc800000-0xfc8fffff pref]
+pci 0000:02:09.0: BAR 8: assigned [mem 0xfc300000-0xfc4fffff]
+pci 0000:02:09.0: BAR 9: assigned [mem 0xfc900000-0xfcafffff 64bit pref]
+pci 0000:02:00.0: BAR 7: assigned [io  0x0000-0x0fff]
+pci 0000:02:08.0: BAR 7: assigned [io  0x1000-0x1fff]
+pci 0000:02:09.0: BAR 7: assigned [io  0x2000-0x2fff]
+pci 0000:02:00.0: PCI bridge to [bus 03-03]
+pci 0000:02:00.0:   bridge window [io  0x0000-0x0fff]
+pci 0000:02:00.0:   bridge window [mem 0xfc000000-0xfc1fffff]
+pci 0000:02:00.0:   bridge window [mem 0xfc600000-0xfc7fffff 64bit pref]
+pci 0000:02:04.0: PCI bridge to [bus 04-04]
+pci 0000:02:04.0:   bridge window [io  disabled]
+pci 0000:02:04.0:   bridge window [mem disabled]
+pci 0000:02:04.0:   bridge window [mem pref disabled]
+pci 0000:02:06.0: PCI bridge to [bus 05-05]
+pci 0000:02:06.0:   bridge window [io  disabled]
+pci 0000:02:06.0:   bridge window [mem disabled]
+pci 0000:02:06.0:   bridge window [mem pref disabled]
+pci 0000:06:00.0: BAR 6: assigned [mem 0xfc800000-0xfc87ffff pref]
+pci 0000:06:00.0: BAR 2: assigned [mem 0xfc200000-0xfc203fff 64bit]
+pci 0000:06:00.0: BAR 2: set to [mem 0xfc200000-0xfc203fff 64bit] (PCI address [0xfc200000-0xfc203fff]
+pci 0000:06:00.0: BAR 0: assigned [mem 0xfc204000-0xfc20407f 64bit]
+pci 0000:06:00.0: BAR 0: set to [mem 0xfc204000-0xfc20407f 64bit] (PCI address [0xfc204000-0xfc20407f]
+pci 0000:06:00.0: BAR 4: assigned [io  0x1000-0x107f]
+pci 0000:06:00.0: BAR 4: set to [io  0x1000-0x107f] (PCI address [0x1000-0x107f]
+pci 0000:02:08.0: PCI bridge to [bus 06-06]
+pci 0000:02:08.0:   bridge window [io  0x1000-0x1fff]
+pci 0000:02:08.0:   bridge window [mem 0xfc200000-0xfc2fffff]
+pci 0000:02:08.0:   bridge window [mem 0xfc800000-0xfc8fffff pref]
+pci 0000:07:00.0: BAR 0: assigned [mem 0xfc300000-0xfc31ffff]
+pci 0000:07:00.0: BAR 0: set to [mem 0xfc300000-0xfc31ffff] (PCI address [0xfc300000-0xfc31ffff]
+pci 0000:07:00.0: BAR 1: assigned [mem 0xfc320000-0xfc33ffff]
+pci 0000:07:00.0: BAR 1: set to [mem 0xfc320000-0xfc33ffff] (PCI address [0xfc320000-0xfc33ffff]
+pci 0000:07:00.1: BAR 0: assigned [mem 0xfc340000-0xfc35ffff]
+pci 0000:07:00.1: BAR 0: set to [mem 0xfc340000-0xfc35ffff] (PCI address [0xfc340000-0xfc35ffff]
+pci 0000:07:00.1: BAR 1: assigned [mem 0xfc360000-0xfc37ffff]
+pci 0000:07:00.1: BAR 1: set to [mem 0xfc360000-0xfc37ffff] (PCI address [0xfc360000-0xfc37ffff]
+pci 0000:07:00.0: BAR 2: assigned [io  0x2000-0x201f]
+pci 0000:07:00.0: BAR 2: set to [io  0x2000-0x201f] (PCI address [0x2000-0x201f]
+pci 0000:07:00.1: BAR 2: assigned [io  0x2020-0x203f]
+pci 0000:07:00.1: BAR 2: set to [io  0x2020-0x203f] (PCI address [0x2020-0x203f]
+pci 0000:02:09.0: PCI bridge to [bus 07-07]
+pci 0000:02:09.0:   bridge window [io  0x2000-0x2fff]
+pci 0000:02:09.0:   bridge window [mem 0xfc300000-0xfc4fffff]
+pci 0000:02:09.0:   bridge window [mem 0xfc900000-0xfcafffff 64bit pref]
+pci 0000:01:00.0: PCI bridge to [bus 02-07]
+pci 0000:01:00.0:   bridge window [io  0x0000-0x2fff]
+pci 0000:01:00.0:   bridge window [mem 0xfc000000-0xfc4fffff]
+pci 0000:01:00.0:   bridge window [mem 0xfc600000-0xfcafffff pref]
+pci 0000:00:00.0: PCI bridge to [bus 01-07]
+pci 0000:00:00.0:   bridge window [io  0x0000-0x2fff]
+pci 0000:00:00.0:   bridge window [mem 0xfc000000-0xfc5fffff]
+pci 0000:00:00.0:   bridge window [mem 0xfc600000-0xfcafffff pref]
+bio: create slab <bio-0> at 0
+SCSI subsystem initialized
+Switching to clocksource cycle counter
+NET: Registered protocol family 2
+IP route cache hash table entries: 16384 (order: 0, 65536 bytes)
+TCP established hash table entries: 32768 (order: 2, 262144 bytes)
+TCP bind hash table entries: 32768 (order: 2, 393216 bytes)
+TCP: Hash tables configured (established 32768 bind 32768)
+TCP reno registered
+UDP hash table entries: 2048 (order: 0, 65536 bytes)
+UDP-Lite hash table entries: 2048 (order: 0, 65536 bytes)
+NET: Registered protocol family 1
+highmem bounce pool size: 64 pages
+HugeTLB registered 16 MB page size, pre-allocated 0 pages
+fuse init (API version 7.15)
+msgmni has been set to 1580
+io scheduler noop registered (default)
+Uniform Multi-Platform E-IDE driver
+ide-gd driver 1.18
+scsi0 : sata_sil24
+scsi1 : sata_sil24
+ata1: SATA max UDMA/100 host m128@0xfc204000 port 0xfc200000 irq 8
+ata2: SATA max UDMA/100 host m128@0xfc204000 port 0xfc202000 irq 8
+tun: Universal TUN/TAP device driver, 1.6
+tun: (C) 1999-2004 Max Krasnyansky <maxk@qualcomm.com>
+Tilera IPP Net Driver
+Fusion MPT base driver 3.04.17
+Copyright (c) 1999-2008 LSI Corporation
+Fusion MPT SAS Host driver 3.04.17
+rtc-tile rtc-tile.0: rtc core: registered tile as rtc0
+i2c /dev entries driver
+EDAC MC: Ver: 2.1.0 Apr  9 2011
+EDAC MC0: Giving out device to 'tile-edac' 'TILEPro_Memory_Controller': DEV tile-edac.0
+EDAC MC1: Giving out device to 'tile-edac' 'TILEPro_Memory_Controller': DEV tile-edac.1
+EDAC MC2: Giving out device to 'tile-edac' 'TILEPro_Memory_Controller': DEV tile-edac.2
+EDAC MC3: Giving out device to 'tile-edac' 'TILEPro_Memory_Controller': DEV tile-edac.3
+ide-tile: Tile IDE interface ide0
+hda: CF Card, CFA DISK drive
+ide0 at 0x100-0x107,0x000 on irq 14
+hda: max request size: 128KiB
+hda: 7847280 sectors (4017 MB) w/1KiB Cache, CHS=7785/16/63
+ hda: hda1
+TCP cubic registered
+NET: Registered protocol family 10
+IPv6 over IPv4 tunneling driver
+NET: Registered protocol family 17
+rtc-tile rtc-tile.0: setting system clock to 2013-07-22 10:15:44 UTC (1374488144)
+ata1: SATA link up 3.0 Gbps (SStatus 123 SControl 0)
+ata1.00: ATA-8: WDC WD5000AAVS-00ZTB0, 01.01B01, max UDMA/133
+ata1.00: 976773168 sectors, multi 0: LBA48 NCQ (depth 31/32)
+ata1.00: configured for UDMA/100
+scsi 0:0:0:0: Direct-Access     ATA      WDC WD5000AAVS-0 01.0 PQ: 0 ANSI: 5
+sd 0:0:0:0: [sda] 976773168 512-byte logical blocks: (500 GB/465 GiB)
+sd 0:0:0:0: [sda] Write Protect is off
+sd 0:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+ sda: sda1
+sd 0:0:0:0: [sda] Attached SCSI disk
+ata2: SATA link down (SStatus 0 SControl 0)
+Freeing unused kernel data: 8896k freed                                
+Freeing unused kernel text: 192k freed                                 
+Switching root filesystem to tmpfs                                     
+No tilepci_endp devices found.                                         
+Creating softuart device.                                            
+Requested 8 huge pages.
+Starting native network driver, DHCP configuration.
+Starting portmap.
+Starting telnet daemon.
+Starting tempmon daemon.
+tempmond: thresholds: chip 100C/110C, board 100C/110C; poll 5s
+Starting dropbear sshd.
+Starting shepherd.
+e1000e: Intel(R) PRO/1000 Network Driver - 1.2.7-k2
+e1000e: Copyrigh
+t (c) 1999 - 201Please press Enter to activate this console.0 Intel Corporat
+ion.
+e1000e 0000:07:00.0: Disabling ASPM  L1
+e1000e 0000:07:00.0: (unregistered net_device): Failed to initialize MSI interrupts.  Falling back to legacy interru.
+e1000e 0000:07:00.0: eth0: (PCI Express:2.5GB/s:Width x4) 00:1a:ca:00:71:d6
+e1000e 0000:07:00.0: eth0: Intel(R) PRO/1000 Network Connection
+e1000e 0000:07:00.0: eth0: MAC: 0, PHY: 4, PBA No: c57721-005
+e1000e 0000:07:00.1: Disabling ASPM  L1
+e1000e 0000:07:00.1: (unregistered net_device): Failed to initialize MSI interrupts.  Falling back to legacy interru.
+e1000e 0000:07:00.1: eth1: (PCI Express:2.5GB/s:Width x4) 00:1a:ca:00:71:d7
+e1000e 0000:07:00.1: eth1: Intel(R) PRO/1000 Network Connection
+e1000e 0000:07:00.1: eth1: MAC: 0, PHY: 4, PBA No: c57721-005
+udhcpc (v1.15.3) started
+ADDRCONF(NETDEV_UP): eth0: link is not ready
+e1000e: eth0 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX/TX
+ADDRCONF(NETDEV_CHANGE): eth0: link becomes ready
+Sending select for 192.168.11.4...
+Lease of 192.168.11.4 obtained, lease time 172800
+
+
+# 
+# ls
+# 
+# 
+# 
+# 
+ CTRL-A Z for help |115200 8N1 | NOR | Minicom 2.4    | VT102 |      Offline                                        
+loop@loop:~$ minicom
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Welcome to minicom 2.4
+
+OPTIONS: I18n 
+Compiled on Jan 25 2010, 06:49:09.
+Port /dev/ttyS0
+
+Press CTRL-A Z for help on special keys                                
+                                                                       
+                                                                       
+# AT S7=45 S0=0 L1 V1 X4 &c1 E1 Q0                                     
+-/bin/sh: c1: not found-/bin/sh:                                       
+AT: not found# 
+
+[1]+  Done(127)                  AT S7=45 S0=0 L1 V1 X4
+# 
+# 
+# ls
+# 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ CTRL-A Z for help |115200 8N1 | NOR | Minicom 2.4    | VT102 |      Offline                                        
+loop@loop:~$ minicom
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Welcome to minicom 2.4
+
+OPTIONS: I18n 
+Compiled on Jan 25 2010, 06:49:09.
+Port /dev/ttyS0
+
+Press CTRL-A Z for help on special keys                                
+                                                                       
+                                                                       
+# AT S7=45 S0=0 L1 V1 X4 &c1 E1 Q0                                     
+-/bin/sh: c1: not found-/bin/sh:                                       
+AT: not found# 
+umount: can't remount tmpfs read-only
+umount: can't remount rootfs read-only
+The system is going down NOW!
+Sent SIGTERM to all processes
+Sent SIGKILL to all processes
+Requesting system reboot
+sd 0:0:0:0: [sda] Synchronizing SCSI cache
+Restarting system.
+Client requested restart, cmd = "vmlinux", arg = "".
+Resetting chip and restarting.
+
+Type t in 3 seconds to run thorough POST tests, q to run quick tests,
+or 'a' to boot alternate image...
+Quick POST tests will be run.
+(0,3) Tilera Hypervisor, version 3.0.1.125620 2011-04-09 21:57:10
+(0,3) Built by andreas from /opt/tilera/TileraMDE-3.0.1.125620/tilepro/tile/etc/hvc/vmlinux-net.hvc, /opt/tilera/Til1
+Linux version 2.6.36.4-MDE-3.0.1.125620 (support@tilera.com) (gcc version 4.4.3 (GCC) ) #1 SMP Sat Apr 9 22:27:06 ED1
+PCI: Searching for controllers...
+PCI: Found PCI controller #0
+7232MB HIGHMEM available.
+880MB LOWMEM available.
+PERCPU: 1 64K pages/cpu @f7010000 s9600 r8192 d47744
+Built 1 zonelists in Node order, mobility grouping on.  Total pages: 129712
+Policy zone: HighMem
+Kernel command line: TLR_NETWORK=auto  TLR_ROOT=/dev/sda1
+PID hash table entries: 4096 (order: -2, 16384 bytes)
+Dentry cache hash table entries: 131072 (order: 3, 524288 bytes)
+Inode-cache hash table entries: 65536 (order: 2, 262144 bytes)
+Memory: 8202944k/8306688k available (5092k kernel code, 1408k data, 9086k init, 7405568k highmem)
+SLUB: Genslabs=14, HWalign=16, Order=0-3, MinObjects=0, CPUs=59, Nodes=4
+Hierarchical RCU implementation.
+        RCU-based detection of stalled CPUs is disabled.
+        Verbose stalled-CPUs detection is disabled.
+NR_IRQS:32
+console [hvc0] enabled
+Clock rate yields 1725.00 BogoMIPS (lpj=8625000)
+pid_max: default: 32768 minimum: 432
+Mount-cache hash table entries: 8192
+CPUs not available for Linux: 31,39,47,55-56,59-63
+Brought up 54 CPUs
+NET: Registered protocol family 16
+PCI: Probing PCI hardware
+PCI: initializing controller #0
+pci 0000:00:00.0: BAR 8: assigned [mem 0xfc000000-0xfc5fffff]
+pci 0000:00:00.0: BAR 9: assigned [mem 0xfc600000-0xfcafffff pref]
+pci 0000:00:00.0: BAR 7: assigned [io  0x0000-0x2fff]
+pci 0000:01:00.0: BAR 8: assigned [mem 0xfc000000-0xfc4fffff]
+pci 0000:01:00.0: BAR 9: assigned [mem 0xfc600000-0xfcafffff pref]
+pci 0000:01:00.0: BAR 0: assigned [mem 0xfc500000-0xfc51ffff]
+pci 0000:01:00.0: BAR 0: set to [mem 0xfc500000-0xfc51ffff] (PCI address [0xfc500000-0xfc51ffff]
+pci 0000:01:00.0: BAR 7: assigned [io  0x0000-0x2fff]
+pci 0000:02:00.0: BAR 8: assigned [mem 0xfc000000-0xfc1fffff]
+pci 0000:02:00.0: BAR 9: assigned [mem 0xfc600000-0xfc7fffff 64bit pref]
+pci 0000:02:08.0: BAR 8: assigned [mem 0xfc200000-0xfc2fffff]
+pci 0000:02:08.0: BAR 9: assigned [mem 0xfc800000-0xfc8fffff pref]
+pci 0000:02:09.0: BAR 8: assigned [mem 0xfc300000-0xfc4fffff]
+pci 0000:02:09.0: BAR 9: assigned [mem 0xfc900000-0xfcafffff 64bit pref]
+pci 0000:02:00.0: BAR 7: assigned [io  0x0000-0x0fff]
+pci 0000:02:08.0: BAR 7: assigned [io  0x1000-0x1fff]
+pci 0000:02:09.0: BAR 7: assigned [io  0x2000-0x2fff]
+pci 0000:02:00.0: PCI bridge to [bus 03-03]
+pci 0000:02:00.0:   bridge window [io  0x0000-0x0fff]
+pci 0000:02:00.0:   bridge window [mem 0xfc000000-0xfc1fffff]
+pci 0000:02:00.0:   bridge window [mem 0xfc600000-0xfc7fffff 64bit pref]
+pci 0000:02:04.0: PCI bridge to [bus 04-04]
+pci 0000:02:04.0:   bridge window [io  disabled]
+pci 0000:02:04.0:   bridge window [mem disabled]
+pci 0000:02:04.0:   bridge window [mem pref disabled]
+pci 0000:02:06.0: PCI bridge to [bus 05-05]
+pci 0000:02:06.0:   bridge window [io  disabled]
+pci 0000:02:06.0:   bridge window [mem disabled]
+pci 0000:02:06.0:   bridge window [mem pref disabled]
+pci 0000:06:00.0: BAR 6: assigned [mem 0xfc800000-0xfc87ffff pref]
+pci 0000:06:00.0: BAR 2: assigned [mem 0xfc200000-0xfc203fff 64bit]
+pci 0000:06:00.0: BAR 2: set to [mem 0xfc200000-0xfc203fff 64bit] (PCI address [0xfc200000-0xfc203fff]
+pci 0000:06:00.0: BAR 0: assigned [mem 0xfc204000-0xfc20407f 64bit]
+pci 0000:06:00.0: BAR 0: set to [mem 0xfc204000-0xfc20407f 64bit] (PCI address [0xfc204000-0xfc20407f]
+pci 0000:06:00.0: BAR 4: assigned [io  0x1000-0x107f]
+pci 0000:06:00.0: BAR 4: set to [io  0x1000-0x107f] (PCI address [0x1000-0x107f]
+pci 0000:02:08.0: PCI bridge to [bus 06-06]
+pci 0000:02:08.0:   bridge window [io  0x1000-0x1fff]
+pci 0000:02:08.0:   bridge window [mem 0xfc200000-0xfc2fffff]
+pci 0000:02:08.0:   bridge window [mem 0xfc800000-0xfc8fffff pref]
+pci 0000:07:00.0: BAR 0: assigned [mem 0xfc300000-0xfc31ffff]
+pci 0000:07:00.0: BAR 0: set to [mem 0xfc300000-0xfc31ffff] (PCI address [0xfc300000-0xfc31ffff]
+pci 0000:07:00.0: BAR 1: assigned [mem 0xfc320000-0xfc33ffff]
+pci 0000:07:00.0: BAR 1: set to [mem 0xfc320000-0xfc33ffff] (PCI address [0xfc320000-0xfc33ffff]
+pci 0000:07:00.1: BAR 0: assigned [mem 0xfc340000-0xfc35ffff]
+pci 0000:07:00.1: BAR 0: set to [mem 0xfc340000-0xfc35ffff] (PCI address [0xfc340000-0xfc35ffff]
+pci 0000:07:00.1: BAR 1: assigned [mem 0xfc360000-0xfc37ffff]
+pci 0000:07:00.1: BAR 1: set to [mem 0xfc360000-0xfc37ffff] (PCI address [0xfc360000-0xfc37ffff]
+pci 0000:07:00.0: BAR 2: assigned [io  0x2000-0x201f]
+pci 0000:07:00.0: BAR 2: set to [io  0x2000-0x201f] (PCI address [0x2000-0x201f]
+pci 0000:07:00.1: BAR 2: assigned [io  0x2020-0x203f]
+pci 0000:07:00.1: BAR 2: set to [io  0x2020-0x203f] (PCI address [0x2020-0x203f]
+pci 0000:02:09.0: PCI bridge to [bus 07-07]
+pci 0000:02:09.0:   bridge window [io  0x2000-0x2fff]
+pci 0000:02:09.0:   bridge window [mem 0xfc300000-0xfc4fffff]
+pci 0000:02:09.0:   bridge window [mem 0xfc900000-0xfcafffff 64bit pref]
+pci 0000:01:00.0: PCI bridge to [bus 02-07]
+pci 0000:01:00.0:   bridge window [io  0x0000-0x2fff]
+pci 0000:01:00.0:   bridge window [mem 0xfc000000-0xfc4fffff]
+pci 0000:01:00.0:   bridge window [mem 0xfc600000-0xfcafffff pref]
+pci 0000:00:00.0: PCI bridge to [bus 01-07]
+pci 0000:00:00.0:   bridge window [io  0x0000-0x2fff]
+pci 0000:00:00.0:   bridge window [mem 0xfc000000-0xfc5fffff]
+pci 0000:00:00.0:   bridge window [mem 0xfc600000-0xfcafffff pref]
+bio: create slab <bio-0> at 0
+SCSI subsystem initialized
+Switching to clocksource cycle counter
+NET: Registered protocol family 2
+IP route cache hash table entries: 16384 (order: 0, 65536 bytes)
+TCP established hash table entries: 32768 (order: 2, 262144 bytes)
+TCP bind hash table entries: 32768 (order: 2, 393216 bytes)
+TCP: Hash tables configured (established 32768 bind 32768)
+TCP reno registered
+UDP hash table entries: 2048 (order: 0, 65536 bytes)
+UDP-Lite hash table entries: 2048 (order: 0, 65536 bytes)
+NET: Registered protocol family 1
+highmem bounce pool size: 64 pages
+HugeTLB registered 16 MB page size, pre-allocated 0 pages
+fuse init (API version 7.15)
+msgmni has been set to 1580
+io scheduler noop registered (default)
+Uniform Multi-Platform E-IDE driver
+ide-gd driver 1.18
+scsi0 : sata_sil24
+scsi1 : sata_sil24
+ata1: SATA max UDMA/100 host m128@0xfc204000 port 0xfc200000 irq 8
+ata2: SATA max UDMA/100 host m128@0xfc204000 port 0xfc202000 irq 8
+tun: Universal TUN/TAP device driver, 1.6
+tun: (C) 1999-2004 Max Krasnyansky <maxk@qualcomm.com>
+Tilera IPP Net Driver
+Fusion MPT base driver 3.04.17
+Copyright (c) 1999-2008 LSI Corporation
+Fusion MPT SAS Host driver 3.04.17
+rtc-tile rtc-tile.0: rtc core: registered tile as rtc0
+i2c /dev entries driver
+EDAC MC: Ver: 2.1.0 Apr  9 2011
+EDAC MC0: Giving out device to 'tile-edac' 'TILEPro_Memory_Controller': DEV tile-edac.0
+EDAC MC1: Giving out device to 'tile-edac' 'TILEPro_Memory_Controller': DEV tile-edac.1
+EDAC MC2: Giving out device to 'tile-edac' 'TILEPro_Memory_Controller': DEV tile-edac.2
+EDAC MC3: Giving out device to 'tile-edac' 'TILEPro_Memory_Controller': DEV tile-edac.3
+ide-tile: Tile IDE interface ide0
+hda: CF Card, CFA DISK drive
+ide0 at 0x100-0x107,0x000 on irq 16
+hda: max request size: 128KiB
+hda: 7847280 sectors (4017 MB) w/1KiB Cache, CHS=7785/16/63
+ hda: hda1
+TCP cubic registered
+NET: Registered protocol family 10
+IPv6 over IPv4 tunneling driver
+NET: Registered protocol family 17
+rtc-tile rtc-tile.0: setting system clock to 2013-07-22 10:21:46 UTC (1374488506)
+ata1: SATA link up 3.0 Gbps (SStatus 123 SControl 0)
+ata1.00: ATA-8: WDC WD5000AAVS-00ZTB0, 01.01B01, max UDMA/133
+ata1.00: 976773168 sectors, multi 0: LBA48 NCQ (depth 31/32)
+ata1.00: configured for UDMA/100
+scsi 0:0:0:0: Direct-Access     ATA      WDC WD5000AAVS-0 01.0 PQ: 0 ANSI: 5
+sd 0:0:0:0: [sda] 976773168 512-byte logical blocks: (500 GB/465 GiB)
+sd 0:0:0:0: [sda] Write Protect is off
+sd 0:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+ sda: sda1
+sd 0:0:0:0: [sda] Attached SCSI disk
+ata2: SATA link down (SStatus 0 SControl 0)
+Freeing unused kernel data: 8896k freed
+Freeing unused kernel text: 192k freed
+EXT3-fs: barriers not enabled
+kjournald starting.  Commit interval 5 seconds
+EXT3-fs (sda1): warning: maximal mount count reached, running e2fsck is recommended
+EXT3-fs (sda1): using internal journal
+EXT3-fs (sda1): recovery complete
+EXT3-fs (sda1): mounted filesystem with writeback data mode
+Switching root filesystem to /dev/sda1
+top - 10:28:22 up 6 min,  2 users,  load average: 0.15, 0.11, 0.06
+Tasks: 277 total,   1 running, 276 sleeping,   0 stopped,   0 zombie
+Cpu(s):  0.0%us,  0.1%sy,  0.0%ni, 99.8%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:   8224320k total,   293824k used,  7930496k free,     7680k buffers
+Swap:        0k total,        0k used,        0k free,    11776k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+  200 root      RT   0     0    0    0 S  4.2  0.0   0:00.14 migration/52       
+  715 root      20   0  5376 4032 2560 R  4.2  0.0   0:00.42 top                
+  463 root      20   0     0    0    0 S  0.3  0.0   0:03.13 khvcd              
+  658 root      20   0     0    0    0 S  0.3  0.0   0:00.02 kworker/22:1       
+    1 root      20   0  4160 2560 1920 S  0.0  0.0   0:01.76 init               
+    2 root      20   0     0    0    0 S  0.0  0.0   0:03.31 kthreadd           
+    3 root      20   0     0    0    0 S  0.0  0.0   0:00.00 ksoftirqd/0        
+    4 root      20   0     0    0    0 S  0.0  0.0   0:00.00 kworker/0:0        
+    6 root      RT   0     0    0    0 S  0.0  0.0   0:00.01 migration/0        
+    7 root      RT   0     0    0    0 S  0.0  0.0   0:00.00 watchdog/0         
+    8 root      RT   0     0    0    0 S  0.0  0.0   0:00.00 migration/1        
+    9 root      20   0     0    0    0 S  0.0  0.0   0:00.00 kworker/1:0        
+   10 root      20   0     0    0    0 S  0.0  0.0   0:00.00 ksoftirqd/1        
+   11 root      RT   0     0    0    0 S  0.0  0.0   0:00.00 watchdog/1         
+   12 root      RT   0     0    0    0 S  0.0  0.0   0:00.00 migration/2        
+   13 root      20   0     0    0    0 S  0.0  0.0   0:00.00 kworker/2:0        
+   14 root      20   0     0    0    0 S  0.0  0.0   0:00.00 ksoftirqd/2        
+
+sh-4.1# ls
+3.0.0-OGS-RQ-LB                 linux-libre-2.6.38-gnu.tar.bz2  spurg-bench2
+3.0.0-OGS-RQ-LB-0.2.tar.gz      linux.tar                       sqlite
+Python-2.7                      linux_backup                    stress
+Python-2.7.tgz                  linux_backup.bz2                stress-app
+cp.txt                          linux_backup_org                stress.py
+dyn_hotplug2.ko                 offline.sh                      tile_pain.sh
+fft                             opcode.tar.bz2                  tile_spurg.sh
+hotplug_module                  py_stress.sh                    yes_script.sh
+hp2.tar                         python
+linux-libre-2.6.36-gnu.tar.bz2  spurg-bench
+sh-4.1# ping 192.168.11.2
+PING 192.168.11.2 (192.168.11.2): 56 data bytes
+ping: sendto: Network is unreachable
+sh-4.1# dhcp gbe0 yes
+sh: dhcp: command not found
+sh-4.1# reboot
+sh-4.1# umount: /: device is busy.
+        (In some cases useful info about processes that use
+         the device is found by lsof(8) or fuser(1))
+The system is going down NOW!
+Sent SIGTERM to all processes
+Sent SIGKILL to all processes
+Requesting system reboot
+sd 0:0:0:0: [sda] Synchronizing SCSI cache
+Restarting system.
+Client requested restart, cmd = "vmlinux", arg = "".
+Resetting chip and restarting.
+
+Type t in 3 seconds to run thorough POST tests, q to run quick tests,
+or 'a' to boot alternate image...
+Alternate image boot requested.
+�
+Type t in 3 seconds to run thorough POST tests, q to run quick tests...
+Quick POST tests will be run.
+(0,3) Tilera Hypervisor, version 3.0.1.125620 2011-04-09 21:57:10
+(0,3) Built by tilerabot from /home/scratch/tilerabot/denali-pro/src/common/boot/tilempower.hvc, /home/scratch/tiler0
+Linux version 2.6.36.4-MDE-3.0.1.125620 (support@tilera.com) (gcc version 4.4.3 (GCC) ) #1 SMP Sat Apr 9 22:27:06 ED1
+PCI: Searching for controllers...
+PCI: Found PCI controller #0
+7232MB HIGHMEM available.
+880MB LOWMEM available.
+PERCPU: 1 64K pages/cpu @f7010000 s9600 r8192 d47744
+Built 1 zonelists in Node order, mobility grouping on.  Total pages: 129712
+Policy zone: HighMem
+Kernel command line: TLR_NETWORK=eth0
+PID hash table entries: 4096 (order: -2, 16384 bytes)
+Dentry cache hash table entries: 131072 (order: 3, 524288 bytes)
+Inode-cache hash table entries: 65536 (order: 2, 262144 bytes)
+Memory: 8202944k/8306688k available (5092k kernel code, 1408k data, 9086k init, 7405568k highmem)
+SLUB: Genslabs=14, HWalign=16, Order=0-3, MinObjects=0, CPUs=60, Nodes=4
+Hierarchical RCU implementation.
+        RCU-based detection of stalled CPUs is disabled.
+        Verbose stalled-CPUs detection is disabled.
+NR_IRQS:32
+console [hvc0] enabled
+Clock rate yields 1725.00 BogoMIPS (lpj=8625000)
+pid_max: default: 32768 minimum: 384
+Mount-cache hash table entries: 8192
+CPUs not available for Linux: 2,4-7,15,23,31,39,47,55-56,60-63
+Brought up 48 CPUs
+NET: Registered protocol family 16
+PCI: Probing PCI hardware
+PCI: initializing controller #0
+pci 0000:00:00.0: BAR 8: assigned [mem 0xfc000000-0xfc5fffff]
+pci 0000:00:00.0: BAR 9: assigned [mem 0xfc600000-0xfcafffff pref]
+pci 0000:00:00.0: BAR 7: assigned [io  0x0000-0x2fff]
+pci 0000:01:00.0: BAR 8: assigned [mem 0xfc000000-0xfc4fffff]
+pci 0000:01:00.0: BAR 9: assigned [mem 0xfc600000-0xfcafffff pref]
+pci 0000:01:00.0: BAR 0: assigned [mem 0xfc500000-0xfc51ffff]
+pci 0000:01:00.0: BAR 0: set to [mem 0xfc500000-0xfc51ffff] (PCI address [0xfc500000-0xfc51ffff]
+pci 0000:01:00.0: BAR 7: assigned [io  0x0000-0x2fff]
+pci 0000:02:00.0: BAR 8: assigned [mem 0xfc000000-0xfc1fffff]
+pci 0000:02:00.0: BAR 9: assigned [mem 0xfc600000-0xfc7fffff 64bit pref]
+pci 0000:02:08.0: BAR 8: assigned [mem 0xfc200000-0xfc2fffff]
+pci 0000:02:08.0: BAR 9: assigned [mem 0xfc800000-0xfc8fffff pref]
+pci 0000:02:09.0: BAR 8: assigned [mem 0xfc300000-0xfc4fffff]
+pci 0000:02:09.0: BAR 9: assigned [mem 0xfc900000-0xfcafffff 64bit pref]
+pci 0000:02:00.0: BAR 7: assigned [io  0x0000-0x0fff]
+pci 0000:02:08.0: BAR 7: assigned [io  0x1000-0x1fff]
+pci 0000:02:09.0: BAR 7: assigned [io  0x2000-0x2fff]
+pci 0000:02:00.0: PCI bridge to [bus 03-03]
+pci 0000:02:00.0:   bridge window [io  0x0000-0x0fff]
+pci 0000:02:00.0:   bridge window [mem 0xfc000000-0xfc1fffff]
+pci 0000:02:00.0:   bridge window [mem 0xfc600000-0xfc7fffff 64bit pref]
+pci 0000:02:04.0: PCI bridge to [bus 04-04]
+pci 0000:02:04.0:   bridge window [io  disabled]
+pci 0000:02:04.0:   bridge window [mem disabled]
+pci 0000:02:04.0:   bridge window [mem pref disabled]
+pci 0000:02:06.0: PCI bridge to [bus 05-05]
+pci 0000:02:06.0:   bridge window [io  disabled]
+pci 0000:02:06.0:   bridge window [mem disabled]
+pci 0000:02:06.0:   bridge window [mem pref disabled]
+pci 0000:06:00.0: BAR 6: assigned [mem 0xfc800000-0xfc87ffff pref]
+pci 0000:06:00.0: BAR 2: assigned [mem 0xfc200000-0xfc203fff 64bit]
+pci 0000:06:00.0: BAR 2: set to [mem 0xfc200000-0xfc203fff 64bit] (PCI address [0xfc200000-0xfc203fff]
+pci 0000:06:00.0: BAR 0: assigned [mem 0xfc204000-0xfc20407f 64bit]
+pci 0000:06:00.0: BAR 0: set to [mem 0xfc204000-0xfc20407f 64bit] (PCI address [0xfc204000-0xfc20407f]
+pci 0000:06:00.0: BAR 4: assigned [io  0x1000-0x107f]
+pci 0000:06:00.0: BAR 4: set to [io  0x1000-0x107f] (PCI address [0x1000-0x107f]
+pci 0000:02:08.0: PCI bridge to [bus 06-06]
+pci 0000:02:08.0:   bridge window [io  0x1000-0x1fff]
+pci 0000:02:08.0:   bridge window [mem 0xfc200000-0xfc2fffff]
+pci 0000:02:08.0:   bridge window [mem 0xfc800000-0xfc8fffff pref]
+pci 0000:07:00.0: BAR 0: assigned [mem 0xfc300000-0xfc31ffff]
+pci 0000:07:00.0: BAR 0: set to [mem 0xfc300000-0xfc31ffff] (PCI address [0xfc300000-0xfc31ffff]
+pci 0000:07:00.0: BAR 1: assigned [mem 0xfc320000-0xfc33ffff]
+pci 0000:07:00.0: BAR 1: set to [mem 0xfc320000-0xfc33ffff] (PCI address [0xfc320000-0xfc33ffff]
+pci 0000:07:00.1: BAR 0: assigned [mem 0xfc340000-0xfc35ffff]
+pci 0000:07:00.1: BAR 0: set to [mem 0xfc340000-0xfc35ffff] (PCI address [0xfc340000-0xfc35ffff]
+pci 0000:07:00.1: BAR 1: assigned [mem 0xfc360000-0xfc37ffff]
+pci 0000:07:00.1: BAR 1: set to [mem 0xfc360000-0xfc37ffff] (PCI address [0xfc360000-0xfc37ffff]
+pci 0000:07:00.0: BAR 2: assigned [io  0x2000-0x201f]
+pci 0000:07:00.0: BAR 2: set to [io  0x2000-0x201f] (PCI address [0x2000-0x201f]
+pci 0000:07:00.1: BAR 2: assigned [io  0x2020-0x203f]
+pci 0000:07:00.1: BAR 2: set to [io  0x2020-0x203f] (PCI address [0x2020-0x203f]
+pci 0000:02:09.0: PCI bridge to [bus 07-07]
+pci 0000:02:09.0:   bridge window [io  0x2000-0x2fff]
+pci 0000:02:09.0:   bridge window [mem 0xfc300000-0xfc4fffff]
+pci 0000:02:09.0:   bridge window [mem 0xfc900000-0xfcafffff 64bit pref]
+pci 0000:01:00.0: PCI bridge to [bus 02-07]
+pci 0000:01:00.0:   bridge window [io  0x0000-0x2fff]
+pci 0000:01:00.0:   bridge window [mem 0xfc000000-0xfc4fffff]
+pci 0000:01:00.0:   bridge window [mem 0xfc600000-0xfcafffff pref]
+pci 0000:00:00.0: PCI bridge to [bus 01-07]
+pci 0000:00:00.0:   bridge window [io  0x0000-0x2fff]
+pci 0000:00:00.0:   bridge window [mem 0xfc000000-0xfc5fffff]
+pci 0000:00:00.0:   bridge window [mem 0xfc600000-0xfcafffff pref]
+bio: create slab <bio-0> at 0
+SCSI subsystem initialized
+Switching to clocksource cycle counter
+NET: Registered protocol family 2
+IP route cache hash table entries: 16384 (order: 0, 65536 bytes)
+TCP established hash table entries: 32768 (order: 2, 262144 bytes)
+TCP bind hash table entries: 32768 (order: 2, 393216 bytes)
+TCP: Hash tables configured (established 32768 bind 32768)
+TCP reno registered
+UDP hash table entries: 2048 (order: 0, 65536 bytes)
+UDP-Lite hash table entries: 2048 (order: 0, 65536 bytes)
+NET: Registered protocol family 1
+highmem bounce pool size: 64 pages
+HugeTLB registered 16 MB page size, pre-allocated 0 pages
+fuse init (API version 7.15)
+msgmni has been set to 1580
+io scheduler noop registered (default)
+Uniform Multi-Platform E-IDE driver
+ide-gd driver 1.18
+scsi0 : sata_sil24
+scsi1 : sata_sil24
+ata1: SATA max UDMA/100 host m128@0xfc204000 port 0xfc200000 irq 8
+ata2: SATA max UDMA/100 host m128@0xfc204000 port 0xfc202000 irq 8
+tun: Universal TUN/TAP device driver, 1.6
+tun: (C) 1999-2004 Max Krasnyansky <maxk@qualcomm.com>
+Tilera IPP Net Driver
+Fusion MPT base driver 3.04.17
+Copyright (c) 1999-2008 LSI Corporation
+Fusion MPT SAS Host driver 3.04.17
+rtc-tile rtc-tile.0: rtc core: registered tile as rtc0
+i2c /dev entries driver
+EDAC MC: Ver: 2.1.0 Apr  9 2011
+EDAC MC0: Giving out device to 'tile-edac' 'TILEPro_Memory_Controller': DEV tile-edac.0
+EDAC MC1: Giving out device to 'tile-edac' 'TILEPro_Memory_Controller': DEV tile-edac.1
+EDAC MC2: Giving out device to 'tile-edac' 'TILEPro_Memory_Controller': DEV tile-edac.2
+EDAC MC3: Giving out device to 'tile-edac' 'TILEPro_Memory_Controller': DEV tile-edac.3
+ide-tile: Tile IDE interface ide0
+hda: CF Card, CFA DISK drive
+ide0 at 0x100-0x107,0x000 on irq 14
+hda: max request size: 128KiB
+hda: 7847280 sectors (4017 MB) w/1KiB Cache, CHS=7785/16/63
+ hda: hda1
+TCP cubic registered
+NET: Registered protocol family 10
+IPv6 over IPv4 tunneling driver
+NET: Registered protocol family 17
+rtc-tile rtc-tile.0: setting system clock to 2013-07-22 10:30:05 UTC (1374489005)
+ata1: SATA link up 3.0 Gbps (SStatus 123 SControl 0)
+ata1.00: ATA-8: WDC WD5000AAVS-00ZTB0, 01.01B01, max UDMA/133
+ata1.00: 976773168 sectors, multi 0: LBA48 NCQ (depth 31/32)
+ata1.00: configured for UDMA/100                                                            
+scsi 0:0:0:0: Direct-Access     ATA      WDC WD5000AAVS-0 01.0 PQ: 0 ANSI: 5                
+sd 0:0:0:0: [sda] 976773168 512-byte logical blocks: (500 GB/465 GiB)                       
+sd 0:0:0:0: [sda] Write Protect is off                                                      
+sd 0:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA     
+ sda: sda1                                                                                  
+sd 0:0:0:0: [sda] Attached SCSI disk                                                        
+ata2: SATA link down (SStatus 0 SControl 0)                                                 
+Freeing unused kernel data: 8896k freed                                                     
+Freeing unused kernel text: 192k freed                                                      
+Switching root filesystem to tmpfs                                                          
+No tilepci_endp devices found.                                                              
+Creating softuart device.                                                                   
+Requested 8 huge pages.                                                                     
+Starting native network driver, DHCP configuration.                                         
+Starting portmap.                                                                           
+Starting telnet daemon.                                                                     
+Starting tempmon daemon.                                                                    
+tempmond: thresholds: chip 100C/110C, board 100C/110C; poll 5s                              
+Starting dropbear sshd.                                                                     
+Starting shepherd.                                                                          
+e1000e: Intel(R) PRO/1000 Networ                                                            
+k Driver - 1.2.7Please press Enter to activate this console.-k2
+
+e1000e: Copyright (c) 1999 - 2010 Intel Corporation.
+e1000e 0000:07:00.0: Disabling ASPM  L1
+e1000e 0000:07:00.0: (unregistered net_device): Failed to initialize MSI interrupts.  Falling back to legacy interru.
+e1000e 0000:07:00.0: eth0: (PCI Express:2.5GB/s:Width x4) 00:1a:ca:00:71:d6
+e1000e 0000:07:00.0: eth0: Intel(R) PRO/1000 Network Connection
+e1000e 0000:07:00.0: eth0: MAC: 0, PHY: 4, PBA No: c57721-005
+e1000e 0000:07:00.1: Disabling ASPM  L1
+e1000e 0000:07:00.1: (unregistered net_device): Failed to initialize MSI interrupts.  Falling back to legacy interru.
+e1000e 0000:07:00.1: eth1: (PCI Express:2.5GB/s:Width x4) 00:1a:ca:00:71:d7
+e1000e 0000:07:00.1: eth1: Intel(R) PRO/1000 Network Connection
+e1000e 0000:07:00.1: eth1: MAC: 0, PHY: 4, PBA No: c57721-005
+udhcpc (v1.15.3) started
+ADDRCONF(NETDEV_UP): eth0: link is not ready
+e1000e: eth0 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX/TX
+ADDRCONF(NETDEV_CHANGE): eth0: link becomes ready
+Sending select for 192.168.11.4...
+Lease of 192.168.11.4 obtained, lease time 172800
+help
+# 
+# ls
+#  
+# 
+# 
+ CTRL-A Z for help |115200 8N1 | NOR | Minicom 2.4    | VT102 |      Offline                                        
+loop@loop:~$ ping 192.168.11.4
+PING 192.168.11.4 (192.168.11.4) 56(84) bytes of data.
+64 bytes from 192.168.11.4: icmp_seq=1 ttl=64 time=2.70 ms
+64 bytes from 192.168.11.4: icmp_seq=2 ttl=64 time=0.304 ms
+64 bytes from 192.168.11.4: icmp_seq=3 ttl=64 time=0.301 ms
+64 bytes from 192.168.11.4: icmp_seq=4 ttl=64 time=0.335 ms
+64 bytes from 192.168.11.4: icmp_seq=5 ttl=64 time=0.350 ms
+64 bytes from 192.168.11.4: icmp_seq=6 ttl=64 time=0.308 ms
+^C
+--- 192.168.11.4 ping statistics ---
+6 packets transmitted, 6 received, 0% packet loss, time 5001ms
+rtt min/avg/max/mdev = 0.301/0.717/2.707/0.890 ms
+loop@loop:~$ ls
+minicom.log  tilera_start.sh
+loop@loop:~$ Write failed: Broken pipe
+andreas@mishandled:~$ inicom
+No command 'inicom' found, did you mean:
+ Command 'minicom' from package 'minicom' (universe)
+inicom: command not found
+andreas@mishandled:~$ ssh loop@192.168.11.16 -p 2222
+loop@192.168.11.16's password: 
+Linux loop 2.6.32-41-generic-pae #88-Ubuntu SMP Thu Mar 29 14:24:36 UTC 2012 i686 GNU/Linux
+Ubuntu 10.04.3 LTS
+
+Welcome to Ubuntu!
+ * Documentation:  https://help.ubuntu.com/
+
+  System information as of Tue Jul 23 07:37:38 EEST 2013
+
+  System load:  0.08              Processes:           73
+  Usage of /:   4.7% of 70.10GB   Users logged in:     0
+  Memory usage: 42%               IP address for eth1: 192.168.1.1
+  Swap usage:   0%                IP address for eth0: 192.168.11.16
+  Temperature:  28 C
+
+  => /boot is using 98.2% of 227MB
+
+  Graph this data and manage this system at https://landscape.canonical.com/
+
+New release 'precise' available.
+Run 'do-release-upgrade' to upgrade to it.
+
+*** System restart required ***
+Last login: Mon Jul 22 08:55:24 2013 from 192.168.11.2
+loop@loop:~$ minicom
+
+
+
+
+
+Welcome to minicom 2.4
+
+OPTIONS: I18n 
+Compiled on Jan 25 2010, 06:49:09.
+Port /dev/ttyS0
+
+Press CTRL-A Z for help on special keys                                
+                                                                       
+                                                                       
+# AT S7=45 S0=0 L1 V1 X4 &c1 E1 Q0                                     
+-/bin/sh: c1: not found-/bin/sh:                                       
+AT: not found# 
+umount: can't remount tmpfs read-only
+umount: can't remount rootfs read-only
+The system is going down NOW!
+Sent SIGTERM to all processes
+Sent SIGKILL to all processes
+Requesting system reboot
+sd 0:0:0:0: [sda] Synchronizing SCSI cache
+Restarting system.
+Client requested restart, cmd = "vmlinux", arg = "".
+Resetting chip and restarting.
+
+Type t in 3 seconds to run thorough POST tests, q to run quick tests,
+or 'a' to boot alternate image...
+Quick POST tests will be run.
+(0,3) Tilera Hypervisor, version 3.0.1.125620 2011-04-09 21:57:10
+(0,3) Built by andreas from /opt/tilera/TileraMDE-3.0.1.125620/tilepro/tile/etc/hvc/vmlinux-net.hvc, /opt/tilera/Til1
+Linux version 2.6.36.4-MDE-3.0.1.125620_mboot (support@tilera.com) (gcc version 4.4.3 (GCC) ) #1 SMP Sat Apr 9 22:261
+PCI: Searching for controllers...
+PCI: Found PCI controller #0
+7232MB HIGHMEM available.
+880MB LOWMEM available.
+PERCPU: 1 64K pages/cpu @f7010000 s7808 r8192 d49536
+Built 1 zonelists in Node order, mobility grouping on.  Total pages: 129728
+Policy zone: HighMem
+Kernel command line: TLR_NETWORK=auto  TLR_ROOT=/dev/sda1
+PID hash table entries: 4096 (order: -2, 16384 bytes)
+Dentry cache hash table entries: 131072 (order: 3, 524288 bytes)
+Inode-cache hash table entries: 65536 (order: 2, 262144 bytes)
+Memory: 8221952k/8306688k available (4479k kernel code, 1024k data, 4382k init, 7405568k highmem)
+SLUB: Genslabs=14, HWalign=16, Order=0-3, MinObjects=0, CPUs=59, Nodes=4
+Hierarchical RCU implementation.
+        RCU-based detection of stalled CPUs is disabled.
+        Verbose stalled-CPUs detection is disabled.
+NR_IRQS:32
+console [hvc0] enabled
+Clock rate yields 1725.00 BogoMIPS (lpj=8625000)
+pid_max: default: 32768 minimum: 432
+Mount-cache hash table entries: 8192
+CPUs not available for Linux: 31,39,47,55-56,59-63
+Brought up 54 CPUs
+NET: Registered protocol family 16
+PCI: Probing PCI hardware
+PCI: initializing controller #0
+pci 0000:00:00.0: BAR 8: assigned [mem 0xfc000000-0xfc5fffff]
+pci 0000:00:00.0: BAR 9: assigned [mem 0xfc600000-0xfcafffff pref]
+pci 0000:00:00.0: BAR 7: assigned [io  0x0000-0x2fff]
+pci 0000:01:00.0: BAR 8: assigned [mem 0xfc000000-0xfc4fffff]
+pci 0000:01:00.0: BAR 9: assigned [mem 0xfc600000-0xfcafffff pref]
+pci 0000:01:00.0: BAR 0: assigned [mem 0xfc500000-0xfc51ffff]
+pci 0000:01:00.0: BAR 0: set to [mem 0xfc500000-0xfc51ffff] (PCI address [0xfc500000-0xfc51ffff]
+pci 0000:01:00.0: BAR 7: assigned [io  0x0000-0x2fff]
+pci 0000:02:00.0: BAR 8: assigned [mem 0xfc000000-0xfc1fffff]
+pci 0000:02:00.0: BAR 9: assigned [mem 0xfc600000-0xfc7fffff 64bit pref]
+pci 0000:02:08.0: BAR 8: assigned [mem 0xfc200000-0xfc2fffff]
+pci 0000:02:08.0: BAR 9: assigned [mem 0xfc800000-0xfc8fffff pref]
+pci 0000:02:09.0: BAR 8: assigned [mem 0xfc300000-0xfc4fffff]
+pci 0000:02:09.0: BAR 9: assigned [mem 0xfc900000-0xfcafffff 64bit pref]
+pci 0000:02:00.0: BAR 7: assigned [io  0x0000-0x0fff]
+pci 0000:02:08.0: BAR 7: assigned [io  0x1000-0x1fff]
+pci 0000:02:09.0: BAR 7: assigned [io  0x2000-0x2fff]
+pci 0000:02:00.0: PCI bridge to [bus 03-03]
+pci 0000:02:00.0:   bridge window [io  0x0000-0x0fff]
+pci 0000:02:00.0:   bridge window [mem 0xfc000000-0xfc1fffff]
+pci 0000:02:00.0:   bridge window [mem 0xfc600000-0xfc7fffff 64bit pref]
+pci 0000:02:04.0: PCI bridge to [bus 04-04]
+pci 0000:02:04.0:   bridge window [io  disabled]
+pci 0000:02:04.0:   bridge window [mem disabled]
+pci 0000:02:04.0:   bridge window [mem pref disabled]
+pci 0000:02:06.0: PCI bridge to [bus 05-05]
+pci 0000:02:06.0:   bridge window [io  disabled]
+pci 0000:02:06.0:   bridge window [mem disabled]
+pci 0000:02:06.0:   bridge window [mem pref disabled]
+pci 0000:06:00.0: BAR 6: assigned [mem 0xfc800000-0xfc87ffff pref]
+pci 0000:06:00.0: BAR 2: assigned [mem 0xfc200000-0xfc203fff 64bit]
+pci 0000:06:00.0: BAR 2: set to [mem 0xfc200000-0xfc203fff 64bit] (PCI address [0xfc200000-0xfc203fff]
+pci 0000:06:00.0: BAR 0: assigned [mem 0xfc204000-0xfc20407f 64bit]
+pci 0000:06:00.0: BAR 0: set to [mem 0xfc204000-0xfc20407f 64bit] (PCI address [0xfc204000-0xfc20407f]
+pci 0000:06:00.0: BAR 4: assigned [io  0x1000-0x107f]
+pci 0000:06:00.0: BAR 4: set to [io  0x1000-0x107f] (PCI address [0x1000-0x107f]
+pci 0000:02:08.0: PCI bridge to [bus 06-06]
+pci 0000:02:08.0:   bridge window [io  0x1000-0x1fff]
+pci 0000:02:08.0:   bridge window [mem 0xfc200000-0xfc2fffff]
+pci 0000:02:08.0:   bridge window [mem 0xfc800000-0xfc8fffff pref]
+pci 0000:07:00.0: BAR 0: assigned [mem 0xfc300000-0xfc31ffff]
+pci 0000:07:00.0: BAR 0: set to [mem 0xfc300000-0xfc31ffff] (PCI address [0xfc300000-0xfc31ffff]
+pci 0000:07:00.0: BAR 1: assigned [mem 0xfc320000-0xfc33ffff]
+pci 0000:07:00.0: BAR 1: set to [mem 0xfc320000-0xfc33ffff] (PCI address [0xfc320000-0xfc33ffff]
+pci 0000:07:00.1: BAR 0: assigned [mem 0xfc340000-0xfc35ffff]
+pci 0000:07:00.1: BAR 0: set to [mem 0xfc340000-0xfc35ffff] (PCI address [0xfc340000-0xfc35ffff]
+pci 0000:07:00.1: BAR 1: assigned [mem 0xfc360000-0xfc37ffff]
+pci 0000:07:00.1: BAR 1: set to [mem 0xfc360000-0xfc37ffff] (PCI address [0xfc360000-0xfc37ffff]
+pci 0000:07:00.0: BAR 2: assigned [io  0x2000-0x201f]
+pci 0000:07:00.0: BAR 2: set to [io  0x2000-0x201f] (PCI address [0x2000-0x201f]
+pci 0000:07:00.1: BAR 2: assigned [io  0x2020-0x203f]
+pci 0000:07:00.1: BAR 2: set to [io  0x2020-0x203f] (PCI address [0x2020-0x203f]
+pci 0000:02:09.0: PCI bridge to [bus 07-07]
+pci 0000:02:09.0:   bridge window [io  0x2000-0x2fff]
+pci 0000:02:09.0:   bridge window [mem 0xfc300000-0xfc4fffff]
+pci 0000:02:09.0:   bridge window [mem 0xfc900000-0xfcafffff 64bit pref]
+pci 0000:01:00.0: PCI bridge to [bus 02-07]
+pci 0000:01:00.0:   bridge window [io  0x0000-0x2fff]
+pci 0000:01:00.0:   bridge window [mem 0xfc000000-0xfc4fffff]
+pci 0000:01:00.0:   bridge window [mem 0xfc600000-0xfcafffff pref]
+pci 0000:00:00.0: PCI bridge to [bus 01-07]
+pci 0000:00:00.0:   bridge window [io  0x0000-0x2fff]
+pci 0000:00:00.0:   bridge window [mem 0xfc000000-0xfc5fffff]
+pci 0000:00:00.0:   bridge window [mem 0xfc600000-0xfcafffff pref]
+bio: create slab <bio-0> at 0
+SCSI subsystem initialized
+Switching to clocksource cycle counter
+NET: Registered protocol family 2
+IP route cache hash table entries: 16384 (order: 0, 65536 bytes)
+TCP established hash table entries: 32768 (order: 2, 262144 bytes)
+TCP bind hash table entries: 32768 (order: 2, 393216 bytes)
+TCP: Hash tables configured (established 32768 bind 32768)
+TCP reno registered
+UDP hash table entries: 2048 (order: 0, 65536 bytes)
+UDP-Lite hash table entries: 2048 (order: 0, 65536 bytes)
+NET: Registered protocol family 1
+highmem bounce pool size: 64 pages
+HugeTLB registered 16 MB page size, pre-allocated 0 pages
+msgmni has been set to 1592
+io scheduler noop registered (default)
+Uniform Multi-Platform E-IDE driver
+ide-gd driver 1.18
+scsi0 : sata_sil24
+scsi1 : sata_sil24
+ata1: SATA max UDMA/100 host m128@0xfc204000 port 0xfc200000 irq 8
+ata2: SATA max UDMA/100 host m128@0xfc204000 port 0xfc202000 irq 8
+e1000e: Intel(R) PRO/1000 Network Driver - 1.2.7-k2
+e1000e: Copyright (c) 1999 - 2010 Intel Corporation.
+e1000e 0000:07:00.0: Disabling ASPM  L1
+e1000e 0000:07:00.0: (unregistered net_device): Failed to initialize MSI interrupts.  Falling back to legacy interru.
+e1000e 0000:07:00.0: eth0: (PCI Express:2.5GB/s:Width x4) 00:1a:ca:00:71:d6
+e1000e 0000:07:00.0: eth0: Intel(R) PRO/1000 Network Connection
+e1000e 0000:07:00.0: eth0: MAC: 0, PHY: 4, PBA No: c57721-005
+e1000e 0000:07:00.1: Disabling ASPM  L1
+e1000e 0000:07:00.1: (unregistered net_device): Failed to initialize MSI interrupts.  Falling back to legacy interru.
+e1000e 0000:07:00.1: eth1: (PCI Express:2.5GB/s:Width x4) 00:1a:ca:00:71:d7
+e1000e 0000:07:00.1: eth1: Intel(R) PRO/1000 Network Connection
+e1000e 0000:07:00.1: eth1: MAC: 0, PHY: 4, PBA No: c57721-005
+tun: Universal TUN/TAP device driver, 1.6
+tun: (C) 1999-2004 Max Krasnyansky <maxk@qualcomm.com>
+Tilera IPP Net Driver
+Fusion MPT base driver 3.04.17
+Copyright (c) 1999-2008 LSI Corporation
+Fusion MPT SAS Host driver 3.04.17
+ide-tile: Tile IDE interface ide0
+hda: CF Card, CFA DISK drive
+ide0 at 0x100-0x107,0x000 on irq 16
+hda: max request size: 128KiB
+hda: 7847280 sectors (4017 MB) w/1KiB Cache, CHS=7785/16/63
+ hda: hda1
+TCP cubic registered
+NET: Registered protocol family 10
+IPv6 over IPv4 tunneling driver
+NET: Registered protocol family 17
+ata1: SATA link up 3.0 Gbps (SStatus 123 SControl 0)
+ata1.00: ATA-8: WDC WD5000AAVS-00ZTB0, 01.01B01, max UDMA/133
+ata1.00: 976773168 sectors, multi 0: LBA48 NCQ (depth 31/32)
+ata1.00: configured for UDMA/100
+scsi 0:0:0:0: Direct-Access     ATA      WDC WD5000AAVS-0 01.0 PQ: 0 ANSI: 5
+sd 0:0:0:0: [sda] 976773168 512-byte logical blocks: (500 GB/465 GiB)
+sd 0:0:0:0: [sda] Write Protect is off
+sd 0:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+ sda: sda1
+sd 0:0:0:0: [sda] Attached SCSI disk
+ata2: SATA link down (SStatus 0 SControl 0)
+Freeing unused kernel data: 4224k freed
+Freeing unused kernel text: 192k freed
+EXT2-fs (hda1): warning: mounting unchecked fs, running e2fsck is recommended
+EXT3-fs: barriers not enabled
+kjournald starting.  Commit interval 5 seconds
+EXT3-fs (sda1): warning: maximal mount count reached, running e2fsck is recommended
+EXT3-fs (sda1): using internal journal
+EXT3-fs (sda1): recovery complete
+EXT3-fs (sda1): mounted filesystem with writeback data mode
+No tilepci_endp devices found.
+No eeprom devices found.
+Creating softuart device.
+Starting tempmon daemon.
+tempmond: thresholds: chip 100C/110C, board 100C/110C; poll 5s
+Requested 8 huge pages.
+
+
+WARNING: detected 54 cpus configured with mboot.
+mboot can only boot another Linux from single-cpu mode.
+Please ensure that 'nosmp' is included in the hvc file 'args' line.
+
+
+
+
+==============Tilera mboot==============
+Press any key to enter mboot CLI mode
+
+Booting in 1 second 
+
+
+
+machine_kexec_prepare: detected attempt to kexec with num_online_cpus() > 1
+kexec_load failed: Function not implemented
+entry       = 0x20000 flags = 0
+nr_segments = 4
+segment[0].buf   = 0xb5fa0008
+segment[0].bufsz = 3fd8
+segment[0].mem   = (nil)
+segment[0].memsz = 10000
+segment[1].buf   = 0xb5fb0008                                                               
+segment[1].bufsz = 50f928                                                                   
+segment[1].mem   = 0x20000                                                                  
+segment[1].memsz = 510000                                                                   
+segment[2].buf   = 0xb64c0008                                                               
+segment[2].bufsz = 9a59ac                                                                   
+segment[2].mem   = 0x530000                                                                 
+segment[2].memsz = a10000                                                                   
+segment[3].buf   = 0x606c0                                                                  
+segment[3].bufsz = b0                                                                       
+segment[3].mem   = 0xf40000                                                                 
+segment[3].memsz = 10000                                                                    
+ADDRCONF(NETDEV_UP): eth0: link is not ready                                                
+ADDRCONF(NETDEV_UP): eth1: link is not ready                                                
+xgbe/0: link failed to come up                                                              
+ADDRCONF(NETDEV_UP): xgbe0: link is not ready                                               
+xgbe/1: link failed to come up                                                              
+ADDRCONF(NETDEV_UP): xgbe1: link is not ready                                               
+gbe/0: link failed to come up                                                               
+ADDRCONF(NETDEV_UP): gbe0: link is not ready                                                
+gbe/1: link failed to come up                                                               
+ADDRCONF(NETDEV_UP): gbe1: link is not ready                                                
+
+
+==============Tilera mboot==============
+Press any key to enter mboot CLI mode
+
+Booting in 5 seconds
+
+The system is unprotected, use the "passwd" command to add protection.
+ADDRCONF(NETDEV_UP): gbe0: link is not ready
+mboot: ls
+
+The image files in HD:
+
+boot        futbin      lost+found  tftpboot    tilepro     vmlinux
+
+The image files in SD:
+
+bin         home        mnt         sbin        tftpboot
+boot        lib         opt         selinux     tmp
+dev         lost+found  proc        srv         usr
+etc         media       root        sys         var
+
+The image files in MEM:
+
+mboot: help
+
+============== COMMANDS SUPPORTED ==============
+ls         -- List files on boot devices
+rm         -- Remove files from a boot device
+ping       -- Ping a host
+ifconfig   -- Configure network interface
+boot       -- Boot the final image
+reboot     -- Reboot the whole system including bootloader
+tftp       -- Get a file via TFTP
+ftp        -- Get a file via FTP
+passwd     -- Set the bootloader password
+help       -- Show all commands
+showcfg    -- Show the current configuration
+clearcfg   -- Clear configuration
+bootparam  -- Set/display boot parameters
+dhcp       -- Enable/disable DHCP
+route      -- Set/show routing information
+exit       -- Exit the CLI and continue booting
+shell      -- Shell prompt
+mboot: man boot
+Unknown command: man
+
+mboot: boot -h
+Invalid parameter: -h
+Usage: boot <-hd | -sd | -mem | -tftp | -host> [-i imgFile]
+mboot: help -boot
+Unknown command: -boot
+Usage: help [command]
+mboot: help --boot
+Unknown command: --boot
+Usage: help [command]
+mboot: help boot
+Usage: boot <-hd | -sd | -mem | -tftp | -host> [-i imgFile]
+mboot: ping 192.168.11.2
+No response from 192.168.11.2
+mboot: dhcp gbe0 yes^H^H^H^H^H^H^H^H^H^H^H^H^H
+Invalid parameter: yes
+Usage: dhcp <interface> <yes | no>
+mboot: showcfg
+
+BOOT PARAMETERS:
+    Boot arguments           : TLR_NETWORK=gbe0 TLR_SHEPHERD_ARGS="--listen default" TLR_NETADDR=192.168.11.4 TLR_NE 
+
+USER PARAMETERS:
+
+gbe0:                                                                                            
+    DHCP                     : no                                                                
+    IP address               : 192.168.11.4                                                      
+    Subnet mask              : 255.255.255.0                                                     
+mboot: clera^H^H                                                                                 
+Unknown command: clera                                                                           
+                                                                                                 
+mboot: clearcfg                                                                                  
+                                                                                                 
+Delete all the BOOT and USER configuration parameters in SROM? (y or n)y                         
+ADDRCONF(NETDEV_UP): eth0: link is not ready                                                     
+ADDRCONF(NETDEV_UP): eth1: link is not ready                                                     
+ADDRCONF(NETDEV_UP): xgbe0: link is not ready                                                    
+ADDRCONF(NETDEV_UP): xgbe1: link is not ready                                                    
+ADDRCONF(NETDEV_UP): gbe1: link is not ready                                                     
+mboot: dhcp                                                                                      
+Missing parameter(s).                                                                            
+Usage: dhcp <interface> <yes | no>                                                               
+mboot: shof^H^[[D^[[C                                                                            
+Unknown command: shof                                                                            
+                                                                                                 
+mboot: showcfg                                                                                   
+                                                                                                 
+BOOT PARAMETERS:                                                                                 
+                                                                                                 
+USER PARAMETERS:                                                                                 
+mboot: ^[[A                                                                                      
+Unknown command:                                                                                 
+mboot: dhcp gbe0                                                                                 
+Missing parameter(s).                                                                            
+Usage: dhcp <interface> <yes | no>                                                               
+mboot: dhcp0 gbe0 yes                                                                            
+Unknown command: dhcp0                                                                           
+                                                                                                 
+mboot: dhcp gbe0 yes                                                                             
+udhcpc (v1.15.3) started                                                                         
+ADDRCONF(NETDEV_UP): gbe0: link is not ready                                                     
+No lease, failing                                                                                
+mboot: showcfg                                                                                   
+                                                                                                 
+BOOT PARAMETERS:                                                                                 
+                                                                                                 
+USER PARAMETERS:                                                                                 
+                                                                                                 
+gbe0:
+    DHCP                     : yes                                                               
+mboot: 
+ CTRL-A Z for help |115200 8N1 | NOR | Minicom 2.4    | VT102 |      Offline                                        
+loop@loop:~$ scp andreas@192.168.11.2:/home/andreas/barrelfish/new_test2/tilepro/sbin/cpu.bin 
+usage: scp [-1246BCpqrv] [-c cipher] [-F ssh_config] [-i identity_file]
+           [-l limit] [-o ssh_option] [-P port] [-S program]
+           [[user@]host1:]file1 ... [[user@]host2:]file2
+loop@loop:~$ ls
+minicom.log  tilera_start.sh
+loop@loop:~$ ls -l
+total 8
+-rw-r--r-- 1 root root 199 2011-11-10 15:51 minicom.log
+-rwxr-xr-x 1 loop loop  57 2012-09-12 15:08 tilera_start.sh
+loop@loop:~$ scp andreas@192.168.11.2:/home/andreas/barrelfish/new_test2/tilepro/sbin/cpu.bin /home
+ssh: connect to host 192.168.11.2 port 22: Connection refused
+loop@loop:~$ scp -P 2222  andreas@192.168.11.2:/home/andreas/barrelfish/new_test2/tilepro/sbin/cpu.bin /home
+ssh: connect to host 192.168.11.2 port 2222: Connection refused
+loop@loop:~$ scp -P 2222  andreas@192.168.11.2:/home/andreas/barrelfish/new_test2/tilepro/sbin/cpu.bin 
+usage: scp [-1246BCpqrv] [-c cipher] [-F ssh_config] [-i identity_file]
+           [-l limit] [-o ssh_option] [-P port] [-S program]
+           [[user@]host1:]file1 ... [[user@]host2:]file2
+loop@loop:~$ scp -P 2222  andreas@192.168.11.2:/home/andreas/barrelfish/new_test2/tilepro/sbin/cpu.bin /home
+ssh: connect to host 192.168.11.2 port 2222: Connection refused
+loop@loop:~$ 
+loop@loop:~$ 
+loop@loop:~$ 
+loop@loop:~$ 
+loop@loop:~$ 
+loop@loop:~$ scp -P 2222  andreas@mishandled:/home/andreas/barrelfish/new_test2/tilepro/sbin/cpu.bin /home
+ssh: Could not resolve hostname mishandled: Name or service not known
+loop@loop:~$ scp andreas@mishandled:/home/andreas/barrelfish/new_test2/tilepro/sbin/cpu.bin /home
+ssh: Could not resolve hostname mishandled: Name or service not known
+loop@loop:~$ scp andreas@192.168.11.2:/home/andreas/barrelfish/new_test2/tilepro/sbin/cpu.bin /home
+ssh: connect to host 192.168.11.2 port 22: Connection refused
+loop@loop:~$ cp andreas@192.168.11.2:/home/andreas/barrelfish/new_test2/tilepro/sbin/cpu.bin /home
+cp: cannot stat `andreas@192.168.11.2:/home/andreas/barrelfish/new_test2/tilepro/sbin/cpu.bin': No such file or directory
+loop@loop:~$ scp -P 80  andreas@mishandled:/home/andreas/barrelfish/new_test2/tilepro/sbin/cpu.bin /home
+ssh: Could not resolve hostname mishandled: Name or service not known
+loop@loop:~$ scp -P 80  andreas@192.168.11.2:/home/andreas/barrelfish/new_test2/tilepro/sbin/cpu.bin /home
+ssh: connect to host 192.168.11.2 port 80: Connection refused
+loop@loop:~$ scp -P 2222  andreas@192.168.11.2:/home/andreas/barrelfish/new_test2/tilepro/sbin/cpu.bin /home
+ssh: connect to host 192.168.11.2 port 2222: Connection refused
+loop@loop:~$ scp -P 22  andreas@192.168.11.2:/home/andreas/barrelfish/new_test2/tilepro/sbin/cpu.bin /home
+The authenticity of host '192.168.11.2 (192.168.11.2)' can't be established.
+RSA key fingerprint is 30:60:3f:73:a6:6d:f4:e8:a4:60:4b:50:48:b8:7c:0e.
+Are you sure you want to continue connecting (yes/no)? y
+Please type 'yes' or 'no': yes
+Warning: Permanently added '192.168.11.2' (RSA) to the list of known hosts.
+andreas@192.168.11.2's password: 
+/home/cpu.bin: Permission denied
+loop@loop:~$ scp -P 22  andreas@192.168.11.2:/home/andreas/barrelfish/new_test2/tilepro/sbin/cpu.bin 
+usage: scp [-1246BCpqrv] [-c cipher] [-F ssh_config] [-i identity_file]
+           [-l limit] [-o ssh_option] [-P port] [-S program]
+           [[user@]host1:]file1 ... [[user@]host2:]file2
+loop@loop:~$ cd
+loop@loop:~$ ls
+minicom.log  tilera_start.sh
+loop@loop:~$ scp -P 22  andreas@192.168.11.2:/home/andreas/barrelfish/new_test2/tilepro/sbin/cpu.bin /loop
+andreas@192.168.11.2's password: 
+/loop: Permission denied
+loop@loop:~$ sudo scp -P 2222  andreas@192.168.11.2:/home/andreas/barrelfish/new_test2/tilepro/sbin/cpu.bin /loop
+[sudo] password for loop: 
+Sorry, try again.
+[sudo] password for loop: 
+Sorry, try again.
+[sudo] password for loop: 
+The authenticity of host '[192.168.11.2]:2222 ([192.168.11.2]:2222)' can't be established.
+RSA key fingerprint is 30:60:3f:73:a6:6d:f4:e8:a4:60:4b:50:48:b8:7c:0e.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added '[192.168.11.2]:2222' (RSA) to the list of known hosts.
+andreas@192.168.11.2's password: 
+cpu.bin                                                                            100%   10MB  10.3MB/s   00:01    
+loop@loop:~$ ls
+minicom.log  tilera_start.sh
+loop@loop:~$ cd /loop
+-bash: cd: /loop: Not a directory
+loop@loop:~$ sudo scp -P 2222  andreas@192.168.11.2:/home/andreas/barrelfish/new_test2/tilepro/sbin/cpu.bin /home
+andreas@192.168.11.2's password: 
+cpu.bin                                                                            100%   10MB  10.3MB/s   00:01    
+loop@loop:~$ ls
+minicom.log  tilera_start.sh
+loop@loop:~$ cd /home
+loop@loop:/home$ ls
+cpu.bin  dennis  loop
+loop@loop:/home$ minicom
+
+
+Welcome to minicom 2.4                                                                           
+                                                                                                 
+OPTIONS: I18n                                                                                    
+Compiled on Jan 25 2010, 06:49:09.                                                               
+Port /dev/ttyS0                                                                                  
+                                                                                                 
+Press CTRL-A Z for help on special keys                                                          
+                                                                                                 
+                                                                                                 
+mboot: AT S7=45 S0=0 L1 V1 X4 &c1 E1 Q0                                                          
+Unknown command: AT                                                                              
+                                                                                                 
+mboot: ls                                                                                        
+                                                                                                 
+The image files in HD:                                                                           
+                                                                                                 
+boot        futbin      lost+found  tftpboot    tilepro     vmlinux                              
+                                                                                                 
+The image files in SD:                                                                           
+                                                                                                 
+bin         home        mnt         sbin        tftpboot                                         
+boot        lib         opt         selinux     tmp                                              
+dev         lost+found  proc        srv         usr                                              
+etc         media       root        sys         var                                              
+                                                                                                 
+The image files in MEM:                                                                          
+                                                                                                 
+mboot:                                                                                           
+                                                                                                 
+                                                                                                 
+                                                                                                 
+                                                                                                 
+                                                                                                 
+                                                                                                 
+                                                                                                 
+                                                                                                 
+                                                                                                 
+                                                                                                 
+                                                                                                 
+                                                                                                 
+                                                                                                 
+                                                                                                 
+                                                                                                 
+                                                                                                 
+
+                                                                                                 
+
+ CTRL-A Z for help |115200 8N1 | NOR | Minicom 2.4    | VT102 |      Offline                                        
+loop@loop:/home$ cd
+loop@loop:~$ mv /home/cpu.bin /home/loop/cpu.bin
+mv: cannot move `/home/cpu.bin' to `/home/loop/cpu.bin': Permission denied
+loop@loop:~$ sudo mv /home/cpu.bin /home/loop/cpu.bin
+loop@loop:~$ ls
+cpu.bin  minicom.log  tilera_start.sh
+loop@loop:~$ minicom
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Welcome to minicom 2.4                                                                           
+                                                                                                 
+OPTIONS: I18n                                                                                    
+Compiled on Jan 25 2010, 06:49:09.                                                               
+Port /dev/ttyS0                                                                                  
+                                                                                                 
+Press CTRL-A Z for help on special keys                                                          
+                                                                                                 
+                                                                                                 
+mboot: AT S7=45 S0=0 L1 V1 X4 &c1 E1 Q0                                                          
+Unknown command: AT                                                                              
+                                                                                                 
+mboot: ^Y^H                                                                                      
+Unknown command:                                                                                
+                                                                                                 
+mboot: ^A�3^HY�'�                                                                                
+Unknown command: �Y�'�                                                                          
+                                                                                                 
+mboot: �3^H�3^HY�'�                                                                              
+Unknown command: ��Y�'�                                                                          
+                                                                                                 
+mboot: �3^H�����jlj�hlhhhhhhhnhhllhllhllhhhhhhhhhhhhlhhhhhlhhlhhlh@hhhnhh��^Xe^H^Ap򶁸hnhhhhhhhhhhhhhhhhh@@^C0$hhhj )@`
+hv: console comhhhhhhhv: consolehv: console hv: consolehhhv: consolhhhv: consolhhhv: consolhv: consolehv: console hh0
+hhhhhhhhhhhhhhv: console command help:Forcing UART protocol mode, the console will no longer be functionalhv: client0
+                                                                                                 
+hv: console command help:                                                                        
+    0-9     connect console to client #                                                          
+    c#<CR>  connect                                                          c#<CR>  connect console to client #
+otocol mode, the console will no longer be functionalhv: clhv: console command help:             
+    0-9     connect console to client #                                                          
+    c#<CR>  connect console to client #                                                          
+    +/-     connect console to next/prev client                                                  
+    l       list clients                                                                         
+    R       reboot (if booted from SROM)                                                         
+    P       enter protocol mode                                                                  
+   P       enter protocol mode                                                                   
+om SROM)                                                                                         
+client                                                                                           
+ode, the console will no longer be functionalhv: chv: console command help:                      
+    0-9     connect console to client #                                                          
+    c#<CR>  connect console to client #                                                          
+    +/-     connect console to next/prev client                                                  
+    l       list clients                                                                         
+    R       reboot (if booted from SROM)                                                         
+    P       enter protocol mode
+   P       enter protocol mode                                                                   
+om SROM)
+client
+ode, the console will no longer be functionalhv: hv: console command help:
+    0-9     connect console to client #
+    c#<CR>  connect console to client #
+    +/-     connect console to next/prev client
+    l       list clients
+    R       reboot (if booted from SROM)
+    P       enter protocol mode
+   P       enter protocol mode
+om SROM)
+client
+ode, the console will no longer be functionalhv:hv: console command help:
+    0-9     connect console to client #
+    c#<CR>  connect console to client #
+    +/-     connect console to next/prev client
+    l       list clients
+    R       reboot (if booted from SROM)
+    P       enter protocol mode
+   P       enter protocol mode
+om SROM)
+client
+ode, the console will no longer be functionalhvhv: console command help:
+    0-9     connect console to client #
+    c#<CR>  connect console to client #
+    +/-     connect console to next/prev client
+    l       list clients
+    R       reboot (if booted from SROM)
+    P       enter protocol mode
+   P       enter protocol mode
+om SROM)
+client
+ode, the console will no longer be functionalhhv: console command help:
+    0-9     connect console to client #
+    c#<CR>  connect console to client #
+    +/-     connect console to next/prev client
+    l       list clients
+    R       reboot (if booted from SROM)
+    P       enter protocol mode
+   P       enter protocol mode
+om SROM)
+client
+ode, the console will no longer be functionalhv: console command help:
+    0-9     connect console to client #
+    c#<CR>  connect console to client #
+    +/-     connect console to next/prev client
+    l       list clients
+    R       reboot (if booted from SROM)
+    P       enter protocol mode
+   P       enter protocol mode
+om SROM)
+client
+ode, the console will no longer be functionahv: console command help:
+    0-9     connect console to client #
+    c#<CR>  connect console to client #
+    +/-     connect console to next/prev client
+    l       list clients
+    R       reboot (if booted from SROM)
+    P       enter protocol mode
+   P       enter protocol mode
+om SROM)
+client
+ode, the console will no longer be functionhv: console command help:
+    0-9     connect console to client #
+    c#<CR>  connect console to client #
+    +/-     connect console to next/prev client
+    l       list clients
+    R       reboot (if booted from SROM)
+    P       enter protocol mode
+   P       enter protocol mode
+om SROM)
+client
+ode, the console will no longer be functiohv: console command help:
+    0-9     connect console to client #
+    c#<CR>  connect console to client #
+    +/-     connect console to next/prev client
+    l       list clients
+    R       reboot (if booted from SROM)
+    P       enter protocol mode
+    P       enter protocol mode
+om SROM)
+client
+ode, the console will no longer be functihv: console command help:
+    0-9     connect console to client #
+    c#<CR>  connect console to client #
+    +/-     connect console to next/prev client
+    l       list clients
+    R       reboot (if booted from SROM)
+    P       enter protocol mode
+   P       enter protocol mode
+om SROM)
+client
+ode, the console will no longer be functhv: console command help:
+    0-9     connect console to client #
+    c#<CR>  connect console to client #
+    +/-     connect console to next/prev client
+    l       list clients
+    R       reboot (if booted from SROM)
+    P       enter protocol mode
+   P       enter protocol mode
+om SROM)
+client
+ode, the console will no longer be funchv: console command help:
+    0-9     connect console to client #
+    c#<CR>  connect console to client #
+    +/-     connect console to next/prev client
+    l       list clients
+    R       reboot (if booted from SROM)
+    P       enter protocol mode
+   P       enter protocol mode
+om SROM)
+client
+ode, the console will no longer be funhv: console command help:
+    0-9     connect console to client #
+    c#<CR>  connect console to client #
+    +/-     connect console to next/prev client
+    l       list clients
+    R       reboot (if booted from SROM)
+    P       enter protocol mode
+   P       enter protocol mode
+om SROM)
+client
+ode, the console will no longer be fuhv: available clients:
+  0. 8x8 @ 0,0, 54 tiles, console connected
+ 0. 8x8 @ 0,0, 54 tiles, console connected
+ent
+ode, the console will no longer be fhv: console command help:
+    0-9     connect console to client #
+    c#<CR>  connect console to client #
+    +/-     connect console to next/prev client
+    l       list clients
+    R       reboot (if booted from SROM)
+    P       enter protocol mode
+   P       enter protocol mode
+om SROM)
+client
+ode, the console will no longer be hv: console command help:
+    0-9     connect console to client #
+    c#<CR>  connect console to client #
+    +/-     connect console to next/prev client
+    l       list clients
+    R       reboot (if booted from SROM)
+    P       enter protocol mode
+   P       enter protocol mode
+om SROM)
+client
+ode, the console will no longer behv: console command help:
+    0-9     connect console to client #
+    c#<CR>  connect console to client #
+    +/-     connect console to next/prev client
+    l       list clients
+    R       reboot (if booted from SROM)
+    P       enter protocol mode
+   P       enter protocol mode
+om SROM)
+client
+ode, the console will no longer bhv: console command help:
+    0-9     connect console to client #
+    c#<CR>  connect console to client #
+    +/-     connect console to next/prev client
+    l       list clients
+    R       reboot (if booted from SROM)
+    P       enter protocol mode
+   P       enter protocol mode
+om SROM)
+client
+ode, the console will no longer hv: console command help:
+    0-9     connect console to client #
+    c#<CR>  connect console to client #
+    +/-     connect console to next/prev client
+    l       list clients
+    R       reboot (if booted from SROM)
+    P       enter protocol mode
+   P       enter protocol mode
+om SROM)
+client
+ode, the console will no longerhv: console command help:
+    0-9     connect console to client #
+    c#<CR>  connect console to client #
+    +/-     connect console to next/prev client
+    l       list clients
+    R       reboot (if booted from SROM)
+    P       enter protocol mode
+    P       enter protocol mode
+om SROM)
+RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR0
+
+hv: console command help:
+    0-9     connect console to client #
+    c#<CR>  connect console to client #
+    +/-     connect console to next/prev client
+    l       list clients
+    R       reboot (if booted from SROM)
+    P       enter protocol mode
+e  P       enter protocol mode
+om SROM)
+client
+ restarting.hv: client #6 does not existhv: console now connected to client #0hv: client #9 does not existResetting 0
+
+hv: console command help:
+    0-9     connect console to client #
+    c#<CR>  connect console to client #
+    +/-     connect console to next/prev client
+    l       list clients
+    R       reboot (if booted from SROM)
+    P       enter protocol mode
+e  P       enter protocol mode
+om SROM)
+client
+ restarting.hv: client #6 does not existhv: console now connected to client #0hv: client #9 does not existResetting 0
+
+hv: console command help:
+    0-9     connect console to client #
+    c#<CR>  connect console to client #
+    +/-     connect console to next/prev client
+    l       list clients
+    R       reboot (if booted from SROM)
+    P       enter protocol mode
+R   P       enter protocol mode
+om SROM)
+client
+ restarting.hv: client #6 does not existhv: console now connected to client #0hv: client #9 does not existResetting 0
+
+Enter client number: eter client number: tocol mode
+om SROM)
+client
+ restarting.hv: client #6 does not existhv: console now connected to client #0hv: client #9 does notj
+hv: invalhv: invalidhv: invalid hhhhv: invalhhhhhhhhhhhhhhv: invalidhv: invalidhv: invalid hv: invalidhv: invalid hj0n
+hv: invalid character in client number
+v: invalid character in client number
+jA@+��/(2,7) got double fault interrupt: PC 0xfe01_4258, ICS/PL 0x2@� 0jhlhjjnhljhjhhhjlhc�?@jhnnjhhhhhhhj��������0�
+hv: invalid character in client number
+v: invalid character in client number
+jA@+��/(2,7) got double fault interrupt: PC 0xfe01_4258, ICS/PL 0x2@� 0jhlhjjnhljh�����jhhhjlhc�?@jhnnjhhhhhhhj͹��0 invalid character in client number
+jA@+��/(2,7) got double fault interrupt: PC 0xfe01_4258, ICS/PL 0x2@� 0jhlhjjnhljhjhhhjlhc�?@jhnnjhhhhhhhj��������0l
+hv: invalid character in client number
+v: invalid character in client number
+jA@+��/(2,7) got double fault interrupt: PC 0xfe01_4258, ICS/PL 0x2@� 0jhlhjjnhljhjhhhjlhc�?@jhnnjhhhhhhhj��������0
+hv: invalid character in client number
+v: invalid character in client number
+jA@+��/(2,7) got double fault interrupt: PC 0xfe01_4258, ICS/PL 0x2@� 0jhlhjjnhljhjhhhjlhc�?@jhnnjhhhhhhhj��������0
+hv: invalid character in client number
+v: invalid character in client number
+jA@+��/(2,7) got double fault interrupt: PC 0xfe01_4258, ICS/PL 0x2@� 0jhlhjjnhljhjhhhjlhc�?@jhnnjhhhhhhhj��������0�
+hv: invalid character in client number
+v: invalid character in client number
+jA@+��/(2,7) got double fault interrupt: PC 0xfe01_4258, ICS/PL 0x2@� 0jhlhjjnhljh�����jhhhjlhc�?@jhnnjhhhhhhhj͹��0P
+hv: invalid character in client number
+v: invalid character in client number
+jA@+��/(2,7) got double fault interrupt: PC 0xfe01_4258, ICS/PL 0x2@� 0jhlhjjnhljhjhhhjlhc�?@jhnnjhhhhhhhj��������0�
+hv: invalid character in client number
+hv: invalid character in client number
+jA@+��/(2,7) got double fault interrupt: PC 0xfe01_4258, ICS/PL 0x2@� 0jhlhjjnhljh�����jhhhjlhc�?@jhnnjhhhhhhhj͹��0S
+hv: invalid character in client number
+v: invalid character in client number
+jA@+��/(2,7) got double fault interrupt: PC 0xfe01_4258, ICS/PL 0x2@� 0jhlhjjnhljhjhhhjlhc�?@jhnnjhhhhhhhj��������0 invalid character in client number
+jA@+��/(2,7) got double fault interrupt: PC 0xfe01_4258, ICS/PL 0x2@� 0jhlhjjnhljhjhhhjlhc�?@jhnnjhhhhhhhj��������0l
+hv: invalid character in client number
+v: invalid character in client number
+jA@+��/(2,7) got double fault interrupt: PC 0xfe01_4258, ICS/PL 0x2@� 0jhlhjjnhljhjhhhjlhc�?@jhnnjhhhhhhhj��������0b
+hv: invalid character in client number
+v: invalid character in client number
+jA@+��/(2,7) got double fault interrupt: PC 0xfe01_4258, ICS/PL 0x2@� 0jhlhjjnhljhjhhhjlhc�?@jhnnjhhhhhhhj��������0
+hv: invalid character in client number
+v: invalid character in client number
+jA@+��/(2,7) got double fault interrupt: PC 0xfe01_4258, ICS/PL 0x2@� 0jhlhjjnhljhjhhhjlhc�?@jhnnjhhhhhhhj��������0
+hv: invalid character in client number
+v: invalid character in client number
+jA@+��/(2,7) got double fault interrupt: PC 0xfe01_4258, ICS/PL 0x2@� 0jhlhjjnhljhjhhhjlhc�?@jhnnjhhhhhhhj��������0P
+hv: invalid character in client number
+v: invalid character in client number
+jA@+��/(2,7) got double fault interrupt: PC 0xfe01_4258, ICS/PL 0x2@� 0jhlhjjnhljhjhhhjlhc�?@jhnnjhhhhhhhj��������0�
+hv: invalid character in client number
+v: invalid character in client number
+jA@+��/(2,7) got double fault interrupt: PC 0xfe01_4258, ICS/PL 0x2@� 0jhlhjjnhljh�����jhhhjlhc�?@jhnnjhhhhhhhj͹��0�
+hv: invalid character in client number
+v: invalid character in client number
+jA@+��/(2,7) got double fault interrupt: PC 0xfe01_4258, ICS/PL 0x2@� 0jhlhjjnhljh�����jhhhjlhc�?@jhnnjhhhhhhhj͹��0a
+hv: invalid character in client number
+v: invalid character in client number
+jA@+��/(2,7) got double fault interrupt: PC 0xfe01_4258, ICS/PL 0x2@� 0jhlhjjnhljhjhhhjlhc�?@jhnnjhhhhhhhj��������0
+hv: invalid character in client number
+hv: invalid character in client number
+jA@+��/(2,7) got double fault interrupt: PC 0xfe01_4258, ICS/PL 0x2@� 0jhlhjjnhljhjhhhjlhc�?@jhnnjhhhhhhhj��������0R
+hv: invalid character in client number
+v: invalid character in client number
+jA@+��/(2,7) got double fault interrupt: PC 0xfe01_4258, ICS/PL 0x2@� 0jhlhjjnhljhjhhhjlhc�?@jhnnjhhhhhhhj��������0E
+hv: invalid character in client number
+v: invalid character in client number
+jA@+��/(2,7) got double fault interrupt: PC 0xfe01_4258, ICS/PL 0x2@� 0jhlhjjnhljhjhhhjlhc�?@jhnnjhhhhhhhj��������0 invalid character in client number
+jA@+��/(2,7) got double fault interrupt: PC 0xfe01_4258, ICS/PL 0x2@� 0jhlhjjnhljhjhhhjlhc�?@jhnnjhhhhhhhj��������02 invalid character in client number
+jA@+��/(2,7) got double fault interrupt: PC 0xfe01_4258, ICS/PL 0x2@� 0jhlhjjnhljhjhhhjlhc�?@jhnnjhhhhhhhj��������01 invalid character in client number
+jA@+��/(2,7) got double fault interrupt: PC 0xfe01_4258, ICS/PL 0x2@� 0jhlhjjnhljhjhhhjlhc�?@jhnnjhhhhhhhj��������0C
+hv: invalid character in client number
+v: invalid character in client number
+jA@+��/(2,7) got double fault interrupt: PC 0xfe01_4258, ICS/PL 0x2@� 0jhlhjjnhljhjhhhjlhc�?@jhnnjhhhhhhhj��������0
+hv: invalid character in client number
+v: invalid character in client number
+jA@+��/(2,7) got double fault interrupt: PC 0xfe01_4258, ICS/PL 0x2@� 0jhlhjjnhljhjhhhjlhc�?@jhnnjhhhhhhhj��������0t
+hv: invalid character in client number
+v: invalid character in client number
+jA@+��/(2,7) got double fault interrupt: PC 0xfe01_4258, ICS/PL 0x2@� 0jhlhjjnhljhjhhhjlhc�?@jhnnjhhhhhhhj��������0�
+hv: invalid character in client number
+v: invalid character in client number
+jA@+��/(2,7) got double fault interrupt: PC 0xfe01_4258, ICS/PL 0x2@� 0jhlhjjnhljh�����jhhhjlhc�?@jhnnjhhhhhhhj͹��0
+hv: invalid character in client number
+v: invalid character in client number
+jA@+��/(2,7) got double fault interrupt: PC 0xfe01_4258, ICS/PL 0x2@� 0jhlhjjnhljhjhhhjlhc�?@jhnnjhhhhhhhj��������0@
+hv: invalid character in client number
+hv: invalid character in client number
+jA@+��/(2,7) got double fault interrupt: PC 0xfe01_4258, ICS/PL 0x2@� 0jhlhjjnhljhjhhhjlhc�?@jhnnjhhhhhhhj��������0
+hv: invalid character in client number
+v: invalid character in client number
+jA@+��/(2,7) got double fault interrupt: PC 0xfe01_4258, ICS/PL 0x2@� 0jhlhjjnhljhjhhhjlhc�?@jhnnjhhhhhhhj��������0H
+hv: invalid character in client number
+v: invalid character in client number
+jA@+��/(2,7) got double fault interrupt: PC 0xfe01_4258, ICS/PL 0x2@� 0jhlhjjnhljhjhhhjlhc�?@jhnnjhhhhhhhj��������0�
+hv: invalid character in client number
+v: invalid character in client number
+jA@+��/(2,7) got double fault interrupt: PC 0xfe01_4258, ICS/PL 0x2@� 0jhlhjjnhljh�����jhhhjlhc�?@jhnnjhhhhhhhj͹��0
+hv: invalid character in client number
+v: invalid character in client number
+jA@+��/(2,7) got double fault interrupt: PC 0xfe01_4258, ICS/PL 0x2@� 0jhlhjjnhljhjhhhjlhc�?@jhnnjhhhhhhhj��������0 invalid character in client number
+jA@+��/(2,7) got double fault interrupt: PC 0xfe01_4258, ICS/PL 0x2@� 0jhlhjjnhljhjhhhjlhc�?@jhnnjhhhhhhhj��������0�
+hv: invalid character in client number
+v: invalid character in client number
+jA@+��/(2,7) got double fault interrupt: PC 0xfe01_4258, ICS/PL 0x2@� 0jhlhjjnhljh�����jhhhjlhc�?@jhnnjhhhhhhhj͹��0�
+hv: invalid character in client number
+v: invalid character in client number
+jA@+��/(2,7) got double fault interrupt: PC 0xfe01_4258, ICS/PL 0x2@� 0jhlhjjnhljh�����jhhhjlhc�?@jhnnjhhhhhhhj͹��0@
+hv: invalid character in client number
+v: invalid character in client number
+jA@+��/(2,7) got double fault interrupt: PC 0xfe01_4258, ICS/PL 0x2@� 0jhlhjjnhljhjhhhjlhc�?@jhnnjhhhhhhhj��������0
+hv: invalid character in client number
+v: invalid character in client number
+jA@+��/(2,7) got double fault interrupt: PC 0xfe01_4258, ICS/PL 0x2@� 0jhlhjjnhljhjhhhjlhc�?@jhnnjhhhhhhhj��������0�
+hv: invalid character in client number
+v: invalid character in client number
+jA@+��/(2,7) got double fault interrupt: PC 0xfe01_4258, ICS/PL 0x2@� 0jhlhjjnhljh�����jhhhjlhc�?@jhnnjhhhhhhhj͹��0D
+hv: invalid character in client number
+v: invalid character in client number
+jA@+��/(2,7) got double fault interrupt: PC 0xfe01_4258, ICS/PL 0x2@� 0jhlhjjnhljhjhhhjlhc�?@jhnnjhhhhhhhj��������0
+hv: invalid character in client number
+hv: invalid character in client number
+jA@+��/(2,7) got double fault interrupt: PC 0xfe01_4258, ICS/PL 0x2@� 0jhlhjjnhljhjhhhjlhc�?@jhnnjhhhhhhhj��������0
+hv: invalid character in client number
+v: invalid character in client number
+jA@+��/(2,7) got double fault interrupt: PC 0xfe01_4258, ICS/PL 0x2@� 0jhlhjjnhljhjhhhjlhc�?@jhnnjhhhhhhhj��������0p
+hv: invalid character in client number
+lid character in client number
+jA@+��/(2,7) got double fault interrupt: PC 0xfe01_4258, ICS/PL 0x2@� 0jhlhjjnhljhjhhhjlhc�?@jhnnjhhhhhhhj��������0a
+hv: invalid character in client number
+v: invalid character in client number
+jA@+��/(2,7) got double fault interrupt: PC 0xfe01_4258, ICS/PL 0x2@� 0jhlhjjnhljhjhhhjlhc�?@jhnnjhhhhhhhj��������0
+hv: invalid character in client number
+v: invalid character in client number
+jA@+��/(2,7) got double fault interrupt: PC 0xfe01_4258, ICS/PL 0x2@� 0jhlhjjnhljhjhhhjlhc�?@jhnnjhhhhhhhj��������0x
+hv: invalid character in client number
+v: invalid character in client number
+jA@+��/(2,7) got double fault interrupt: PC 0xfe01_4258, ICS/PL 0x2@� 0jhlhjjnhljhjhhhjlhc�?@jhnnjhhhhhhhj��������0
+hv: invalid character in client number
+v: invalid character in client number
+jA@+��/(2,7) got double fault interrupt: PC 0xfe01_4258, ICS/PL 0x2@� 0jhlhjjnhljhjhhhjlhc�?@jhnnjhhhhhhhj��������0
+hv: invalid character in client number
+v: invalid character in client number
+jA@+��/(2,7) got double fault interrupt: PC 0xfe01_4258, ICS/PL 0x2@� 0jhlhjjnhljhjhhhjlhc�?@jhnnjhhhhhhhj��������0@
+hv: invalid character in client number
+: invalid character in client number
+jA@+��/(2,7) got double fault interrupt: PC 0xfe01_4258, ICS/PL 0x2@� 0jhlhjjnhljhjhhhjlhc�?@jhnnjhhhhhhhj��������0�
+hv: invalid character in client number
+v: invalid character in client number
+jA@+��/(2,7) got double fault interrupt: PC 0xfe01_4258, ICS/PL 0x2@� 0jhlhjjnhljh�����jhhhjlhc�?@jhnnjhhhhhhhj͹��0�
+hv: invalid character in client number
+v: invalid character in client number
+jA@+��/(2,7) got double fault interrupt: PC 0xfe01_4258, ICS/PL 0x2@� 0jhlhjjnhljh�����jhhhjlhc�?@jhnnjhhhhhhhj͹��0
+hv: invalid character in client number
+v: invalid character in client number
+jA@+��/(2,7) got double fault interrupt: PC 0xfe01_4258, ICS/PL 0x2@� 0jhlhjjnhljhjhhhjlhc�?@jhnnjhhhhhhhj��������0�
+hv: invalid character in client number
+v: invalid character in client number
+jA@+��/(2,7) got double fault interrupt: PC 0xfe01_4258, ICS/PL 0x2@� 0jhlhjjnhljh�����jhhhjlhc�?@jhnnjhhhhhhhj͹��0
+hv: invalid character in client number
+v: invalid character in client number
+jA@+��/(2,7) got double fault interrupt: PC 0xfe01_4258, ICS/PL 0x2@� 0jhlhjjnhljhjhhhjlhc�?@jhnnjhhhhhhhj��������0h invalid character in client number
+jA@+��/(2,7) got double fault interrupt: PC 0xfe01_4258, ICS/PL 0x2@� 0jhlhjjnhljhjhhhjlhc�?@jhnnjhhhhhhhj��������0R
+hv: invalid character in client number
+v: invalid character in client number
+jA@+��/(2,7) got double fault interrupt: PC 0xfe01_4258, ICS/PL 0x2@� 0jhlhjjnhljhjhhhjlhc�?@jhnnjhhhhhhhj��������0!
+hv: invalid character in client number
+v: invalid character in client number
+jA@+��/(2,7) got double fault interrupt: PC 0xfe01_4258, ICS/PL 0x2@� 0jhlhjjnhljhjhhhjlhc�?@jhnnjhhhhhhhj��������0�
+hv: invalid character in client number
+v: invalid character in client number
+jA@+��/(2,7) got double fault interrupt: PC 0xfe01_4258, ICS/PL 0x2@� 0jhlhjjnhljh�����jhhhjlhc�?@jhnnjhhhhhhhj͹��0�
+hv: invalid character in client number
+v: invalid character in client number
+jA@+��/(2,7) got double fault interrupt: PC 0xfe01_4258, ICS/PL 0x2@� 0jhlhjjnhljh�����jhhhjlhc�?@jhnnjhhhhhhhj͹��0
+hv: invalid character in client number
+v: invalid character in client number
+jA@+��/(2,7) got double fault interrupt: PC 0xfe01_4258, ICS/PL 0x2@� 0jhlhjjnhljhjhhhjlhc�?@jhnnjhhhhhhhj��������0
+hv: invalid character in client number
+ character in client number
+jA@+��/(2,7) got double fault interrupt: PC 0xfe01_4258, ICS/PL 0x2@� 0jhlhjjnhljhjhhhjlhc�?@jhnnjhhhhhhhj��������0@
+hv: invalid character in client number
+hv: invalid character in client number
+jA@+��/(2,7) got double fault interrupt: PC 0xfe01_4258, ICS/PL 0x2@� 0jhlhjjnhljhjhhhjlhc�?@jhnnjhhhhhhhj��������0
+hv: invalid character in client number
+v: invalid character in client number
+jA@+��/(2,7) got double fault interrupt: PC 0xfe01_4258, ICS/PL 0x2@� 0jhlhjjnhljhjhhhjlhc�?@jhnnjhhhhhhhj��������0`
+hv: invalid character in client number
+v: invalid character in client number
+jA@+��/(2,7) got double fault interrupt: PC 0xfe01_4258, ICS/PL 0x2@� 0jhlhjjnhljhjhhhjlhc�?@jhnnjhhhhhhhj��������0p
+hv: invalid character in client number
+v: invalid character in client number
+jA@+��/(2,7) got double fault interrupt: PC 0xfe01_4258, ICS/PL 0x2@� 0jhlhjjnhljhjhhhjlhc�?@jhnnjhhhhhhhj��������0
+hv: invalid character in client number
+v: invalid character in client number
+jA@+��/(2,7) got double fault interrupt: PC 0xfe01_4258, ICS/PL 0x2@� 0jhlhjjnhljhjhhhjlhc�?@jhnnjhhhhhhhj��������0A
+hv: invalid character in client number
+v: invalid character in client number
+jA@+��/(2,7) got double fault interrupt: PC 0xfe01_4258, ICS/PL 0x2@� 0jhlhjjnhljhjhhhjlhc�?@jhnnjhhhhhhhj��������0
+hv: invalid character in client number
+v: invalid character in client number
+jA@+��/(2,7) got double fault interrupt: PC 0xfe01_4258, ICS/PL 0x2@� 0jhlhjjnhljhjhhhjlhc�?@jhnnjhhhhhhhj��������0 invalid character in client number
+jA@+��/(2,7) got double fault interrupt: PC 0xfe01_4258, ICS/PL 0x2@� 0jhlhjjnhljhjhhhjlhc�?@jhnnjhhhhhhhj��������0�
+hv: invalid character in client number
+v: invalid character in client number
+jA@+��/(2,7) got double fault interrupt: PC 0xfe01_4258, ICS/PL 0x2@� 0jhlhjjnhljh�����jhhhjlhc�?@jhnnjhhhhhhhj͹��0H
+hv: invalid character in client number
+v: invalid character in client number
+jA@+��/(2,7) got double fault interrupt: PC 0xfe01_4258, ICS/PL 0x2@� 0jhlhjjnhljhjhhhjlhc�?@jhnnjhhhhhhhj��������0
+hv: invalid character in client number
+v: invalid character in client number
+jA@+��/(2,7) got double fault interrupt: PC 0xfe01_4258, ICS/PL 0x2@� 0jhlhjjnhljhjhhhjlhc�?@jhnnjhhhhhhhj��������0�
+hv: invalid character in client number
+hv: invalid character in client number
+jA@+��/(2,7) got double fault interrupt: PC 0xfe01_4258, ICS/PL 0x2@� 0jhlhjjnhljh�����jhhhjlhc�?@jhnnjhhhhhhhj͹��0t
+hv: invalid character in client number
+v: invalid character in client number
+jA@+��/(2,7) got double fault interrupt: PC 0xfe01_4258, ICS/PL 0x2@� 0jhlhjjnhljhjhhhjlhc�?@jhnnjhhhhhhhj��������0!
+hv: invalid character in client number
+v: invalid character in client number
+jA@+��/(2,7) got double fault interrupt: PC 0xfe01_4258, ICS/PL 0x2@� 0jhlhjjnhljhjhhhjlhc�?@jhnnjhhhhhhhj��������0
+hv: invalid character in client number
+v: invalid character in client number
+jA@+��/(2,7) got double fault interrupt: PC 0xfe01_4258, ICS/PL 0x2@� 0jhlhjjnhljhjhhhjlhc�?@jhnnjhhhhhhhj��������0@
+hv: invalid character in client number
+acter in client number
+jA@+��/(2,7) got double fault interrupt: PC 0xfe01_4258, ICS/PL 0x2@� 0jhlhjjnhljhjhhhjlhc�?@jhnnjhhhhhhhj�������j0
+hv: console command help:
+    0-9     connect console to client #
+    c#<CR>  connect console to client #
+    +/-     connect console to next/prev client
+    l       list clients
+    R       reboot (if booted from SROM)
+    P       enter protocol mode
+v  P       enter protocol mode
+om SROM)
+client
+ected to client #0hv: console now connected to client #0hv: client #4 does not existhv: cjhhhjlhc�?@jhnnjhhhhhhhj��0
+
+hv: console command help:
+    0-9     connect console to client #
+    c#<CR>  connect console to client #
+    +/-     connect console to next/prev client
+    l       list clients
+    R       reboot (if booted from SROM)
+    P       enter protocol mode
+v  P       enter protocol mode
+om SROM)
+client
+ected to client #0hv: console now connected to client #0hv: client #4 does not existhv: cjhhhjlhc�?@jhnnjhhhhhhhj��0
+hv: console command help:
+    0-9     connect console to client #
+    c#<CR>  connect console to client #
+    +/-     connect console to next/prev client
+    l       list clients
+    R       reboot (if booted from SROM)
+    P       enter protocol mode
+v  P       enter protocol mode
+om SROM)
+client
+ected to client #0hv: console now connected to client #0hv: client #4 does not existhv: cjhhhjlhc�?@jhnnjhhhhhhhj��0
+hv: client #3 does not exist
+v: client #3 does not exist
+de
+om SROM)
+client
+ected to client #0hv: console now connected to client #0hv: client #4 does not existhv: cjhhhjlhc�?@jhnnjhhhhhhhj��0
+hv: console command help:
+    0-9     connect console to client #
+    c#<CR>  connect console to client #
+    +/-     connect console to next/prev client
+    l       list clients
+    R       reboot (if booted from SROM)
+    P       enter protocol mode
+h   P       enter protocol mode
+om SROM)
+client
+ected to client #0hv: console now connected to client #0hv: client #4 does not existhv: cjhhhjlhc�?@jhnnjhhhhhhhj��0
+hv: client #4 does not exist
+v: client #4 does not exist
+de
+om SROM)
+client
+ected to client #0hv: console now connected to client #0hv: client #4 does not existhv: cjhhhjlhc�?@jhnnjhhhhhhhj��0
+hv: console command help:
+    0-9     connect console to client #
+    c#<CR>  connect console to client #
+    +/-     connect console to next/prev client
+    l       list clients
+    R       reboot (if booted from SROM)
+    P       enter protocol mode
+v  P       enter protocol mode
+om SROM)
+client
+ected to client #0hv: console now connected to client #0hv: client #4 does not existhv: cjhhhjlhc�?@jhnnjhhhhhhhj��0
+hv: client #3 does not exist
+v: client #3 does not exist
+de
+om SROM)
+client
+ected to client #0hv: console now connected to client #0hv: client #4 does not existhv: cjhhhjlhc�?@jhnnjhhhhhhhj��0hv: client #3 does not exist
+v: client #3 does not exist
+de
+om SROM)
+client
+ected to client #0hv: console now connected to client #0hv: client #4 does not existhv: cjhhhjlhc�?@jhnnjhhhhhhhj��0
+
+hv: console command help:
+    0-9     connect console to client #
+    c#<CR>  connect console to client #
+    +/-     connect console to next/prev client
+    l       list clients
+    R       reboot (if booted from SROM)
+    P       enter protocol mode
+v  P       enter protocol mode
+om SROM)
+client
+ected to client #0hv: console now connected to client #0hv: client #4 does not existhv: cjhhhjlhc�?@jhnnjhhhhhhhj��0ient #4 does not exist
+vnt #4 does not exist
+col mode
+om SROM)
+client
+ected to client #0hv: console now connected to client #0hv: client #4 does not existhv: cjhhhjlhc�?@jhnnjhhhhhhhj��0
+hv: console command help:
+    0-9     connect console to client #
+    c#<CR>  connect console to client #
+    +/-     connect console to next/prev client
+    l       list clients
+    R       reboot (if booted from SROM)
+    P       enter protocol mode
+v  P       enter protocol mode
+om SROM)
+client
+ected to client #0hv: console now connected to client #0hv: client #4 does not existhv: cjhhhjlhc�?@jhnnjhhhhhhhj��0v  P       enter protocol mode
+om SROM)
+client
+ected to client #0hv: console now connected to client #0hv: client #4 does not existhv: cjhhhjlhc�?@jhnnjhhhhhhhj��0
+hv: console command help:
+    0-9     connect console to client #
+    c#<CR>  connect console to client #
+    +/-     connect console to next/prev client
+    l       list clients
+    R       reboot (if booted from SROM)
+    P       enter protocol mode
+v  P       enter protocol mode
+om SROM)
+client
+ected to client #0hv: console now connected to client #0hv: client #4 does not existhv: cjhhhjlhc�?@jhnnjhhhhhhhj��0hv: console command help:
+    0-9     connect console to client #
+    c#<CR>  connect console to client #
+    +/-     connect console to next/prev client
+    l       list clients
+    R       reboot (if booted from SROM)
+    P       enter protocol mode
+v  P       enter protocol mode
+om SROM)
+client
+ected to client #0hv: console now connected to client #0hv: client #4 does not existhv: cjhhhjlhc�?@jhnnjhhhhhhhj��0
+hv: console command help:
+    0-9     connect console to client #
+    c#<CR>  connect console to client #
+    +/-     connect console to next/prev client
+    l       list clients
+    R       reboot (if booted from SROM)
+    P       enter protocol mode
+h   P       enter protocol mode
+om SROM)
+client
+ected to client #0hv: console now connected to client #0hv: client #4 does not existhv: cjhhhjlhc�?@jhnnjhhhhhhhj��0hv: console command help:
+    0-9     connect console to client #
+    c#<CR>  connect console to client #
+    +/-     connect console to next/prev                                  +/-       +/-         +/-        +/-      0
+
+hv: console command help:
+    0-9     connect console to client #
+    c#<CR>  connect console to client #
+    +/-     connect console                                                                                  +/-    0
+
+hv: console command help:
+    0-9     connect console to client #
+    c#<CR>  connect console to              c#<CR>  connect console to client #
+ clienthv: hv: console command help:
+    0-9     connect console to client #
+    c#<CR>  connect console to client #
+    +/-     connect console to next/prev client
+    l       list clients
+    R       reboot (if booted from SROM)
+    P       enter protocol mode
+   P       enter protocol mode
+om SROM)
+client
+v:hv: console command help:
+    0-9     connect console to client #
+    c#<CR>  connect console to client #
+    +/-     connect console to next/prev client
+    l       list clients
+    R       reboot (if booted from SROM)
+    P       enter protocol mode
+    P       enter protocol mode
+om SROM)
+client
+vhv: available clients:
+  0. 8x8 @ 0,0, 54 tiles, console connected
+ 0. 8x8 @ 0,0, 54 tiles, console connected
+ent
+hv: console command help:
+    0-9     connect console to client #
+    c#<CR>  connect console to client #
+    +/-     connect console to next/prev client
+    l       list clients
+    R       reboot (if booted from SROM)
+    P       enter protocol mode
+   P       enter protocol mode
+om SROM)
+clienthv: console command help:
+    0-9     connect console to client #
+    c#<CR>  connect console to client #
+    +/-     connect console to next/prev client
+    l       list clients
+    R       reboot (if booted from SROM)
+    P       enter protocol mode
+   P       enter protocol mode
+om SROM)
+clienhv: console command help:
+    0-9     connect console to client #
+    c#<CR>  connect console to client #
+    +/-     connect console to next/prev client
+    l       list clients
+    R       reboot (if booted from SROM)
+    P       enter protocol mode
+   P       enter protocol mode
+om SROM)
+cliehv: console command help:
+    0-9     connect console to client #
+    c#<CR>  connect console to client #
+    +/-     connect console to next/prev client
+    l       list clients
+    R       reboot (if booted from SROM)
+    P       enter protocol mode
+   P       enter protocol mode
+om SROM)
+clihv: console command help:
+    0-9     connect console to client #
+    c#<CR>  connect console to client #
+    +/-     connect console to next/prev client
+    l       list clients
+    R       reboot (if booted from SROM)
+    P       enter protocol mode
+   P       enter protocol mode
+om SROM)
+clhv: console command help:
+    0-9     connect console to client #
+    c#<CR>  connect console to client #
+    +/-     connect console to next/prev client
+    l       list clients
+    R       reboot (if booted from SROM)
+    P       enter protocol mode
+   P       enter protocol mode
+om SROM)
+chv: console command help:
+    0-9     connect console to client #
+    c#<CR>  connect console to client #
+    +/-     connect console to next/prev client
+    l       list clients
+    R       reboot (if booted from SROM)
+    P       enter protocol mode
+   P       enter protocol mode
+om SROM)
+hv: console command help:
+    0-9     connect console to client #
+    c#<CR>  connect console to client #
+    +/-     connect console to next/prev client
+    l       list clients
+    R       reboot (if booted from SROM)
+    P       enter protocol mode
+com SROM)    +/-     connect console to next/prev client
+    l       list clients
+    R       reboot (if booted from SROM)
+    P       enter protocol mode
+   P       enter protocol mode
+om SROM)
+client
+v: console now connected to client #0Forcing UART protocol mode, the console will no longer be functionalhv: console0
+
+hv: console command help:
+    0-9     connect console to client #
+    c#<CR>  connect console to client #
+    +/-     connect console to next/prev client
+    l       list clients
+    R       reboot (if booted from SROM)
+    P       enter protocol mode
+   P       enter protocol mode
+om SROM)
+client
+v: console now connected to client #0Forcing UART protocol mode, the console will no longer be functionalhv: console0
+
+hv: console command help:
+    0-9     connect console to client #
+    c#<CR>  connect console to client #
+    +/-     connect console to next/prev client
+    l       list clients
+    R       reboot (if booted from SROM)
+    P       enter protocol mode
+   P       enter protocol mode
+om SROM)
+client
+v: console now connected to client #0Forcing UART protocol mode, the console will no longer be functionalhv: console0
+
+hv: console command help:
+    0-9     connect console to client #
+    c#<CR>  connect console to client #
+    +/-     connect console to next/prev client
+    l       list clients
+    R       reboot (if booted from SROM)
+    P       enter protocol mode
+   P       enter protocol mode
+om SROM)
+client
+v: console now connected to client #0Forcing UART protocol mode, the console will no longer be functionalhv: console0
+
+hv: console command help:
+    0-9     connect console to client #
+    c#<CR>  connect console to client #
+    +/-     connect console to next/prev client
+    l       list clients
+    R       reboot (if booted from SROM)
+    P       enter protocol mode
+   P       enter protocol mode
+om SROM)
+client
+v: console now connected to client #0Forcing UART protocol mode, the console will no longer be functionalhv: console0
+
+hv: console command help:
+    0-9     connect console to client #
+    c#<CR>  connect console to client #
+    +/-     connect console to next/prev client
+    l       list clients
+    R       reboot (if booted from SROM)
+    P       enter protocol mode
+   P       enter protocol mode
+om SROM)
+client
+v: console now connected to client #0Forcing UART protocol mode, the console will no longer be functionalhv: console0
+
+hv: available clients:
+  0. 8x8 @ 0,0, 54 tiles, console connected
+ 0. 8x8 @ 0,0, 54 tiles, console connected
+ent
+v: console now connected to client #0Forcing UART protocol mode, the console will no longer be functionalhv: console0
+
+hv: console command help:
+    0-9     connect console to client #
+    c#<CR>  connect console to client #
+    +/-     connect console to next/prev client
+    l       list clients
+    R       reboot (if booted from SROM)
+    P       enter protocol mode
+   P       enter protocol mode
+om SROM)
+client
+v: console now connected to client #0Forcing UART protocol mode, the console will no longer be functionalhv: console0
+
+hv: console command help:
+    0-9     connect console to client #
+    c#<CR>  connect console to client #
+    +/-     connect console to next/prev client
+    l       list clients
+    R       reboot (if booted from SROM)
+    P       enter protocol mode
+   P       enter protocol mode
+om SROM)
+client
+v: console now connected to client #0Forcing UART protocol mode, the console will no longer be functionalhv: console0
+
+hv: console command help:
+    0-9     connect console to client #
+    c#<CR>  connect console to client #
+    +/-     connect console to next/prev client
+    l       list clients
+    R       reboot (if booted from SROM)
+    P       enter protocol mode
+    P       enter protocol mode
+om SROM)
+client
+v: console now connected to client #0Forcing UART protocol mode, the console will no longer be functionalhv: console0
+
+hv: console command help:
+    0-9     connect console to client #
+    c#<CR>  connect console to client #
+    +/-     connect console to next/prev client
+    l       list clients
+    R       reboot (if booted from SROM)
+    P       enter protocol mode
+   P       enter protocol mode
+om SROM)
+client
+v: console now connected to client #0Forcing UART protocol mode, the console will no longer be functionalhv: console0
+
+hv: console command help:
+    0-9     connect console to client #
+    c#<CR>  connect console to client #
+    +/-     connect console to next/prev client
+    l       list clients
+    R       reboot (if booted from SROM)
+    P       enter protocol mode
+   P       enter protocol mode
+om SROM)
+client
+v: console now connected to client #0Forcing UART protocol mode, the console will no longer be functionalhv: console0
+
+Enter client number: 
+hv: conhhhhv: consohhhhv: consohhhhv: consohhhhv: consohhhhv: consohhhv: consolhhhv: consohhhhv: consohhhhv: consohv0
+hv: invalid character ihhhhhhhhhv: invalid character in client numberMinicom2.4`2P2@2v: invalid character in clier
+v: invalid character in client number
+inicom2.4`2P2v: invalid character in client number
+inicom2.4`2P2hv: invalid character in client number
+v: invalid character in client number
+inicom2.4`2hv: invalid character in client number
+v: invalid character in client number
+inicom2.4`hv: invalid character in client number
+v: invalid character in client number
+inicom2.hv: invalid character in client number
+hv: invalid character in client number
+inicomhv: invalid character in client number
+v: invalid character in client number
+inichv: invalid character in client number
+v: invalid character in client number
+inhv: invalid character in client number
+n client number
+cnvalid character in client number
+hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhv: client #6 does not exi0
+
+hv: console command help:
+    0-9     connect console to client #
+    c#<CR>  connect console to client #
+    +/-     connect console to next/prev client
+    l       list clients
+    R       reboot (if booted from SROM)
+    P       enter protocol mode
+v  P       enter protocol mode
+om SROM)
+client
+ected to client #0hv: console now connected to client #0hv: client #4 does not existhv: clfault interrupt: PC 0xfe010
+
+hv: console command help:
+    0-9     connect console to client #
+    c#<CR>  connect console to client #
+    +/-     connect console to next/prev client
+    l       list clients
+    R       reboot (if booted from SROM)
+    P       enter protocol mode
+v  P       enter protocol mode
+om SROM)
+client
+hhhhhhhhhhhhhhhhhv: conhv: console hv: console hv: consolehv: console hv: console hv: consolehv: console hhhhhhhhhhv0
+hhhhhhhhhhhhhhhhhhhhhhhhv: console now connected to client #0hv: console now connechhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh0
+
+hv: console command hehhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhv:hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh2
+e now connected to client #0hv: console now connected to client #0hv: consfe01_38c8, ICScted to cted tclient #0
+
+hv: console command help:
+    0-9     connect console to client #
+    c#<CR>  connect console to client #
+    +/-     connect console to next/prev client
+    l       list clients
+    R       reboot (if booted from SROM)
+    P       enter protocol mode
+v  P       enter protocol mode
+om SROM)
+client
+interrupt: PC 0xfe01_4258, ICS/PL 0x2
+e now connected to client #0hv: console now connected to client #0hv: consfe01_38c8, ICScted to cted tclient #0
+
+hv: console command help:
+    0-9     connect console to client #
+    c#<CR>  connect console to client #
+    +/-     connect console to next/prev client
+    l       list clients
+    R       reboot (if booted from SROM)
+    P       enter protocol mode
+v  P       enter protocol mode
+om SROM)
+client
+interrupt: PC 0xfe01_4258, ICS/PL 0x2
+e now connected to client #0hv: console now connected to client #0hv: consfe01_38c8, ICScted to cted tclient #0
+
+hv: console command help:
+    0-9     connect console to client #
+    c#<CR>  connect console to client #
+    +/-     connect console to next/prev client
+    l       list clients
+    R       reboot (if booted from SROM)
+    P       enter protocol mode
+v  P       enter protocol mode
+om SROM)
+client
+interrupt: PC 0xfe01_4258, ICS/PL 0x2
+e now connected to client #0hv: console now connected to client #0hv: consfe01_38c8, ICScted to cted tclient #0
+
+hv: console command help:
+    0-9     connect console to client #
+    c#<CR>  connect console to client #
+    +/-     connect console to next/prev client
+    l       list clients
+    R       reboot (if booted from SROM)
+    P       enter protocol mode
+v  P       enter protocol mode
+om SROM)
+client
+interrupt: PC 0xfe01_4258, ICS/PL 0x2
+e now connected to client #0hv: console now connected to client #0hv: consfe01_38c8, ICScted to cted tclient #0
+
+hv: console command help:
+    0-9     connect console to client #
+    c#<CR>  connect console to client #
+    +/-     connect console to next/prev client
+    l       list clients
+    R       reboot (if booted from SROM)
+    P       enter protocol mode
+h   P       enter protocol mode
+om SROM)
+client
+interrupt: PC 0xfe01_4258, ICS/PL 0x2
+e now connected to client #0hv: console now connected to client #0hv: consfe01_38c8, ICScted to cted tclient #0
+
+hv: console command help:
+    0-9     connect console to client #
+    c#<CR>  connect console to client #
+    +/-     connect console to next/prev client
+    l       list clients
+    R       reboot (if booted from SROM)
+    P       enter protocol mode
+v  P       enter protocol mode
+om SROM)
+client
+interrupt: PC 0xfe01_4258, ICS/PL 0x2
+e now connected to client #0hv: console now connected to client #0hv: consfe01_38c8, ICScted to cted tclient #0
+
+hv: console command help:
+    0-9     connect console to client #
+    c#<CR>  connect console to client #
+    +/-     connect console to next/prev client
+    l       list clients
+    R       reboot (if booted from SROM)
+    P       enter protocol mode
+v  P       enter protocol mode
+om SROM)
+client
+interrupt: PC 0xfe01_4258, ICS/PL 0x2
+e now connected to client #0hv: console now connected to client #0hv: consfe01_38c8, ICScted to cted tclient #0
+
+hv: console command help:
+    0-9     connect console to client #
+    c#<CR>  connect console to client #
+    +/-     connect console to next/prev client
+    l       list clients
+    R       reboot (if booted from SROM)
+    P       enter protocol mode
+v  P       enter protocol mode
+om SROM)
+client
+interrupt: PC 0xfe01_4258, ICS/PL 0x2
+e now connected to client #0hv: console now connected to client #0hv: consfe01_38c8, ICScted to cted tclient #0
+
+hv: console command help:
+    0-9     connect console to client #
+    c#<CR>  connect console to client #
+    +/-     connect console to next/prev client
+    l       list clients
+    R       reboot (if booted from SROM)
+    P       enter protocol mode
+v  P       enter protocol mode
+om SROM)
+client
+interrupt: PC 0xfe01_4258, ICS/PL 0x2
+e now connected to client #0hv: console now connected to client #0hv: consfe01_38c8, ICScted to cted tclient #0
+
+hv: console command help:
+    0-9     connect console to client #
+    c#<CR>  connect console to client #
+    +/-     connect console to next/prev client
+    l       list clients
+    R       reboot (if booted from SROM)
+    P       enter protocol mode
+v  P       enter protocol mode
+om SROM)
+client
+interrupt: PC 0xfe01_4258, ICS/PL 0x2
+e now connected to client #0hv: console now connected to client #0hv: consfe01_38c8, ICScted to cted tclient #0
+
+Enter client number: vter client number: tocol mode
+om SROM)
+client
+interrupt: PC 0xfe01_4258, ICS/PL 0x2
+� coX��to clienX��sole X��nX��0
+d
+hv: invalid character in client number
+: invalid character in client number
+�      Ȩ      p      interdisp_span_eager_connect__udn_sen(2,7) got double fault interrupt: PC 0xfe08_e4a8, ICS/0
+n
+hv: invalid character in client number
+: invalid character in client number
+�      Ȩ      p      interdisp_span_eager_connect__udn_sen(2,7) got double fault interrupt: PC 0xfe08_e4a8, ICS/0
+e
+hv: invalid character in client number
+: invalid character in client number
+�      Ȩ      p      interdisp_span_eager_connect__udn_sen(2,7) got double fault interrupt: PC 0xfe08_e4a8, ICS/0
+s
+hv: invalid character in client number
+v: invalid character in client number
+�      Ȩ      p      interdisp_span_eager_connect__udn_sen(2,7) got double fault interrupt: PC 0xfe08_e4a8, ICS/0
+_
+hv: invalid character in client number
+: invalid character in client number
+�      Ȩ      p      interdisp_span_eager_connect__udn_sen(2,7) got double fault interrupt: PC 0xfe08_e4a8, ICS/0
+p
+hv: invalid character in client number
+: invalid character in client number
+�      Ȩ      p      interdisp_span_eager_connect__udn_sen(2,7) got double fault interrupt: PC 0xfe08_e4a8, ICS/0
+m
+hv: invalid character in client number
+: invalid character in client number
+�      Ȩ      p      interdisp_span_eager_connect__udn_sen(2,7) got double fault interrupt: PC 0xfe08_e4a8, ICS/0
+l
+hv: invalid character in client number
+: invalid character in client number
+�      Ȩ      p      interdisp_span_eager_connect__udn_sen(2,7) got double fault interrupt: PC 0xfe08_e4a8, ICS/0
+_
+hv: invalid character in client number
+: invalid character in client number
+�      Ȩ      p      interdisp_span_eager_connect__udn_sen(2,7) got double fault interrupt: PC 0xfe08_e4a8, ICS/0
+_
+hv: invalid character in client number
+: invalid character in client number
+�      Ȩ      p      interdisp_span_eager_connect__udn_sen(2,7) got double fault interrupt: PC 0xfe08_e4a8, ICS/0
+t
+hv: invalid character in client number
+: invalid character in client number
+�      Ȩ      p      interdisp_span_eager_connect__udn_sen(2,7) got double fault interrupt: PC 0xfe08_e4a8, ICS/0
+c
+hv: invalid character in client number
+: invalid character in client number
+�      Ȩ      p      interdisp_span_eager_connect__udn_sen(2,7) got double fault interrupt: PC 0xfe08_e4a8, ICS/0
+e
+hv: invalid character in client number
+: invalid character in client number
+�      Ȩ      p      interdisp_span_eager_connect__udn_sen(2,7) got double fault interrupt: PC 0xfe08_e4a8, ICS/0
+n
+hv: invalid character in client number
+: invalid character in client number
+�      Ȩ      p      interdisp_span_eager_connect__udn_sen(2,7) got double fault interrupt: PC 0xfe08_e4a8, ICS/0
+n
+hv: invalid character in client number
+v: invalid character in client number
+�      Ȩ      p      interdisp_span_eager_connect__udn_sen(2,7) got double fault interrupt: PC 0xfe08_e4a8, ICS/0
+o
+hv: invalid character in client number
+: invalid character in client number
+�      Ȩ      p      interdisp_span_eager_connect__udn_sen(2,7) got double fault interrupt: PC 0xfe08_e4a8, ICS/0
+c
+hv: invalid character in client number
+: invalid character in client number
+�      Ȩ      p      interdisp_span_eager_connect__udn_sen(2,7) got double fault interrupt: PC 0xfe08_e4a8, ICS/0
+_
+hv: invalid character in client number
+: invalid character in client number
+�      Ȩ      p      interdisp_span_eager_connect__udn_sen(2,7) got double fault interrupt: PC 0xfe08_e4a8, ICS/0
+r
+hv: invalid character in client number
+: invalid character in client number
+�      Ȩ      p      interdisp_span_eager_connect__udn_sen(2,7) got double fault interrupt: PC 0xfe08_e4a8, ICS/0
+e
+hv: invalid character in client number
+: invalid character in client number
+�      Ȩ      p      interdisp_span_eager_connect__udn_sen(2,7) got double fault interrupt: PC 0xfe08_e4a8, ICS/0
+g
+hv: invalid character in client number
+: invalid character in client number
+�      Ȩ      p      interdisp_span_eager_connect__udn_sen(2,7) got double fault interrupt: PC 0xfe08_e4a8, ICS/0
+a
+hv: invalid character in client number
+: invalid character in client number
+�      Ȩ      p      interdisp_span_eager_connect__udn_sen(2,7) got double fault interrupt: PC 0xfe08_e4a8, ICS/0
+e
+hv: invalid character in client number
+: invalid character in client number
+�      Ȩ      p      interdisp_span_eager_connect__udn_sen(2,7) got double fault interrupt: PC 0xfe08_e4a8, ICS/0
+_
+hv: invalid character in client number
+: invalid character in client number
+�      Ȩ      p      interdisp_span_eager_connect__udn_sen(2,7) got double fault interrupt: PC 0xfe08_e4a8, ICS/0
+n
+hv: invalid character in client number
+: invalid character in client number
+�      Ȩ      p      interdisp_span_eager_connect__udn_sen(2,7) got double fault interrupt: PC 0xfe08_e4a8, ICS/0
+a
+hv: invalid character in client number
+v: invalid character in client number
+�      Ȩ      p      interdisp_span_eager_connect__udn_sen(2,7) got double fault interrupt: PC 0xfe08_e4a8, ICS/0
+p
+hv: invalid character in client number
+: invalid character in client number
+�      Ȩ      p      interdisp_span_eager_connect__udn_sen(2,7) got double fault interrupt: PC 0xfe08_e4a8, ICS/0
+s
+hv: invalid character in client number
+: invalid character in client number
+�      Ȩ      p      interdisp_span_eager_connect__udn_sen(2,7) got double fault interrupt: PC 0xfe08_e4a8, ICS/0
+_
+hv: invalid character in client number
+: invalid character in client number
+�      Ȩ      p      interdisp_span_eager_connect__udn_sen(2,7) got double fault interrupt: PC 0xfe08_e4a8, ICS/0
+p
+hv: invalid character in client number
+: invalid character in client number
+�      Ȩ      p      interdisp_span_eager_connect__udn_sen(2,7) got double fault interrupt: PC 0xfe08_e4a8, ICS/0
+s
+hv: invalid character in client number
+: invalid character in client number
+�      Ȩ      p      interdisp_span_eager_connect__udn_sen(2,7) got double fault interrupt: PC 0xfe08_e4a8, ICS/0
+i
+hv: invalid character in client number
+: invalid character in client number
+�      Ȩ      p      interdisp_span_eager_connect__udn_sen(2,7) got double fault interrupt: PC 0xfe08_e4a8, ICS/0
+d
+hv: invalid character in client number
+: invalid character in client number
+�      Ȩ      p      interdisp_span_eager_connect__udn_sen(2,7) got double fault interrupt: PC 0xfe08_e4a8, ICS/0
+r
+hv: invalid character in client number
+: invalid character in client number
+�      Ȩ      p      interdisp_span_eager_connect__udn_sen(2,7) got double fault interrupt: PC 0xfe08_e4a8, ICS/0
+e
+hv: invalid character in client number
+: invalid character in client number
+�      Ȩ      p      interdisp_span_eager_connect__udn_sen(2,7) got double fault interrupt: PC 0xfe08_e4a8, ICS/0
+t
+hv: invalid character in client number
+: invalid character in client number
+�      Ȩ      p      interdisp_span_eager_connect__udn_sen(2,7) got double fault interrupt: PC 0xfe08_e4a8, ICS/0
+n
+hv: invalid character in client number
+v: invalid character in client number
+�      Ȩ      p      interdisp_span_eager_connect__udn_sen(2,7) got double fault interrupt: PC 0xfe08_e4a8, ICS/0
+i
+hv: invalid character in client number
+: invalid character in client number
+�      Ȩ      p      interdisp_span_eager_connect__udn_sen(2,7) got double fault interrupt: PC 0xfe08_e4a8, ICS/0
+
+hv: invalhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhht
+ cted tclient #0
+hv: client #1 does not exist
+hv: client #1 does not exist
+nt numberResetting chip and restarting.hv: client #4 does not existhv: client #8 does not existhv: client #1 does not
+ cted tclient #0
+
+hv: console command help:
+    0-9     connect console to client #
+    c#<CR>  connect console to client #
+    +/-     connect console to next/prev client
+    l       list clients
+    R       reboot (if booted from SROM)
+    P       enter protocol mode
+v  P       enter protocol mode
+om SROM)
+client
+chip and restarting.hv: client #4 does not existhv: client #8 does not existhv: client #1 does not existhv: client #t
+ cted tclient #0
+
+hv: console command help:
+    0-9     connect console to client #
+    c#<CR>  connect console to client #
+    +/-     connect console to next/prev client
+    l       list clients
+    R       reboot (if booted from SROM)
+    P       enter protocol mode
+v  P       enter protocol mode
+om SROM)
+client
+chip and restarting.hv: client #4 does not existhv: client #8 does not existhv: client #1 does not existhv: client #t
+hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhht
+ cted tclient #0
+
+hv: console command help:
+    0-9     connect console to client #
+    c#<CR>  connect console to client #
+    +/-     connect console to next/prev client
+    l       list clients
+    R       reboot (if booted from SR                                                           R       reboot (if b)
+client
+ected to client #0hv: client #8 does not existResettinhv: console command help:
+    0-9     connect console to client #
+    c#<CR>  connect console to client #
+    +/-     connect console to next/prev client
+    l       list clients
+    R       reboot (if booted from SROM)
+    P       enter protocol mode
+   P       enter protocol mode
+om SROM)
+client
+ected to client #0hv: client #8 does not existResettihv: console command help:
+    0-9     connect console to client #
+    c#<CR>  connect console to client #
+    +/-     connect console to next/prev client
+    l       list clients
+    R       reboot (if booted from SROM)
+    P       enter protocol mode
+   P       enter protocol mode
+om SROM)
+client
+ected to client #0hv: client #8 does not existResetthv: available clients:
+  0. 8x8 @ 0,0, 54 tiles, console connected
+ 0. 8x8 @ 0,0, 54 tiles, console connected
+ent
+ected to client #0hv: client #8 does not existResethv: console command help:
+    0-9     connect console to client #
+    c#<CR>  connect console to client #
+    +/-     connect console to next/prev client
+    l       list clients
+    R       reboot (if booted from SROM)
+    P       enter protocol mode
+   P       enter protocol mode
+om SROM)
+client
+ected to client #0hv: client #8 does not existResehv: console command help:
+    0-9     connect console to client #
+    c#<CR>  connect console to client #
+    +/-     connect console to next/prev client
+    l       list clients
+    R       reboot (if booted from SROM)
+    P       enter protocol mode
+    P       enter protocol mode
+om SROM)
+client
+ected to client #0hv: client #8 does not existReshv: console command help:
+    0-9     connect console to client #
+    c#<CR>  connect console to client #
+    +/-     connect console to next/prev client
+    l       list clients
+    R       reboot (if booted from SROM)
+    P       enter protocol mode
+   P       enter protocol mode
+om SROM)
+client
+ected to client #0hv: client #8 does not existRehv: console command help:
+    0-9     connect console to client #
+    c#<CR>  connect console to client #
+    +/-     connect console to next/prev client
+    l       list clients
+    R       reboot (if booted from SROM)
+    P       enter protocol mode
+   P       enter protocol mode
+om SROM)
+client
+ected to client #0hv: client #8 does not existRhv: console command help:
+    0-9     connect console to client #
+    c#<CR>  connect console to client #
+    +/-     connect console to next/prev client
+    l       list clients
+    R       reboot (if booted from SROM)
+    P       enter protocol mode
+   P       enter protocol mode
+om SROM)
+client
+ected to client #0hv: client #8 does not existhv: console command help:
+    0-9     connect console to client #
+    c#<CR>  connect console to client #
+    +/-     connect console to next/prev client
+    l       list clients
+    R       reboot (if booted from SROM)
+    P       enter protocol mode
+   P       enter protocol mode
+om SROM)
+client
+ected to client #0hv: client #8 does not exishv: console command help:
+    0-9     connect console to client #
+    c#<CR>  connect console to client #
+    +/-     connect console to next/prev client
+    l       list clients
+    R       reboot (if booted from SROM)
+    P       enter protocol mode
+   P       enter protocol mode
+om SROM)
+client
+ected to client #0hv: client #8 does not exihv: console command help:
+    0-9     connect console to client #
+    c#<CR>  connect console to client #
+    +/-     connect console to next/prev client
+    l       list clients
+    R       reboot (if booted from SROM)
+    P       enter protocol mode
+   P       enter protocol mode
+om SROM)
+client
+ected to client #0hv: client #8 does not exhv: console command help:
+    0-9     connect console to client #
+    c#<CR>  connect console to client #
+    +/-     connect console to next/prev client
+    l       list clients
+    R       reboot (if booted from SROM)
+    P       enter protocol mode
+   P       enter protocol mode
+om SROM)
+client
+ected to client #0hv: client #8 does not ehv: console command help:
+    0-9     connect console to client #
+    c#<CR>  connect console to client #
+    +/-     connect console to next/prev client
+                                                  l       l           l           l          l           l          l
+ng.hv: client #6 does not existhv: console now connot exist
+ cted tclient #0
+
+hv: console command help:
+    0-9     connect console to client #
+    c#<CR>  connect console to client #
+    +/-     connect console to next/prev client
+    l       list clients
+    R       reboot (if booted from SROM)
+    P       enter protocol mode
+   P       enter protocol mode
+om SROM)
+client
+xistForcing UART protocol mode, the console will no longer be functional
+ng.hv: client #6 does not existhv: console now connot exist
+ cted tclient #0
+
+hv: console command help:
+    0-9     connect console to client #
+    c#<CR>  connect console to client #
+    +/-     connect console to next/prev client
+    l       list clients
+    R       reboot (if booted from SROM)
+    P       enter protocol mode
+   P       enter protocol mode
+om SROM)
+client
+xistForcing UART protocol mode, the console will no longer be functional
+ng.hv: client #6 does not existhv: console now connot exist
+ cted tclient #0
+
+hv: console command help:
+    0-9     connect console to client #
+    c#<CR>  connect console to client #
+    +/-     connect console to next/prev client
+    l       list clients
+    R       reboot (if booted from SROM)
+    P       enter protocol mode
+   P       enter protocol mode
+om SROM)
+client
+xistForcing UART protocol mode, the console will no longer be functional
+ng.hv: client #6 does not existhv: console now connot exist
+ cted tclient #0
+
+hv: available clients:
+  0. 8x8 @ 0,0, 54 tiles, console connected
+ 0. 8x8 @ 0,0, 54 tiles, console connected
+ent
+xistForcing UART protocol mode, the console will no longer be functional
+ng.hv: client #6 does not existhv: console now connot exist
+ cted tclient #0
+
+hv: console command help:
+    0-9     connect console to client #
+    c#<CR>  connect console to client #
+    +/-     connect console to next/prev client
+    l       list clients
+    R       reboot (if booted from SROM)
+    P       enter protocol mode
+    P       enter protocol mode
+om SROM)
+client
+xistForcing UART protocol mode, the console will no longer be functional
+ng.hv: client #6 does not existhv: console now connot exist
+ cted tclient #0
+
+hv: console command help:
+    0-9     connect console to client #
+    c#<CR>  connect console to client #
+    +/-     connect console to next/prev client
+    l       list clients
+    R       reboot (if booted from SROM)
+    P       enter protocol mode
+   P       enter protocol mode
+om SROM)
+client
+xistForcing UART protocol mode, the console will no longer be functional
+ng.hv: client #6 does not existhv: console now connot exist
+ cted tclient #0
+
+hv: console command help:
+    0-9     connect console to client #
+    c#<CR>  connect console to client #
+    +/-     connect console to next/prev client
+    l       list clients
+    R       reboot (if booted from SROM)
+    P       enter protocol mode
+   P       enter protocol mode
+om SROM)
+client
+xistForcing UART protocol mode, the console will no longer be functional
+ng.hv: client #6 does not existhv: console now connot exist
+ cted tclient #0
+Forcing UART protocol mode, the console will no longer be functional
+ rcing UART protocol mode, the console will no longer be functional
+ocol mode, the console will no longer be functional
+ng.hv: client #6 does not existhv: console now connot exist
+ cted tclient #0
+   P       enter protocol mode
+om SROM)
+client
+longer be functional
+ocol mode, the console will no longer be functional
+ng.hv: client #6 does not existhv: console now connot exist
+ cted tclient #0
+   P       enter protocol mode
+om SROM)
+client
+longer be functional
+ocol mode, the console will no longer be functional
+ng.hv: client #6 does not existhv: console now connot exist
+ cted tclient #0
+   P       enter protocol mode
+om SROM)
+client
+longer be functional
+ocol mode, the console will no longer be functional
+ng.hv: client #6 does not existhv: console now connot exist
+ cted tclient #0
+ 0. 8x8 @ 0,0, 54 tiles, console connected
+ent
+longer be functional
+ocol mode, the console will no longer be functional
+ng.hv: client #6 does not existhv: console now connot exist
+ cted tclient #0
+   P       enter protocol mode
+om SROM)
+client
+longer be functional
+ocol mode, the console will no longer be functional
+ng.hv: client #6 does not existhv: console now connot exist
+ cted tclient #0
+   P       enter protocol mode
+om SROM)
+client
+longer be functional
+ocol mode, the console will no longer be functional
+ng.hv: client #6 does not existhv: console now connot exist
+ cted tclient #0
+   P       enter protocol mode
+om SROM)
+client
+longer be functional
+ocol mode, the console will no longer be functional
+ng.hv: client #6 does not existhv: console now connot exist
+ cted tclient #0
+ rcing UART protocol mode, the console will no longer be functional
+ocol mode, the console will no longer be functional
+ng.hv: client #6 does not existhv: console now connot exist
+ cted tclient #0
+    P       enter protocol mode
+om SROM)
+client
+longer be functional
+ocol mode, the console will no longer be functional
+ng.hv: client #6 does not existhv: console now connot exist
+ cted tclient #0
+   P       enter protocol mode
+om SROM)
+client
+longer be functional
+ocol mode, the console will no longer be functional
+ng.hv: client #6 does not existhv: console now connot exist
+ cted tclient #0
+   P       enter protocol mode
+om SROM)
+client
+longer be functional
+ocol mode, the console will no longer be functional
+ng.hv: client #6 does not existhv: console now connot exist
+ cted tclient #0
+   P       enter protocol mode
+om SROM)
+client
+longer be functional
+ocol mode, the console will no longer be functional
+ng.hv: client #6 does not existhv: console now connot exist
+ cted tclient #0
+
+Type t in 3 seconds to run thorough POST tests, q to run quick tests,
+or 'a' to boot alternate image...
+Quick POST tests will be run.
+(0,3) Tilera Hypervisor, version 3.0.1.125620 2011-04-09 21:57:10
+(0,3) Built by andreas from /opt/tilera/TileraMDE-3.0.1.125620/tilepro/tile/etc/hvc/vmlinux-net.hvc, /opt/tilera/Til1
+Linux version 2.6.36.4-MDE-3.0.1.125620_mboot (support@tilera.com) (gcc version 4.4.3 (GCC) ) #1 SMP Sat Apr 9 22:261
+PCI: Searching for controllers...
+PCI: Found PCI controller #0
+7232MB HIGHMEM available.
+880MB LOWMEM available.
+PERCPU: 1 64K pages/cpu @f7010000 s7808 r8192 d49536
+Built 1 zonelists in Node order, mobility grouping on.  Total pages: 129728
+Policy zone: HighMem
+Kernel command line: TLR_NETWORK=auto  TLR_ROOT=/dev/sda1
+PID hash table entries: 4096 (order: -2, 16384 bytes)
+Dentry cache hash table entries: 131072 (order: 3, 524288 bytes)
+Inode-cache hash table entries: 65536 (order: 2, 262144 bytes)
+Memory: 8221952k/8306688k available (4479k kernel code, 1024k data, 4382k init, 7405568k highmem)
+SLUB: Genslabs=14, HWalign=16, Order=0-3, MinObjects=0, CPUs=59, Nodes=4
+Hierarchical RCU implementation.
+        RCU-based detection of stalled CPUs is disabled.
+        Verbose stalled-CPUs detection is disabled.
+NR_IRQS:32
+console [hvc0] enabled
+Clock rate yields 1725.00 BogoMIPS (lpj=8625000)
+pid_max: default: 32768 minimum: 432
+Mount-cache hash table entries: 8192
+CPUs not available for Linux: 31,39,47,55-56,59-63
+Brought up 54 CPUs
+NET: Registered protocol family 16
+PCI: Probing PCI hardware
+
+hv: console comhhhhhhhhhhhv:hv: console hv: consolehv: console hv: consolehv: console chv: consolehv: console hv: cot
+hhhhhhv: console command help:hv: console now connected to client #0hv: client #3 does not exist
+
+hv: console command help:
+    0-9     connect console to client #
+    c#<CR>  connect console to client #
+    +/-     connect console to next/prev client
+    l       list clients
+    R       reboot (if booted from SROM)
+    P       enter protocol mode
+v  P       enter protocol mode
+om SROM)
+client
+ed to client #0hv: client #3 does not exist
+
+hv: console command help:
+    0-9     connect console to client #
+    c#<CR>  connect console to client #
+    +/-     connect console to next/prev client
+    l       list clients
+    R       reboot (if booted from SROM)
+    P       enter protocol mode
+v  P       enter protocol mode
+om SROM)
+client
+ed to client #0hv: client #3 does not exist
+
+hv: console command help:
+    0-9     connect console to client #
+    c#<CR>  connect console to client #
+    +/-     connect console to next/prev client
+    l       list clients
+    R       reboot (if booted from SROM)
+    P       enter protocol mode
+v  P       enter protocol mode
+om SROM)
+client
+ed to client #0hv: client #3 does not exist
+
+hv: console command help:
+    0-9     connect console to client #
+    c#<CR>  connect console to client #
+    +/-     connect console to next/prev client
+    l       list clients
+    R       reboot (if booted from SROM)
+    P       enter protocol mode
+v  P       enter protocol mode
+om SROM)
+client
+ed to client #0hv: client #3 does not exist
+
+hv: console command help:
+    0-9     connect console to client #
+    c#<CR>  connect console to client #
+    +/-     connect console to next/prev client
+    l       list clients
+    R       reboot (if booted from SROM)
+    P       enter protocol mode                                                             
+v  P       enter protocol mode                                                              
+om SROM)                                                                                    
+client                                                                                      
+ed to client #0hv: client #3 does not exist                                                 
+                                                                                            
+hv: console command help:                                                                   
+    0-9     connect console to client #                                                     
+    c#<CR>  connect console to client #                                                     
+    +/-     connect console to next/prev client                                             
+    l       list clients                                                                    
+    R       reboot (if booted from SROM)                                                    
+    P       enter protocol mode                                                             
+                                                                                            
+hv: console command help:                                                                   
+    0-9     connect console to client #                                                     
+    c#<CR>  connect console to client #                                                     
+    +/-     connect console to next/prev client                                             
+    l       list clients                                                                    
+    R       reboot (if booted from SROM)                                                    
+    P       enter protocol mode                                                             
+h   P       enter protocol mode                                                             
+om SROM)
+client
+ed to client #0hv: client #3 does not exist
+(2,7) got double fault interrupt: PC 0xfe01_38c8, ICS/PL 0x2
+(2,7)        last interrupt DTLB_MISS, next-to-last interrupt DTLB_MISS
+(2,7)        HVPL system save regs: 0: 0x400c0400  1: 0x1fffff80  2: 0x40200  3: 0x24
+(2,7) Full saved register dump:
+(2,7) r0  0xfe0fffd0  r1  0x00000012  r2  0xfe0fffc8  r3  0xfe02eb38
+(2,7) r4  0xfe12188c  r5  0x00000040  r6  0x00000004  r7  0x00000001
+(2,7) r8  0x00000000  r9  0x00000000  r10 0xfe101750  r11 0xfe101774
+(2,7) r12 0xfe112758  r13 0xfe101754  r14 0x00000000  r15 0x00000001
+(2,7) r16 0x00000000  r17 0x00000000  r18 0xc08d564e  r19 0x00000000
+(2,7) r20 0xfe1000f4  r21 0xfe100064  r22 0xfe1000e8  r23 0xfe100050
+(2,7) r24 0xfe1000ec  r25 0xfe100054  r26 0xfe100050  r27 0xfe100058
+(2,7) r28 0xfe0fffd0  r29 0xfe100044  r30 0xfe1220fc  r31 0x00000076
+(2,7) r32 0xfe1220f8  r33 0x00000076  r34 0xfe122118  r35 0x66666667
+(2,7) r36 0xfe120000  r37 0xfe11ee4c  r38 0xfe1220f8  r39 0xfe124af0
+(2,7) r40 0xfe122110  r41 0xfe122114  r42 0x00000000  r43 0xfe124558
+(2,7) r44 0xfe124ab0  r45 0xfe11eb84  r46 0x55555556  r47 0xfe124af2
+(2,7) r48 0xfffffffe  r49 0x00000001  r50 0xffffffff  r51 0xfe110864
+(2,7) r52 0xfe113240  tp  0xfe08e4a8  lr  0xfe0141e8  sp  0xfe0fffcc
+(2,7) im0 0x5b7c0700  im1 0x0001003f  ex0 0xfe0138c8  ex1 0x00000002
+(2,7) hv_panic: hypervisor double fault
+System halted.
+

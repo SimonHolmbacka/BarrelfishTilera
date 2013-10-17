@@ -1,0 +1,10 @@
+tilepro/lib/newlib/newlib/libc/ctype/_for_lib_ctype/ctype_.o \
+ tilepro/lib/newlib/newlib/libc/ctype/_for_lib_ctype/ctype_.o.depend: \
+ /home/andreas/barrelfish/new_test2/lib/newlib/newlib/libc/ctype/ctype_.c \
+ /home/andreas/barrelfish/new_test2/include/deputy/nodeputy.h \
+ /home/andreas/barrelfish/new_test2/lib/newlib/newlib/libc/include/ctype.h \
+ /home/andreas/barrelfish/new_test2/lib/newlib/newlib/libc/include/_ansi.h \
+ /home/andreas/barrelfish/new_test2/lib/newlib/newlib/libc/include/newlib.h \
+ /home/andreas/barrelfish/new_test2/lib/newlib/newlib/libc/include/sys/config.h \
+ /home/andreas/barrelfish/new_test2/lib/newlib/newlib/libc/include/machine/ieeefp.h \
+ /home/andreas/barrelfish/new_test2/lib/newlib/newlib/libc/include/sys/features.h

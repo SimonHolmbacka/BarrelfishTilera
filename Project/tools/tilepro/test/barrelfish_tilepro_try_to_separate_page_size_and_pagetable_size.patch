@@ -1,0 +1,170 @@
+diff -r 9edab704c48c capabilities/caps.hl
+--- a/capabilities/caps.hl	Fri Feb 08 21:42:58 2013 +0100
++++ b/capabilities/caps.hl	Sun Feb 24 19:34:32 2013 +0100
+@@ -21,13 +21,15 @@
+ /* XXX: these must match the corresponding OBJBITS definitions in barrelfish_kpi/capabilities.h */
+ 
+ /* Size of CNode entry: */
++/* was 6 for non-tilepro */
+ define cte_size 8;
+ /* Size of DCB: */
++/* was 9 for non-tilepro */
+ define dispatcher_size 11;
+ /* Size of (x86_64) VNode: */
+ define vnode_size 12; /* BASE_PAGE_BITS */
+ /* Size of tilepro VNode: */
+-define tilepro_vnode_size 16; /* the size of page talbe, both L1 and L2, BASE_PAGE_BITS */
++define tilepro_vnode_size 11; /* the size of page table, both L1 and L2, BASE_PAGE_BITS */
+ 
+ /**
+     The capabilities of the whole system are listed thereafter.
+diff -r 9edab704c48c include/arch/x86_32/barrelfish_kpi/paging_arch.h
+--- a/include/arch/x86_32/barrelfish_kpi/paging_arch.h	Fri Feb 08 21:42:58 2013 +0100
++++ b/include/arch/x86_32/barrelfish_kpi/paging_arch.h	Sun Feb 24 19:34:32 2013 +0100
+@@ -30,11 +30,17 @@
+ #define BASE_PAGE_MASK      X86_32_BASE_PAGE_MASK
+ #define BASE_PAGE_OFFSET    X86_32_BASE_PAGE_OFFSET
+ 
++#define BASE_PAGE_TABLE_BITS    (BASE_PAGE_BITS)
++#define BASE_PAGE_TABLE_SIZE	(BASE_PAGE_SIZE)
++
+ #define LARGE_PAGE_BITS      X86_32_LARGE_PAGE_BITS
+ #define LARGE_PAGE_SIZE      X86_32_LARGE_PAGE_SIZE
+ #define LARGE_PAGE_MASK      X86_32_LARGE_PAGE_MASK
+ #define LARGE_PAGE_OFFSET    X86_32_LARGE_PAGE_OFFSET
+ 
++#define BASE_PAGE_TABLE_BITS    (BASE_PAGE_BITS)
++#define BASE_PAGE_TABLE_SIZE	(BASE_PAGE_SIZE)
++
+ /**
+  * Bits within the various page directories and tables.
+  */
+diff -r 9edab704c48c include/arch/x86_64/barrelfish_kpi/paging_arch.h
+--- a/include/arch/x86_64/barrelfish_kpi/paging_arch.h	Fri Feb 08 21:42:58 2013 +0100
++++ b/include/arch/x86_64/barrelfish_kpi/paging_arch.h	Sun Feb 24 19:34:32 2013 +0100
+@@ -25,6 +25,9 @@
+ #define BASE_PAGE_MASK      X86_64_BASE_PAGE_MASK
+ #define BASE_PAGE_OFFSET    X86_64_BASE_PAGE_OFFSET
+ 
++#define BASE_PAGE_TABLE_BITS    (BASE_PAGE_BITS)
++#define BASE_PAGE_TABLE_SIZE	(BASE_PAGE_SIZE)
++
+ #define LARGE_PAGE_BITS      X86_64_LARGE_PAGE_BITS
+ #define LARGE_PAGE_SIZE      X86_64_LARGE_PAGE_SIZE
+ #define LARGE_PAGE_MASK      X86_64_LARGE_PAGE_MASK
+diff -r 9edab704c48c include/barrelfish_kpi/capabilities.h
+--- a/include/barrelfish_kpi/capabilities.h	Fri Feb 08 21:42:58 2013 +0100
++++ b/include/barrelfish_kpi/capabilities.h	Sun Feb 24 19:34:32 2013 +0100
+@@ -22,8 +22,8 @@
+ // now for some unknown reason, we cannot follow the default setting,
+ // I guess it is the problem of our small page size, which will trigger a capability lookup failure.
+ // now it seems only this setting could make the program work.
+-#define OBJBITS_CTE 		8  // Size of CNode entry
+-#define OBJBITS_DISPATCHER 11  // Size of dispatcher
++#define OBJBITS_CTE             8
++#define OBJBITS_DISPATCHER      11
+ #else
+ // Size of CNode entry
+ #define OBJBITS_CTE             6
+@@ -111,7 +111,7 @@
+     	// but every time the system allocates the memory based on the unit of small page size (2^16 = 64KB), which is normal.
+     	// so unlike X86 or ARM, when we return 11 bits here, the code crashes in some RAM allocation function,
+     	// therefore we have to return the small page size, which is 16 bits.
+-        return 16;  // BASE_PAGE_BITS
++        return 11;  // BASE_PAGE_BITS
+     }
+ 
+     assert(0 && !"Page table size unknown.");
+diff -r 9edab704c48c include/target/arm/barrelfish_kpi/paging_arm_v5.h
+--- a/include/target/arm/barrelfish_kpi/paging_arm_v5.h	Fri Feb 08 21:42:58 2013 +0100
++++ b/include/target/arm/barrelfish_kpi/paging_arm_v5.h	Sun Feb 24 19:34:32 2013 +0100
+@@ -21,6 +21,10 @@
+ #define BASE_PAGE_MASK          (BASE_PAGE_SIZE - 1)
+ #define BASE_PAGE_OFFSET(a)     ((a) & BASE_PAGE_MASK)
+ 
++/* TODO At least it is always handled like it would be the same */
++#define BASE_PAGE_TABLE_BITS    (BASE_PAGE_BITS)
++#define BASE_PAGE_TABLE_SIZE	(BASE_PAGE_SIZE)
++
+ /* 1MB large pages */
+ #define LARGE_PAGE_BITS         20
+ #define LARGE_PAGE_SIZE         (1u << PAGE_LARGE_BITS)
+diff -r 9edab704c48c include/target/arm/barrelfish_kpi/paging_arm_v7.h
+--- a/include/target/arm/barrelfish_kpi/paging_arm_v7.h	Fri Feb 08 21:42:58 2013 +0100
++++ b/include/target/arm/barrelfish_kpi/paging_arm_v7.h	Sun Feb 24 19:34:32 2013 +0100
+@@ -21,6 +21,10 @@
+ #define BASE_PAGE_MASK          (BASE_PAGE_SIZE - 1)
+ #define BASE_PAGE_OFFSET(a)     ((a) & BASE_PAGE_MASK)
+ 
++/* TODO At least it is always handled like it would be the same */
++#define BASE_PAGE_TABLE_BITS    (BASE_PAGE_BITS)
++#define BASE_PAGE_TABLE_SIZE	(BASE_PAGE_SIZE)
++
+ /* 1MB large pages */
+ #define LARGE_PAGE_BITS         20
+ #define LARGE_PAGE_SIZE         (1u << PAGE_LARGE_BITS)
+diff -r 9edab704c48c include/target/tilepro/barrelfish_kpi/paging_target.h
+--- a/include/target/tilepro/barrelfish_kpi/paging_target.h	Fri Feb 08 21:42:58 2013 +0100
++++ b/include/target/tilepro/barrelfish_kpi/paging_target.h	Sun Feb 24 19:34:32 2013 +0100
+@@ -32,7 +32,9 @@
+ #define LARGE_PAGE_OFFSET(a)    ((a) & LARGE_PAGE_MASK)
+ 
+ /* page table size in bytes */
++#define BASE_PAGE_TABLE_BITS    (HV_LOG2_L2_SIZE)
+ #define BASE_PAGE_TABLE_SIZE	(HV_L2_SIZE)
++#define LARGE_PAGE_TABLE_BITS   (HV_LOG2_L1_SIZE)
+ #define LARGE_PAGE_TABLE_SIZE	(HV_L1_SIZE)
+ 
+ /* page table entries */
+diff -r 9edab704c48c kernel/startup.c
+--- a/kernel/startup.c	Fri Feb 08 21:42:58 2013 +0100
++++ b/kernel/startup.c	Sun Feb 24 19:34:32 2013 +0100
+@@ -338,7 +338,7 @@
+     base_page_num = 1UL << (BASE_PAGE_BITS - OBJBITS_CTE);
+ #endif
+ 
+-    /* Fill up base page CN (pre-allocated 4K pages) */
++    /* Fill up base page CN (pre-allocated BASE_PAGE_SIZE pages) */
+     for(size_t i = 0; i < base_page_num; i++) {
+         err = caps_create_new(ObjType_RAM, alloc_phys(BASE_PAGE_SIZE),
+                               BASE_PAGE_BITS, BASE_PAGE_BITS,
+diff -r 9edab704c48c lib/barrelfish/capabilities.c
+--- a/lib/barrelfish/capabilities.c	Fri Feb 08 21:42:58 2013 +0100
++++ b/lib/barrelfish/capabilities.c	Sun Feb 24 19:34:32 2013 +0100
+@@ -540,17 +540,20 @@
+     struct capref ram;
+ 
+     size_t objbits_vnode = vnode_objbits(type);
++    printf("ram_alloc(%.8lX, %X)\n", (uintptr_t)&ram, objbits_vnode);
+     err = ram_alloc(&ram, objbits_vnode);
+     if (err_is_fail(err)) {
+         return err_push(err, LIB_ERR_RAM_ALLOC);
+     }
+ 
+     assert(type_is_vnode(type));
++    printf("cap_retype\n");
+     err = cap_retype(dest, ram, type, 0);
+     if (err_is_fail(err)) {
+         return err_push(err, LIB_ERR_CAP_RETYPE);
+     }
+ 
++    printf("cap_destroy\n");
+     err = cap_destroy(ram);
+     if (err_is_fail(err)) {
+         return err_push(err, LIB_ERR_CAP_DESTROY);
+diff -r 9edab704c48c lib/barrelfish/ram_alloc.c
+--- a/lib/barrelfish/ram_alloc.c	Fri Feb 08 21:42:58 2013 +0100
++++ b/lib/barrelfish/ram_alloc.c	Sun Feb 24 19:34:32 2013 +0100
+@@ -96,7 +96,12 @@
+ {
+     struct ram_alloc_state *state = get_ram_alloc_state();
+ 
++#ifdef __tilepro__
++    // We waste memory, if only using a base page table
++    if (size_bits == BASE_PAGE_BITS || size_bits == BASE_PAGE_TABLE_BITS) {
++#else
+     if (size_bits == BASE_PAGE_BITS) {
++#endif
+         // XXX: Return error if check to see if out of slots
+         assert(state->base_capnum < OBJSPERPAGE_CTE);
+         ret->cnode = cnode_base;

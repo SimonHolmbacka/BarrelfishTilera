@@ -1,0 +1,10 @@
+tilepro/usr/tests/tls/_for_app_tlstest/tls2.o \
+ tilepro/usr/tests/tls/_for_app_tlstest/tls2.o.depend: \
+ /home/andreas/barrelfish/new_test2/usr/tests/tls/tls2.c \
+ /home/andreas/barrelfish/new_test2/include/deputy/nodeputy.h \
+ /home/andreas/barrelfish/new_test2/lib/newlib/newlib/libc/include/assert.h \
+ /home/andreas/barrelfish/new_test2/lib/newlib/newlib/libc/include/_ansi.h \
+ /home/andreas/barrelfish/new_test2/lib/newlib/newlib/libc/include/newlib.h \
+ /home/andreas/barrelfish/new_test2/lib/newlib/newlib/libc/include/sys/config.h \
+ /home/andreas/barrelfish/new_test2/lib/newlib/newlib/libc/include/machine/ieeefp.h \
+ /home/andreas/barrelfish/new_test2/lib/newlib/newlib/libc/include/sys/features.h

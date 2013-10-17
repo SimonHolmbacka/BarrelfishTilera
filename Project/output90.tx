@@ -1,0 +1,7 @@
+MKBOOT MODULES:  ./tilepro/menu.lst.modules ./tilepro/sbin/cpu ./tilepro/sbin/init ./tilepro/sbin/mem_serv ./tilepro/sbin/monitor ./tilepro/sbin/ramfsd ./tilepro/sbin/skb ./tilepro/sbin/spawnd ./tilepro/sbin/startd ./tilepro/sbin/fish
+tile-mkboot -o tilepro/sbin/cpu.bin.tmp --hvc /home/andreas/barrelfish/new_test2/kernel/arch/tilepro/tilepro-conf.hvc kernel=tilepro/sbin/bootloader ./tilepro/menu.lst.modules ./tilepro/sbin/cpu ./tilepro/sbin/init ./tilepro/sbin/mem_serv ./tilepro/sbin/monitor ./tilepro/sbin/ramfsd ./tilepro/sbin/skb ./tilepro/sbin/spawnd ./tilepro/sbin/startd ./tilepro/sbin/fish
+Mem check:
+00000000 d mem_l2_check
+mv tilepro/sbin/cpu.bin.tmp tilepro/sbin/cpu.bin
+tile-monitor --simulator --functional --console --config 8x1 --gdb-port 11111 --bm-debug-on-panic --sim-args -+- --symbols tilepro/sbin/bootloader --symbols tilepro/sbin/cpu -+- --wait --bootrom-file tilepro/sbin/cpu.bin
+(0,0) Tilera Hypervisor, version 3.0.1.125620 2011-04-09 21:57:10

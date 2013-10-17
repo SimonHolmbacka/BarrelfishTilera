@@ -1,0 +1,11 @@
+tilepro/lib/posixcompat/_for_lib_posixcompat/ioctl.o \
+ tilepro/lib/posixcompat/_for_lib_posixcompat/ioctl.o.depend: \
+ /home/andreas/barrelfish/new_test2/lib/posixcompat/ioctl.c \
+ /home/andreas/barrelfish/new_test2/include/deputy/nodeputy.h \
+ /home/andreas/barrelfish/new_test2/include/sys/ioctl.h \
+ /home/andreas/barrelfish/new_test2/lib/newlib/newlib/libc/include/assert.h \
+ /home/andreas/barrelfish/new_test2/lib/newlib/newlib/libc/include/_ansi.h \
+ /home/andreas/barrelfish/new_test2/lib/newlib/newlib/libc/include/newlib.h \
+ /home/andreas/barrelfish/new_test2/lib/newlib/newlib/libc/include/sys/config.h \
+ /home/andreas/barrelfish/new_test2/lib/newlib/newlib/libc/include/machine/ieeefp.h \
+ /home/andreas/barrelfish/new_test2/lib/newlib/newlib/libc/include/sys/features.h

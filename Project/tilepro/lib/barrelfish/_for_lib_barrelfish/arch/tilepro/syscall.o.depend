@@ -1,0 +1,4 @@
+tilepro/lib/barrelfish/_for_lib_barrelfish/arch/tilepro/syscall.o \
+ tilepro/lib/barrelfish/_for_lib_barrelfish/arch/tilepro/syscall.o.depend: \
+ /home/andreas/barrelfish/new_test2/lib/barrelfish/arch/tilepro/syscall.S \
+ /home/andreas/barrelfish/new_test2/include/deputy/nodeputy.h

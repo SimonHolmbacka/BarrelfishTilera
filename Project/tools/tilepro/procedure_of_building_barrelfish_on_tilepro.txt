@@ -1,0 +1,21 @@
+This doc is to explain how to build barrelfish under linux and run it in tilera simulator. Before you compile the source code, we assume that you have already installed tilera MDE toolchain in linux.
+
+* Firstly download and install the GHC 7.4.1, which is known working to build Barrelfish.
+
+* Download and install "Cabal-install".
+
+* Use "Cabal-install" to install two packages, "ghc-paths" and "parsec2".
+    (1) Run "cabal update", to download all the new packages;
+    (2) Run "cabal install ghc-paths", to install "ghc-paths" package;
+    (3) Run "cabal install parsec2", to install "parsec2" package.
+    (4) Run "cabal install random", to install "random" package.
+
+* Put all the source codes of Barrelfish in the "src" folder; and create "build" folder for building Barrelfish.
+
+* Enter "build" folder, and run "../src/hake/hake.sh -s ../src -a arch" to build barrelfish, "arch" denotes the specified architecture, in our case, type "tilepro" 
+
+* Then run "make -j n" to compile Barrelfish, where "n" indicates the number of available cores.
+
+* If some hypervisor header files are missing, then look at "createTileImportsDir.sh" to learn how to create links to those missing headers.
+
+* Run "make sim" to simulate Barrelfish, run "make debugsim" to debug the code.
